@@ -1,0 +1,375 @@
+Schema: emple
+Table: empleado
+Fields:
+    activado:
+        Name: activado
+        Ftype: bool
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    activadoEn:
+        Name: activadoEn
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    activadoPorId:
+        Name: activadoPorId
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 15
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    apellido:
+        Name: apellido
+        Ftype: varchar
+        Key: false
+        Required: true
+        Length: 50
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    creadoEn:
+        Name: creadoEn
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    creadoPorId:
+        Name: creadoPorId
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 15
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    eliminadoEn:
+        Name: eliminadoEn
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    eliminadoPorId:
+        Name: eliminadoPorId
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 15
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    fechaDeBajaDelEmpleado:
+        Name: fechaDeBajaDelEmpleado
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 15
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    fechaEgresoPrevisto:
+        Name: fechaEgresoPrevisto
+        Ftype: timestamp
+        Key: false
+        Required: true
+        Length: 50
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    fechaHastaIncapacidad:
+        Name: fechaHastaIncapacidad
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 1
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    fechaIngreso:
+        Name: fechaIngreso
+        Ftype: timestamp
+        Key: false
+        Required: true
+        Length: 50
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    fechaNacimiento:
+        Name: fechaNacimiento
+        Ftype: timestamp
+        Key: false
+        Required: true
+        Length: 50
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    fechaVersionDesde:
+        Name: fechaVersionDesde
+        Ftype: timestamp
+        Key: false
+        Required: true
+        Length: 15
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    fechaVersionHasta:
+        Name: fechaVersionHasta
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 15
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    id:
+        Name: id
+        Ftype: int4
+        Key: true
+        Required: true
+        Length: 0
+        Precision: 32
+        Autoinc: true
+        Api: 0
+        value: null
+    idBanco:
+        Name: idBanco
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 15
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    idDomicilio:
+        Name: idDomicilio
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 15
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    idEstadoCivil:
+        Name: idEstadoCivil
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 15
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    idFactorRrh:
+        Name: idFactorRrh
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 15
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    idGenero:
+        Name: idGenero
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 15
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    idGrupoSanguineo:
+        Name: idGrupoSanguineo
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 15
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    idIdioma:
+        Name: idIdioma
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 15
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    idObraSocial:
+        Name: idObraSocial
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 15
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    idPaisNacimiento:
+        Name: idPaisNacimiento
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 15
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    idSexo:
+        Name: idSexo
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 15
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    idTipoDoc:
+        Name: idTipoDoc
+        Ftype: int4
+        Key: false
+        Required: true
+        Length: 15
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    legajo:
+        Name: legajo
+        Ftype: int4
+        Key: false
+        Required: true
+        Length: 0
+        Precision: 32
+        Autoinc: true
+        Api: 0
+        value: null
+    marcaIncapacidad:
+        Name: marcaIncapacidad
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 1
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    modificadoEn:
+        Name: modificadoEn
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    modificadoPorId:
+        Name: modificadoPorId
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 15
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    nombre:
+        Name: nombre
+        Ftype: varchar
+        Key: false
+        Required: true
+        Length: 50
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    nroAfiliacionObraSocial:
+        Name: nroAfiliacionObraSocial
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 1
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    nroCuentaBancaria:
+        Name: nroCuentaBancaria
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 15
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    nroCuil:
+        Name: nroCuil
+        Ftype: int8
+        Key: false
+        Required: true
+        Length: 1
+        Precision: 64
+        Autoinc: false
+        Api: 0
+        value: null
+    nroDocumento:
+        Name: nroDocumento
+        Ftype: int4
+        Key: false
+        Required: true
+        Length: 0
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    porcentajeIncapacidad:
+        Name: porcentajeIncapacidad
+        Ftype: numeric
+        Key: false
+        Required: false
+        Length: 15
+        Precision: 6
+        Autoinc: false
+        Api: 0
+        value: null
+Relations: {}
+tx: null

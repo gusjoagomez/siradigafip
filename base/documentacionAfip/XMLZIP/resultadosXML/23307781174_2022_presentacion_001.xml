@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2022-01-17</fechaPresentacion>
+	<empleado>
+		<cuit>23307781174</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>MANUELI</apellido>
+		<nombre>ORNELA ROMINA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1874</cp>
+			<localidad>BARRIO OBRERO</localidad>
+			<calle>MAGDALENA</calle>
+			<nro>443</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20557574426</nroDoc>
+			<apellido>CISCO</apellido>
+			<nombre>FELIPE MANUEL</nombre>
+			<fechaNac>2016-07-30</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27581363155</nroDoc>
+			<apellido>CISCO</apellido>
+			<nombre>CAMILA MAITE</nombre>
+			<fechaNac>2019-12-10</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+</presentacion>

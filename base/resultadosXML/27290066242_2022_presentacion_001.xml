@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2022-04-04</fechaPresentacion>
+	<empleado>
+		<cuit>27290066242</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>GANINO</apellido>
+		<nombre>YESICA NADIA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1834</cp>
+			<localidad>TEMPERLEY</localidad>
+			<calle>CABRED</calle>
+			<nro>1490</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27558125026</nroDoc>
+			<apellido>RUIZ</apellido>
+			<nombre>SOFIA AGUSTINA</nombre>
+			<fechaNac>2016-09-03</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+</presentacion>

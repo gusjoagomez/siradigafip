@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>3</nroPresentacion>
+	<fechaPresentacion>2022-04-05</fechaPresentacion>
+	<empleado>
+		<cuit>27132142969</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>BRAWER</apellido>
+		<nombre>LAURA</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1259</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>SALCEDO</calle>
+			<nro>3265</nro>
+			<dpto>1</dpto>
+		</direccion>
+	</empleado>
+	<agenteRetencion>
+		<cuit>34999032089</cuit>
+		<denominacion>GOBIERNO DE LA CIUDAD DE BUENOS AIRES</denominacion>
+	</agenteRetencion>
+</presentacion>

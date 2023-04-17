@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>2</nroPresentacion>
+	<fechaPresentacion>2022-03-05</fechaPresentacion>
+	<empleado>
+		<cuit>27208670870</cuit>
+		<tipoDoc>86</tipoDoc>
+		<apellido>GARCIA MYRIAN LILIANA</apellido>
+		<nombre></nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1882</cp>
+			<localidad>EZPELETA</localidad>
+			<calle>NAMUNCURA</calle>
+			<nro>2020</nro>
+			<piso>0</piso>
+			<dpto>0</dpto>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30599421846</nroDoc>
+			<denominacion>CAJA DE SEGURIDAD SOCIAL PARA LOS PROFESIONALES EN CIENCIAS EC</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Enero - 30599421846 - CAJA DE SEGURIDAD SOCIAL PARA LOS PROFESIONALES EN CIENCIAS EC</descAdicional>
+			<montoTotal>5515.66</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="1"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30599421846</nroDoc>
+			<denominacion>CAJA DE SEGURIDAD SOCIAL PARA LOS PROFESIONALES EN CIENCIAS EC</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Febrero - 30599421846 - CAJA DE SEGURIDAD SOCIAL PARA LOS PROFESIONALES EN CIENCIAS EC</descAdicional>
+			<montoTotal>5515.66</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="2"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

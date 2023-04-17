@@ -1,0 +1,7 @@
+<tr>
+    <td>{{.data.label}}</td>
+    <td><select type="{{.data.type}}" class="form-select form-select-sm{{if .data.class}} {{.data.class}}{{end}}"{{ range $key, $value := .attr }} {{$key}}="{{$value}}"{{end}}>
+            {{ range $key, $value := .opts }}<option value="{{$key}}"{{if eq $key $.data.value }} selected{{end}}>{{$value}}</option>{{end}}
+        </select>
+    </td>
+</tr>

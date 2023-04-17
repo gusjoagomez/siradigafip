@@ -1,0 +1,60 @@
+Schema: siradig
+Table: f572_deduccionesperiodo
+Fields:
+    deduccion_id:
+        Name: deduccion_id
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    id:
+        Name: id
+        Ftype: int4
+        Key: true
+        Required: true
+        Length: 0
+        Precision: 32
+        Autoinc: true
+        Api: 0
+        value: null
+    mesdesde:
+        Name: mesdesde
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    meshasta:
+        Name: meshasta
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    montomensual:
+        Name: montomensual
+        Ftype: numeric
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 13
+        Autoinc: false
+        Api: 0
+        value: null
+Relations:
+    deduccion:
+        Tabler: ""
+        Joincolumns: {}
+        Fieldsl: ""
+        Criteria: ""
+tx: null

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>13</nroPresentacion>
+	<fechaPresentacion>2022-01-18</fechaPresentacion>
+	<empleado>
+		<cuit>23076078149</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>FARIÑA</apellido>
+		<nombre>OSCAR ALBERTO</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>E ZEBALLOS</calle>
+			<nro>2479</nro>
+		</direccion>
+	</empleado>
+	<agenteRetencion>
+		<cuit>30522763922</cuit>
+		<denominacion>INSTITUTO NACIONAL DE SERVICIOS SOCIALES PARA JUBILADOS Y PENSIONADOS</denominacion>
+	</agenteRetencion>
+</presentacion>

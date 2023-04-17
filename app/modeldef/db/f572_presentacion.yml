@@ -1,0 +1,205 @@
+Schema: siradig
+Table: f572_presentacion
+Fields:
+    createdat:
+        Name: createdat
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 5
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    cuit:
+        Name: cuit
+        Ftype: int8
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 64
+        Autoinc: false
+        Api: 0
+        value: null
+    dircalle:
+        Name: dircalle
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 40
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    dircp:
+        Name: dircp
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 8
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    dirdpto:
+        Name: dirdpto
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 5
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    dirlocalidad:
+        Name: dirlocalidad
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 60
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    dirnro:
+        Name: dirnro
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 6
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    dirpiso:
+        Name: dirpiso
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 5
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    dirprovincia:
+        Name: dirprovincia
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 100
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    emplapellido:
+        Name: emplapellido
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 100
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    emplcuit:
+        Name: emplcuit
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 11
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    emplnombre:
+        Name: emplnombre
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 100
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    empltipodoc:
+        Name: empltipodoc
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 3
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    envio:
+        Name: envio
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    fechapresentacion:
+        Name: fechapresentacion
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 11
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    file_id:
+        Name: file_id
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 5
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    id:
+        Name: id
+        Ftype: int4
+        Key: true
+        Required: true
+        Length: 0
+        Precision: 32
+        Autoinc: true
+        Api: 0
+        value: null
+    nropresentacion:
+        Name: nropresentacion
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    periodo:
+        Name: periodo
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    updatedat:
+        Name: updatedat
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 5
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+Relations: {}
+tx: null

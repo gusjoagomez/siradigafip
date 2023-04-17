@@ -1,0 +1,21 @@
+{{ template "base" . }}
+
+{{define "body"}}
+<h1>Listas de Entidades</h1>
+<div class="btn-group btn-group-sm" role="group" aria-label="Opciones">
+<a href="/entity/sincro" class="list-group-item list-group-item-action active">Actualizar catálogo</a>
+</div>
+<smal>Explora la base de datos para obtener información de las entidades</smal>
+<table class="table table-bordered table-striped table-hover table-sm" id="tbl" class="display" style="width:100%">
+<thead>
+  <tr><th>Name</th></tr>
+</thead>
+<tbody>
+    {{range $key, $val := .lista}}
+      <tr>
+        <td><a href="/entity/{{$val.enctable}}/ver">{{$val.tablename}}</a></td>
+      </tr>
+    {{end}}
+  </tbody>
+</table>
+{{ end }}

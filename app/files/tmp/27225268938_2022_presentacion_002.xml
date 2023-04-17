@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>2</nroPresentacion>
+	<fechaPresentacion>2022-03-08</fechaPresentacion>
+	<empleado>
+		<cuit>27225268938</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>MARTIN</apellido>
+		<nombre>VANESA ANA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>R GUTIERREZ</calle>
+			<nro>827</nro>
+			<dpto>2</dpto>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20453020062</nroDoc>
+			<apellido>KERNC</apellido>
+			<nombre>MARTIN JAVA</nombre>
+			<fechaNac>2004-01-21</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>1</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>N</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+		<cargaFamilia>
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>20241679471</nroDoc>
+			<apellido>KERNC</apellido>
+			<nombre>HUGO ARNALDO</nombre>
+			<fechaNac>1975-01-17</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>1</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20498909060</nroDoc>
+			<apellido>KERNC</apellido>
+			<nombre>ARIAN JOAQUIN</nombre>
+			<fechaNac>2009-11-18</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>31</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30707972552</nroDoc>
+			<denominacion>BRISTOL MEDICINE SRL</denominacion>
+			<descBasica>30707972552 - BRISTOL MEDICINE SRL</descBasica>
+			<montoTotal>4162.01</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="1687.56"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="1485.65"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="988.8"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>23077668349</nroDoc>
+			<denominacion>IRAOLA JORGE JULIO ELIAS</denominacion>
+			<descBasica>23077668349 - IRAOLA JORGE JULIO ELIAS</descBasica>
+			<montoTotal>1200</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="1200.00"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

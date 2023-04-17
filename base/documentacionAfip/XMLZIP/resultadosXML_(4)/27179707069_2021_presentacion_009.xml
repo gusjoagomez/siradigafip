@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>9</nroPresentacion>
+	<fechaPresentacion>2022-01-24</fechaPresentacion>
+	<empleado>
+		<cuit>27179707069</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>CORVALAN</apellido>
+		<nombre>CLAUDIA MARCELA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1822</cp>
+			<localidad>VALENTIN ALSINA</localidad>
+			<calle>GUATEMALA</calle>
+			<nro>2784</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30522428163</nroDoc>
+			<denominacion>GALENO ARGENTINA SOCIEDAD ANONIMA</denominacion>
+			<descBasica>30522428163 - GALENO ARGENTINA SOCIEDAD ANONIMA</descBasica>
+			<montoTotal>55154.36</montoTotal>
+			<periodos>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="5022.58"/>
+				<periodo mesDesde="6" mesHasta="6" montoMensual="6880.84"/>
+				<periodo mesDesde="7" mesHasta="7" montoMensual="6373.66"/>
+				<periodo mesDesde="8" mesHasta="8" montoMensual="2777.72"/>
+				<periodo mesDesde="9" mesHasta="9" montoMensual="8161.38"/>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="8995.47"/>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="8662.74"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="8279.97"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30683032227</nroDoc>
+			<denominacion>OBRA SOCIAL UNION PERSONAL DE LA UNION  DEL PERSONAL CIVIL DE LA NACION</denominacion>
+			<descBasica>30683032227 - OBRA SOCIAL UNION PERSONAL DE LA UNION  DEL PERSONAL CIVIL DE LA NACION</descBasica>
+			<montoTotal>5584.24</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="2122.9"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="2606.61"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="854.73"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+	<retPerPagos>
+		<retPerPago tipo="27">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33999242109</nroDoc>
+			<denominacion>BANCO DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>33999242109 - BANCO DE LA PROVINCIA DE BUENOS AIRES</descBasica>
+			<montoTotal>56000</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="6247.5"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="6492.5"/>
+				<periodo mesDesde="6" mesHasta="6" montoMensual="7035"/>
+				<periodo mesDesde="7" mesHasta="7" montoMensual="7052.5"/>
+				<periodo mesDesde="8" mesHasta="8" montoMensual="7122.5"/>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="7280"/>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="7350"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="7420"/>
+			</periodos>
+		</retPerPago>
+		<retPerPago tipo="31">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33710745159</nroDoc>
+			<denominacion>AVANTRIP.COM S.R.L.</denominacion>
+			<descBasica>33710745159 - AVANTRIP.COM S.R.L.</descBasica>
+			<montoTotal>51818</montoTotal>
+			<periodos>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="51818.00"/>
+			</periodos>
+		</retPerPago>
+	</retPerPagos>
+</presentacion>

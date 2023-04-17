@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>4</nroPresentacion>
+	<fechaPresentacion>2022-03-29</fechaPresentacion>
+	<empleado>
+		<cuit>27163213287</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>FUKS</apellido>
+		<nombre>AIDA JULIA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1824</cp>
+			<localidad>LANUS</localidad>
+			<calle>AV. HIPOLITO YRIGOYEN</calle>
+			<nro>4726</nro>
+		</direccion>
+	</empleado>
+	<ganLiqOtrosEmpEnt>
+		<empEnt>
+			<cuit>30536216584</cuit>
+			<denominacion>FUNDACION UNIVERSIDAD CATOLICA ARGENTINA</denominacion>
+			<ingresosAportes/>
+		</empEnt>
+		<empEnt>
+			<cuit>30546666561</cuit>
+			<denominacion>UNIVERSIDAD DE BUENOS AIRES</denominacion>
+			<ingresosAportes/>
+		</empEnt>
+	</ganLiqOtrosEmpEnt>
+	<deducciones>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27207231113</nroDoc>
+			<denominacion>KOKKINIS ANA MARIA</denominacion>
+			<descBasica>27207231113 - KOKKINIS ANA MARIA</descBasica>
+			<montoTotal>4400</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="1200.00"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="1600.00"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="1600.00"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>2</nroPresentacion>
+	<fechaPresentacion>2022-02-05</fechaPresentacion>
+	<empleado>
+		<cuit>20952898184</cuit>
+		<tipoDoc>86</tipoDoc>
+		<apellido>SILVA ABREU RIBEIRO DOS SANTOS ALEXANDRE</apellido>
+		<nombre></nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1091</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>PJE CARLOS GARDEL</calle>
+			<nro>3131</nro>
+		</direccion>
+	</empleado>
+	<agenteRetencion>
+		<cuit>33562369509</cuit>
+		<denominacion>DESARROLLOS EN SALUD SOCIEDAD ANONIMA</denominacion>
+	</agenteRetencion>
+</presentacion>

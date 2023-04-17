@@ -1,0 +1,2 @@
+
+<input type={{.data.type}} value="{{.data.value}}" class="form-control{{if .data.class}} {{.data.class}}{{end}}"{{ range $key, $value := .attr }} {{$key}}="{{$value}}"{{end}}>

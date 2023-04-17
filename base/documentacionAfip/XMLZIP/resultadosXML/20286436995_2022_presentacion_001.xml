@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2022-04-01</fechaPresentacion>
+	<empleado>
+		<cuit>20286436995</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>GREGORIC</apellido>
+		<nombre>JUAN JOSE</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1636</cp>
+			<localidad>OLIVOS</localidad>
+			<calle>MARIANO MORENO</calle>
+			<nro>3841</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27557642086</nroDoc>
+			<apellido>GREGORIC</apellido>
+			<nombre>LUCIA</nombre>
+			<fechaNac>2016-08-22</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>50</porcentajeDeduccion>
+		</cargaFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20586361903</nroDoc>
+			<apellido>GREGORIC</apellido>
+			<nombre>BRUNO</nombre>
+			<fechaNac>2020-11-19</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>50</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<deducciones>
+		<deduccion tipo="8">
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27222983148</nroDoc>
+			<denominacion>DIAZ MIRTA LILIANA</denominacion>
+			<descBasica>27222983148 - DIAZ MIRTA LILIANA</descBasica>
+			<montoTotal>73316.77</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="36393.36"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="36923.41"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

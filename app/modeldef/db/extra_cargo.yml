@@ -1,0 +1,95 @@
+Schema: extractor
+Table: extra_cargo
+Fields:
+    anio:
+        Name: anio
+        Ftype: int4
+        Key: true
+        Required: true
+        Length: 0
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    extraccion:
+        Name: extraccion
+        Ftype: jsonb
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    fecha_egreso:
+        Name: fecha_egreso
+        Ftype: date
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    fecha_ingreso:
+        Name: fecha_ingreso
+        Ftype: date
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    id_convenio:
+        Name: id_convenio
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    mes:
+        Name: mes
+        Ftype: int4
+        Key: true
+        Required: true
+        Length: 0
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    nro_cargo:
+        Name: nro_cargo
+        Ftype: int4
+        Key: true
+        Required: true
+        Length: 0
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    nro_legajo:
+        Name: nro_legajo
+        Ftype: int4
+        Key: true
+        Required: true
+        Length: 0
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    planta_personal:
+        Name: planta_personal
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+Relations: {}
+tx: null

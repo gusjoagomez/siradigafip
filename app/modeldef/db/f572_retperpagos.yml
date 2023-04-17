@@ -1,0 +1,100 @@
+Schema: siradig
+Table: f572_retperpagos
+Fields:
+    denominacion:
+        Name: denominacion
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 200
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    descadicional:
+        Name: descadicional
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 300
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    descbasica:
+        Name: descbasica
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 300
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    id:
+        Name: id
+        Ftype: int4
+        Key: true
+        Required: true
+        Length: 0
+        Precision: 32
+        Autoinc: true
+        Api: 0
+        value: null
+    montototal:
+        Name: montototal
+        Ftype: numeric
+        Key: false
+        Required: false
+        Length: 300
+        Precision: 13
+        Autoinc: false
+        Api: 0
+        value: null
+    nrodoc:
+        Name: nrodoc
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 15
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    presentacion_id:
+        Name: presentacion_id
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    tipo:
+        Name: tipo
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 2
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    tipodoc:
+        Name: tipodoc
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 2
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+Relations:
+    presentacion:
+        Tabler: ""
+        Joincolumns: {}
+        Fieldsl: ""
+        Criteria: ""
+tx: null

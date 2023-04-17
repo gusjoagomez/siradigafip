@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>2</nroPresentacion>
+	<fechaPresentacion>2022-04-01</fechaPresentacion>
+	<empleado>
+		<cuit>23175353119</cuit>
+		<tipoDoc>86</tipoDoc>
+		<apellido>DEGLI ALBERTI OMAR</apellido>
+		<nombre></nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1826</cp>
+			<localidad>REMEDIOS DE ESCALADA</localidad>
+			<calle>29 de septiembre</calle>
+			<nro>3658</nro>
+			<piso>0</piso>
+			<dpto>0</dpto>
+		</direccion>
+	</empleado>
+	<agenteRetencion>
+		<cuit>30709565075</cuit>
+		<denominacion>AGUA Y SANEAMIENTOS ARGENTINOS SOCIEDAD ANONIMA</denominacion>
+	</agenteRetencion>
+</presentacion>

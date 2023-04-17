@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2022-03-20</fechaPresentacion>
+	<empleado>
+		<cuit>27237809152</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>LO FARO</apellido>
+		<nombre>MARIEL CARINA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>BERUTI</calle>
+			<nro>205</nro>
+			<piso>15</piso>
+			<dpto>F</dpto>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27470666078</nroDoc>
+			<apellido>REPETTO SOL VALENTINA</apellido>
+			<nombre></nombre>
+			<fechaNac>2005-11-04</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>50</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<ganLiqOtrosEmpEnt>
+		<empEnt>
+			<cuit>30682873864</cuit>
+			<denominacion>UNIVERSIDAD NACIONAL DE LANUS</denominacion>
+			<ingresosAportes/>
+		</empEnt>
+	</ganLiqOtrosEmpEnt>
+	<deducciones>
+		<deduccion tipo="2">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30682408622</nroDoc>
+			<denominacion>CNP ASSURANCES CIA DE SEGUROS SA</denominacion>
+			<descBasica>30682408622 - CNP ASSURANCES CIA DE SEGUROS SA</descBasica>
+			<montoTotal>7500</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="3" montoMensual="2500"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="21">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30638485733</nroDoc>
+			<denominacion>DABRA SOCIEDAD ANONIMA</denominacion>
+			<descBasica>30638485733 - DABRA SOCIEDAD ANONIMA</descBasica>
+			<montoTotal>17197</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="17197.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="21">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30640897267</nroDoc>
+			<denominacion>TELECENTRO S A</denominacion>
+			<descBasica>30640897267 - TELECENTRO S A</descBasica>
+			<montoTotal>4764</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="4764.00"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>3</nroPresentacion>
+	<fechaPresentacion>2022-04-09</fechaPresentacion>
+	<empleado>
+		<cuit>20171720967</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>PANTIGA</apellido>
+		<nombre>ALBERTO MARIANO</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1824</cp>
+			<localidad>LANUS</localidad>
+			<calle>CAMINO GRAL BELGRANO</calle>
+			<nro>1921</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33677781489</nroDoc>
+			<denominacion>SWISS MEDICAL GROUP S A</denominacion>
+			<descBasica>33677781489 - SWISS MEDICAL GROUP S A</descBasica>
+			<montoTotal>81949.65</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="18862.66"/>
+				<periodo mesDesde="2" mesHasta="3" montoMensual="20656.32"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="21774.35"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="8">
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27226945496</nroDoc>
+			<denominacion>SAAVEDRA PATRICIA MONICA</denominacion>
+			<descBasica>27226945496 - SAAVEDRA PATRICIA MONICA</descBasica>
+			<montoTotal>44962.9</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="14951.95"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="15006.62"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="15004.33"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2022-02-16</fechaPresentacion>
+	<empleado>
+		<cuit>27231370841</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>MOYANO</apellido>
+		<nombre>GABRIELA NELIDA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1872</cp>
+			<localidad>SARANDI</localidad>
+			<calle>BARADERO</calle>
+			<nro>3960</nro>
+		</direccion>
+	</empleado>
+	<retPerPagos>
+		<retPerPago tipo="27">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33999242109</nroDoc>
+			<denominacion>BANCO DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>33999242109 - BANCO DE LA PROVINCIA DE BUENOS AIRES</descBasica>
+			<montoTotal>44355.89</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="3150"/>
+				<periodo mesDesde="6" mesHasta="6" montoMensual="4212.66"/>
+				<periodo mesDesde="7" mesHasta="7" montoMensual="5320"/>
+				<periodo mesDesde="8" mesHasta="8" montoMensual="6412.87"/>
+				<periodo mesDesde="9" mesHasta="9" montoMensual="5394.37"/>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="6188"/>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="6993"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="6684.99"/>
+			</periodos>
+		</retPerPago>
+		<retPerPago tipo="28">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33999242109</nroDoc>
+			<denominacion>BANCO DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>33999242109 - BANCO DE LA PROVINCIA DE BUENOS AIRES</descBasica>
+			<montoTotal>526.33</montoTotal>
+			<periodos>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="526.33"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoTarjeta" valor="0"/>
+			</detalles>
+		</retPerPago>
+	</retPerPagos>
+</presentacion>

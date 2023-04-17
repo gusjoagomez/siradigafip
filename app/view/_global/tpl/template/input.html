@@ -1,0 +1,7 @@
+<div class="form-group">
+    <label for="{{.frmname}}_{{.id}}">{{.label}}</label>
+    <input type="{{.type}}" class="form-control{{if .class}} {{.class}}{{end}}" id="{{.frmname}}_{{.id}}"  name="{{.frmname}}_{{.id}}"  value="{{.value}}" {{.options}} >
+    {{if .caption}}
+        <small id="{{.id}}_Help" class="form-text text-muted">{{.caption}}</small>
+    {{end}}
+</div>

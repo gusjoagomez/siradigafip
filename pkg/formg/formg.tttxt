@@ -1,0 +1,190 @@
+package formg
+
+import (
+	"bytes"
+	"fmt"
+	"html/template"
+	"net/http"
+	"strings"
+)
+
+// Input field types
+const (
+	Button        = "button"
+	Checkbox      = "checkbox"
+	Color         = "color" // Not yet implemented
+	Date          = "date"
+	DateTime      = "datetime"
+	DateTimeLocal = "datetime-local"
+	Email         = "email" // Not yet implemented
+	File          = "file"  // Not yet implemented
+	Hidden        = "hidden"
+	Imag          = "image" // Not yet implemented
+	Month         = "month" // Not yet implemented
+	Number        = "number"
+	Password      = "password"
+	Radio         = "radio"
+	Range         = "range"
+	Reset         = "reset"
+	Search        = "search" // Not yet implemented
+	Submit        = "submit"
+	Tel           = "tel" // Not yet implemented
+	Text          = "text"
+	Time          = "time"
+	Url           = "url"  // Not yet implemented
+	Week          = "week" // Not yet implemented
+	TextArea      = "textarea"
+	Select        = "select"
+	Static        = "static"
+	CSRF          = "csrf"
+)
+
+// Form Fields Data
+type FF map[string]string
+
+// ----------------------------------------------------------------------------------------------------------
+
+// Field --
+type Field struct {
+	id        string
+	fieldType string
+	Attribs   map[string]string
+	Options   map[string]string
+	Form      *Form
+}
+
+// Form -- formulario
+type Form struct {
+	template *template.Template
+	Attribs  map[string]string // Atributos del formulario
+	Data     map[string]string // Datos actuales
+	Fields   []Field           // Id campo y atributos
+	R        *http.Request     // Request
+}
+
+// ----------------------------------------------------------------------------------------------------------
+
+// Render -- Hace render sobre elemento field
+func (f *Field) Render() string {
+
+	var err error
+
+	//--- inicializa los datos para el template
+	data := map[string]string{"frmname": f.Form.Attribs["name"], "id": f.id, "type": f.fieldType, "value": ""}
+	for k, v := range f.Attribs {
+		data[k] = v
+	}
+
+	_, exist := f.Form.Data[f.id]
+	if exist {
+		data["value"] = fmt.Sprintf("%v", f.Form.Data[f.id])
+	}
+
+	t, err := template.ParseFiles("./pkg/formg/" + f.Form.Type + "/" + f.fieldType + ".html")
+	if err != nil {
+		panic(err)
+	}
+
+	var buf bytes.Buffer
+	if err := t.Execute(&buf, data); err != nil {
+		panic(err)
+	}
+	return buf.String()
+}
+
+// ----------------------------------------------------------------------------------------------------------
+// CreateForm -- create form structure
+func CreateForm(r *http.Request, data map[string]string, name, action, method, enctype string) *Form {
+	var aform *Form
+	aform = new(Form)
+	aform.R = r
+	//aform.AddField("csrfField", CSRF, FF{})
+
+	aform.Attribs = map[string]string{"name": name, "action": action, "method": method, "enctype": enctype}
+	aform.Data = make(map[string]string)
+
+	//aform.Data["csrfField"] = csrf.Token(r)
+	if data != nil {
+		for k, v := range data {
+			aform.Data[k] = v
+		}
+	}
+
+	return aform
+}
+
+// PostValues -- Retrieve data post from form
+func (aform *Form) PostValues(fname string, r *http.Request) map[string]interface{} {
+
+	err := r.ParseForm()
+	if err != nil {
+		fmt.Println("Error parsing form")
+	}
+
+	res := make(map[string]interface{})
+	for k, vs := range r.PostForm {
+		for _, value := range vs {
+			nk := strings.Replace(k, fname, "", -1) //Quita el nombre de form
+			res[nk] = value
+		}
+	}
+	return res
+}
+
+// AddField -- Agrega un field al formulario
+func (aform *Form) AddField(id, tipo string, attribs map[string]string) *Form {
+
+	ff := Field{id: id, fieldType: tipo, Attribs: attribs, Form: aform, Options: options}
+	aform.Fields = append(aform.Fields, ff)
+
+	return aform
+}
+
+// AddField -- Agrega un field al formulario
+func (aform *Form) AddField(id, tipo string, attribs map[string]string) *Field {
+
+	options := make(map[string]string)
+	ff := Field{id: id, fieldType: tipo, Attribs: attribs, Form: aform, Options: options}
+	aform.Fields = append(aform.Fields, ff)
+
+	return &ff
+}
+
+// Valid --- Si es valido o no el formulario
+func (aform *Form) Valid() bool {
+
+	ret := false
+	ret = (aform.R.Method == http.MethodPost)
+
+	return ret
+}
+
+// Render -- Retorna el codigo html del formulario
+func (aform *Form) Render() template.HTML {
+
+	var attribs string
+	for k, v := range aform.Attribs {
+		attribs = attribs + " " + k + "=\"" + v + "\""
+	}
+	content := "<form " + attribs + "  >" + aform.RenderFields(nil) + "</form>"
+
+	return template.HTML(content)
+}
+
+// RenderWidgets -- Retorna el codigo html del formulario
+func (aform *Form) RenderWidgets() template.HTML {
+
+	content := aform.RenderFields(nil)
+
+	return template.HTML(content)
+}
+
+// RenderFields - Hace render de todos los campos del formulario
+func (aform *Form) RenderFields(val map[string]interface{}) string {
+	content := ""
+	for _, field := range aform.Fields {
+		content = content + field.Render()
+	}
+
+	return content
+}

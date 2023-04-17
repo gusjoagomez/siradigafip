@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>3</nroPresentacion>
+	<fechaPresentacion>2022-03-28</fechaPresentacion>
+	<empleado>
+		<cuit>20106503134</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>GRAIZMAN</apellido>
+		<nombre>ERNESTO RAUL</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1872</cp>
+			<localidad>SARANDI</localidad>
+			<calle>AV BELGRANO</calle>
+			<nro>2842</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30546741253</nroDoc>
+			<denominacion>OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</denominacion>
+			<descBasica>30546741253 - OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</descBasica>
+			<montoTotal>184670.02</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="2" montoMensual="60350.01"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="63970"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

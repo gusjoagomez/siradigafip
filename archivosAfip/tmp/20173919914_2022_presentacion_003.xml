@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>3</nroPresentacion>
+	<fechaPresentacion>2022-04-11</fechaPresentacion>
+	<empleado>
+		<cuit>20173919914</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>GIMENEZ</apellido>
+		<nombre>LUCAS GABRIEL</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1874</cp>
+			<localidad>VILLA DOMINICO</localidad>
+			<calle>BOLIVAR</calle>
+			<nro>4985</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27474194448</nroDoc>
+			<apellido>GIMENEZ MILAGROS</apellido>
+			<nombre></nombre>
+			<fechaNac>2006-07-08</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<ganLiqOtrosEmpEnt>
+		<empEnt>
+			<cuit>30546671166</cuit>
+			<denominacion>UNIVERSIDAD TECNOLOGICA NACIONAL</denominacion>
+			<ingresosAportes>
+				<ingAp mes="1">
+					<obraSoc>2207.3</obraSoc>
+					<segSoc>8195.03</segSoc>
+					<sind>1024.38</sind>
+					<ganBrut>51218.95</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+					<bonosProd>0</bonosProd>
+					<remunExentaLey27549>0</remunExentaLey27549>
+					<suplemParticLey19101>0</suplemParticLey19101>
+					<teletrabajoExento>0</teletrabajoExento>
+				</ingAp>
+				<ingAp mes="2">
+					<obraSoc>17808.19</obraSoc>
+					<segSoc>71764.44</segSoc>
+					<sind>0</sind>
+					<ganBrut>478625.6</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+					<bonosProd>0</bonosProd>
+					<remunExentaLey27549>0</remunExentaLey27549>
+					<suplemParticLey19101>0</suplemParticLey19101>
+					<teletrabajoExento>0</teletrabajoExento>
+				</ingAp>
+				<ingAp mes="3">
+					<obraSoc>18888.8</obraSoc>
+					<segSoc>82431.32</segSoc>
+					<sind>0</sind>
+					<ganBrut>551663.93</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+					<bonosProd>0</bonosProd>
+					<remunExentaLey27549>0</remunExentaLey27549>
+					<suplemParticLey19101>0</suplemParticLey19101>
+					<teletrabajoExento>0</teletrabajoExento>
+				</ingAp>
+			</ingresosAportes>
+		</empEnt>
+	</ganLiqOtrosEmpEnt>
+</presentacion>

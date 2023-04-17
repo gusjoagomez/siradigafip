@@ -1,0 +1,68 @@
+{{ template "base" . }}
+
+{{define "body"}}
+<h1>Subida de archivos ZIP para formulario F572</h1>
+
+{{if .flashes}}
+   <div class="alert alert-danger" role="alert">
+   {{range $key, $val := .flashes}}
+      {{$val}}<br>
+   {{end}}
+   </div>
+{{end}}
+
+<br>
+<div id="divformulario">
+   <h5>Seleccione archivo a subir</h5>
+   <form action="#" name="frm1" id="frm1" enctype="multipart/form-data">
+      <input type="file" id="archivozip" name="archivozip" class="form-control" required="true">
+   </form>
+   <hr>
+   <button id="btnupload" class="btn btn-primary">SUBIR ARCHIVO</button>
+</div>
+<div class="alert" role="alert" id="mensaje"></div>
+
+<style>
+#frm1{border: 1px solid black;padding: 10px;}
+#mensaje{display:none;}
+</style>
+<script>
+
+$(document).ready(function() {
+   $('#btnupload').on('click', function(e) {
+      if($("#archivozip").val() == ""){
+         alert("Debe seleccionar un arhivo Zip")
+      }else{
+         e.preventDefault();
+         uploadFile();
+      }
+    });
+});
+
+function uploadFile() {
+   $("#divformulario").hide();
+   var data = new FormData(document.forms[0]);
+   
+   $.ajax({
+      url: '/project/process', type: 'POST', enctype: 'multipart/form-data',
+      data: data,
+      cache: false,
+      processData: false,
+      contentType: false, 
+      dataType: 'json',
+      success: function( response ){
+         $("#mensaje").show();
+         if (response.mensaje != ""){
+            $("#mensaje").addClass("alert-danger")
+            $("#mensaje").html(response.mensaje)
+            alert("¡Error!!!")
+         }else{
+            $("#mensaje").addClass("alert-success")
+            $("#mensaje").html("Se ha procesado correctamente")
+         }
+      },
+      error: function(jqXHR, textStatus, errorThrown) { alert( 'error al subir archivo' ); }      
+   });
+}
+</script>
+{{ end }}

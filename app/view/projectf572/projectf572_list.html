@@ -1,0 +1,73 @@
+{{ template "base" . }}
+
+{{define "body"}}
+
+<table cellspacing="0" cellpadding="0" width="100%">
+<tr>
+  <td><h1>Listas de presentaciones {{if eq .tipo "b"}}B{{- end}}</h1></td>
+  <td>{{ template "submenu" . }}</td>
+</tr>
+</table>
+<hr>
+<h5>Filtrar datos</h5>
+<table cellspacing="5" cellpadding="5" border="0" class="table table-sn">
+  <tbody><tr>
+    <td>CUIT:<input type="text" class="filtro" data="1" id="cuit" name="cuit"></td>
+    <td>Periodo:<input type="text" class="filtro" data="2" id="periodo" name="periodo"></td>
+    <td>Envio:<input type="text" class="filtro" data="3" id="envio" name="envio"></td>
+    <td>Apellido:<input type="text" class="filtro" data="4" id="apellido" name="apellido"></td>
+    <td>Nombre:<input type="text" class="filtro" data="5" id="nombre" name="nombre"></td>
+    <td><button id="btnfiltro" class="btn btn-primary">Filtrar</button></td>
+  </tr>
+</tbody></table>
+<table id="tbl" class="display" style="width:100%">
+<thead><tr>
+  <th>ID</th><th>CUIT</th><th>Período</th><th>Envio</th>
+  <th>Apellido</th><th>Nombre</th><th>Calle</th><th>Nro</th><th>Piso</th><th>Dto</th></tr>
+</thead>
+</table>
+
+{{- $tipo := ""}}
+{{if eq .tipo "b"}}
+  {{- $tipo := "b"}}
+{{- end}}
+
+<script>
+$(document).ready(function() {
+  var table = $('#tbl').DataTable({
+    "ajax": "/project/{{.tipo}}/getdata",
+    "language": { "url": "http://cdn.datatables.net/plug-ins/1.10.16/i18n/Spanish.json"},
+    "columns": [
+      { "data": "id",
+      "render": function(data, type, row, meta){
+            if(type === 'display'){data = '<a href="/project/{{.tipo}}/' + data + '/ver">VER</a>';}
+            return data;
+         }
+      },
+      {"data": "cuit","searchable": true },
+      {"data": "periodo","searchable": true },
+      {"data": "envio","searchable": true },
+      {"data": "emplapellido","searchable": true },
+      {"data": "emplnombre","searchable": true },
+      {"data": "dircalle" },
+      {"data": "dirnro" },
+      {"data": "dirpiso" },
+      {"data": "dirdpto" },
+      ],
+  });
+
+  $('#btnfiltro').on('click', function(e) {
+    e.preventDefault();
+    $('.filtro').each(function( index ) {
+        table.column($(this).attr("data") ).search($(this).val(), true, false);
+    });
+    table.table().draw();
+  });
+});
+</script>
+<style>
+#cuit, #periodo, #envio, #apellido,#nombre{ width: 120px; margin-left: 5px;}
+#tbl_filter, .dataTables_filter{display: none;}
+</style>
+
+{{ end }}

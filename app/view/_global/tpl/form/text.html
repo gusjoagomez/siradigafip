@@ -1,0 +1,6 @@
+
+<div class="col">
+    <label for="{{.data.frmname}}_{{.data.id}}">{{.data.label}}</label>
+    <input type="{{.data.type}}" value="{{.data.value}}" class="form-control form-control-sm{{if .data.class}} {{.data.class}}{{end}}"{{ range $key, $value := .attr }} {{$key}}="{{$value}}"{{end}}>
+{{if .data.caption}}<small id="{{.data.id}}_Help" class="form-text text-muted">{{.data.caption }}</small>{{end}}
+</div>

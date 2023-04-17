@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>11</nroPresentacion>
+	<fechaPresentacion>2022-01-04</fechaPresentacion>
+	<empleado>
+		<cuit>27208670870</cuit>
+		<tipoDoc>86</tipoDoc>
+		<apellido>GARCIA MYRIAN LILIANA</apellido>
+		<nombre></nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1882</cp>
+			<localidad>EZPELETA</localidad>
+			<calle>NAMUNCURA</calle>
+			<nro>2020</nro>
+			<piso>0</piso>
+			<dpto>0</dpto>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30708049928</nroDoc>
+			<denominacion>FUNDACION INSTITUTO QUIRURGICO DEL CALLAO</denominacion>
+			<descBasica>30708049928 - FUNDACION INSTITUTO QUIRURGICO DEL CALLAO</descBasica>
+			<montoTotal>1590</montoTotal>
+			<periodos>
+				<periodo mesDesde="7" mesHasta="7" montoMensual="640"/>
+				<periodo mesDesde="8" mesHasta="8" montoMensual="290"/>
+				<periodo mesDesde="9" mesHasta="9" montoMensual="80"/>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="440"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="140"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30531183491</nroDoc>
+			<denominacion>CONSEJO PROFESIONAL DE CIENCIAS ECONOMICAS DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Enero - 30531183491 - CONSEJO PROFESIONAL DE CIENCIAS ECONOMICAS DE LA PROVINCIA DE BUENOS AIRES</descAdicional>
+			<montoTotal>3803.82</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="1"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30531183491</nroDoc>
+			<denominacion>CONSEJO PROFESIONAL DE CIENCIAS ECONOMICAS DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Junio - 30531183491 - CONSEJO PROFESIONAL DE CIENCIAS ECONOMICAS DE LA PROVINCIA DE BUENOS AIRES</descAdicional>
+			<montoTotal>4184.16</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="6"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30531183491</nroDoc>
+			<denominacion>CONSEJO PROFESIONAL DE CIENCIAS ECONOMICAS DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Noviembre - 30531183491 - CONSEJO PROFESIONAL DE CIENCIAS ECONOMICAS DE LA PROVINCIA DE BUENOS AIRES</descAdicional>
+			<montoTotal>4924.7</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="11"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30531183491</nroDoc>
+			<denominacion>CONSEJO PROFESIONAL DE CIENCIAS ECONOMICAS DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Diciembre - 30531183491 - CONSEJO PROFESIONAL DE CIENCIAS ECONOMICAS DE LA PROVINCIA DE BUENOS AIRES</descAdicional>
+			<montoTotal>4924.7</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="12"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30599421846</nroDoc>
+			<denominacion>CAJA DE SEGURIDAD SOCIAL PARA LOS PROFESIONALES EN CIENCIAS EC</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Febrero - 30599421846 - CAJA DE SEGURIDAD SOCIAL PARA LOS PROFESIONALES EN CIENCIAS EC</descAdicional>
+			<montoTotal>3803.82</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="2"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30599421846</nroDoc>
+			<denominacion>CAJA DE SEGURIDAD SOCIAL PARA LOS PROFESIONALES EN CIENCIAS EC</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Marzo - 30599421846 - CAJA DE SEGURIDAD SOCIAL PARA LOS PROFESIONALES EN CIENCIAS EC</descAdicional>
+			<montoTotal>3803.82</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="3"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30599421846</nroDoc>
+			<denominacion>CAJA DE SEGURIDAD SOCIAL PARA LOS PROFESIONALES EN CIENCIAS EC</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Abril - 30599421846 - CAJA DE SEGURIDAD SOCIAL PARA LOS PROFESIONALES EN CIENCIAS EC</descAdicional>
+			<montoTotal>4184.16</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="4"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30599421846</nroDoc>
+			<denominacion>CAJA DE SEGURIDAD SOCIAL PARA LOS PROFESIONALES EN CIENCIAS EC</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Mayo - 30599421846 - CAJA DE SEGURIDAD SOCIAL PARA LOS PROFESIONALES EN CIENCIAS EC</descAdicional>
+			<montoTotal>4184.16</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="5"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30599421846</nroDoc>
+			<denominacion>CAJA DE SEGURIDAD SOCIAL PARA LOS PROFESIONALES EN CIENCIAS EC</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Julio - 30599421846 - CAJA DE SEGURIDAD SOCIAL PARA LOS PROFESIONALES EN CIENCIAS EC</descAdicional>
+			<montoTotal>4602.56</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="7"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30599421846</nroDoc>
+			<denominacion>CAJA DE SEGURIDAD SOCIAL PARA LOS PROFESIONALES EN CIENCIAS EC</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Agosto - 30599421846 - CAJA DE SEGURIDAD SOCIAL PARA LOS PROFESIONALES EN CIENCIAS EC</descAdicional>
+			<montoTotal>4602.56</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="8"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30599421846</nroDoc>
+			<denominacion>CAJA DE SEGURIDAD SOCIAL PARA LOS PROFESIONALES EN CIENCIAS EC</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Septiembre - 30599421846 - CAJA DE SEGURIDAD SOCIAL PARA LOS PROFESIONALES EN CIENCIAS EC</descAdicional>
+			<montoTotal>4602.56</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="9"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30599421846</nroDoc>
+			<denominacion>CAJA DE SEGURIDAD SOCIAL PARA LOS PROFESIONALES EN CIENCIAS EC</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Octubre - 30599421846 - CAJA DE SEGURIDAD SOCIAL PARA LOS PROFESIONALES EN CIENCIAS EC</descAdicional>
+			<montoTotal>4924.7</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="10"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

@@ -1,0 +1,55 @@
+Schema: siradig
+Table: f572_archivos
+Fields:
+    createdat:
+        Name: createdat
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 100
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    filename:
+        Name: filename
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 100
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    id:
+        Name: id
+        Ftype: int4
+        Key: true
+        Required: true
+        Length: 0
+        Precision: 32
+        Autoinc: true
+        Api: 0
+        value: null
+    periodo:
+        Name: periodo
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 100
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    updatedat:
+        Name: updatedat
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 100
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+Relations: {}
+tx: null

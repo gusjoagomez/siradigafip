@@ -1,0 +1,345 @@
+Schema: emple
+Table: cargo
+Fields:
+    activado:
+        Name: activado
+        Ftype: bool
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    activadoEn:
+        Name: activadoEn
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    activadoPorId:
+        Name: activadoPorId
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 1
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    creadoEn:
+        Name: creadoEn
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    creadoPorId:
+        Name: creadoPorId
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 1
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    eliminadoEn:
+        Name: eliminadoEn
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    eliminadoPorId:
+        Name: eliminadoPorId
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 1
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    fechaDeEgreso:
+        Name: fechaDeEgreso
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    fechaDeNormaDeIngreso:
+        Name: fechaDeNormaDeIngreso
+        Ftype: timestamp
+        Key: false
+        Required: true
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    fechaIngresoAlCargo:
+        Name: fechaIngresoAlCargo
+        Ftype: timestamp
+        Key: false
+        Required: true
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    fechaIngresoAntiguedad:
+        Name: fechaIngresoAntiguedad
+        Ftype: timestamp
+        Key: false
+        Required: true
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    fechaIngresoVacaciones:
+        Name: fechaIngresoVacaciones
+        Ftype: timestamp
+        Key: false
+        Required: true
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    fechaNormaDeDesvinculacion:
+        Name: fechaNormaDeDesvinculacion
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    fechaVersionDesde:
+        Name: fechaVersionDesde
+        Ftype: timestamp
+        Key: false
+        Required: true
+        Length: 1
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    fechaVersionHasta:
+        Name: fechaVersionHasta
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 1
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    id:
+        Name: id
+        Ftype: int4
+        Key: true
+        Required: true
+        Length: 0
+        Precision: 32
+        Autoinc: true
+        Api: 0
+        value: null
+    idDependencia:
+        Name: idDependencia
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 1
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    idEmpleado:
+        Name: idEmpleado
+        Ftype: int4
+        Key: false
+        Required: true
+        Length: 1
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    idFuncionDePersonal:
+        Name: idFuncionDePersonal
+        Ftype: int4
+        Key: false
+        Required: true
+        Length: 1
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    idGrupoDeLiquidacion:
+        Name: idGrupoDeLiquidacion
+        Ftype: int4
+        Key: false
+        Required: true
+        Length: 1
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    idGrupoDePersonal:
+        Name: idGrupoDePersonal
+        Ftype: int4
+        Key: false
+        Required: true
+        Length: 1
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    idMotivoDeBaja:
+        Name: idMotivoDeBaja
+        Ftype: int4
+        Key: false
+        Required: true
+        Length: 1
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    idMotivoDeIngreso:
+        Name: idMotivoDeIngreso
+        Ftype: int4
+        Key: false
+        Required: true
+        Length: 1
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    idNormaDeDesvinculacion:
+        Name: idNormaDeDesvinculacion
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 1
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    idNormaDeIngreso:
+        Name: idNormaDeIngreso
+        Ftype: int4
+        Key: false
+        Required: true
+        Length: 1
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    idPlantaDePersonal:
+        Name: idPlantaDePersonal
+        Ftype: int4
+        Key: false
+        Required: true
+        Length: 1
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    idPuesto:
+        Name: idPuesto
+        Ftype: int4
+        Key: false
+        Required: true
+        Length: 1
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    idSituacionDelEmpleado:
+        Name: idSituacionDelEmpleado
+        Ftype: int4
+        Key: false
+        Required: true
+        Length: 1
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    marcaParaLiquidar:
+        Name: marcaParaLiquidar
+        Ftype: varchar
+        Key: false
+        Required: true
+        Length: 1
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    modificadoEn:
+        Name: modificadoEn
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    modificadoPorId:
+        Name: modificadoPorId
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 1
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    nroCargo:
+        Name: nroCargo
+        Ftype: int4
+        Key: false
+        Required: true
+        Length: 0
+        Precision: 32
+        Autoinc: true
+        Api: 0
+        value: null
+    nroNormaDeDesvinculacion:
+        Name: nroNormaDeDesvinculacion
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    nroNormaDeIngreso:
+        Name: nroNormaDeIngreso
+        Ftype: int4
+        Key: false
+        Required: true
+        Length: 0
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+Relations: {}
+tx: null

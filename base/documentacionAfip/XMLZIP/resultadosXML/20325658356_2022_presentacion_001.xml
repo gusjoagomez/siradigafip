@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2022-04-07</fechaPresentacion>
+	<empleado>
+		<cuit>20325658356</cuit>
+		<tipoDoc>86</tipoDoc>
+		<apellido>DEGLI INNOCENTI DAMIAN</apellido>
+		<nombre></nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>V SARFIELD</calle>
+			<nro>143</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30546741253</nroDoc>
+			<denominacion>OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</denominacion>
+			<descBasica>30546741253 - OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</descBasica>
+			<montoTotal>4500</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="3" montoMensual="1500"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="8">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27115416524</nroDoc>
+			<denominacion>LEGUIZA MARIA INES</denominacion>
+			<descBasica>27115416524 - LEGUIZA MARIA INES</descBasica>
+			<montoTotal>99504.88</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="32241.04"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="32265.92"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="34997.92"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

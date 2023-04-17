@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2022-02-02</fechaPresentacion>
+	<empleado>
+		<cuit>20112872788</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>MARTINEZ</apellido>
+		<nombre>JUAN VICENTE</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>NAZAR</calle>
+			<nro>2020</nro>
+		</direccion>
+	</empleado>
+	<retPerPagos>
+		<retPerPago tipo="27">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33999242109</nroDoc>
+			<denominacion>BANCO DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>33999242109 - BANCO DE LA PROVINCIA DE BUENOS AIRES</descBasica>
+			<montoTotal>56646.53</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="6247.5"/>
+				<periodo mesDesde="6" mesHasta="6" montoMensual="6982.5"/>
+				<periodo mesDesde="7" mesHasta="7" montoMensual="7052.5"/>
+				<periodo mesDesde="8" mesHasta="8" montoMensual="7122.5"/>
+				<periodo mesDesde="9" mesHasta="9" montoMensual="7156.53"/>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="7280"/>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="7385"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="7420"/>
+			</periodos>
+		</retPerPago>
+	</retPerPagos>
+</presentacion>

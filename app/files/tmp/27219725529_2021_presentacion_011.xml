@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>11</nroPresentacion>
+	<fechaPresentacion>2022-03-11</fechaPresentacion>
+	<empleado>
+		<cuit>27219725529</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>CEJAS</apellido>
+		<nombre>MARIA GABRIELA</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1416</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>RODRIGUEZ M. A. GRAL</calle>
+			<nro>1674</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30545847473</nroDoc>
+			<denominacion>CENTRO GALLEGO DE BUENOS AIRES MUTUALIDAD CULTURA ACCION SOCIAL</denominacion>
+			<descBasica>30545847473 - CENTRO GALLEGO DE BUENOS AIRES MUTUALIDAD CULTURA ACCION SOCIAL</descBasica>
+			<montoTotal>114951</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="4" montoMensual="7736"/>
+				<periodo mesDesde="5" mesHasta="6" montoMensual="8665"/>
+				<periodo mesDesde="7" mesHasta="8" montoMensual="9964"/>
+				<periodo mesDesde="9" mesHasta="11" montoMensual="11458"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="12375"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30633156200</nroDoc>
+			<denominacion>GRUPO PARAMEDIC  S.A.</denominacion>
+			<descBasica>30633156200 - GRUPO PARAMEDIC  S.A.</descBasica>
+			<montoTotal>25040</montoTotal>
+			<periodos>
+				<periodo mesDesde="9" mesHasta="12" montoMensual="6260"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="2">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30500064230</nroDoc>
+			<denominacion>BBVA SEGUROS ARGENTINA S.A.</denominacion>
+			<descBasica>30500064230 - BBVA SEGUROS ARGENTINA S.A.</descBasica>
+			<montoTotal>24375</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="9" montoMensual="2025"/>
+				<periodo mesDesde="10" mesHasta="12" montoMensual="2050"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="3">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30517312904</nroDoc>
+			<denominacion>CONFERENCIA EPISCOPAL ARGENTINA</denominacion>
+			<descBasica>30517312904 - CONFERENCIA EPISCOPAL ARGENTINA</descBasica>
+			<montoTotal>75000</montoTotal>
+			<periodos>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="75000"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="3">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30562113289</nroDoc>
+			<denominacion>CENTRO DE INTEGRACION LIBRE Y SOLIDARIO DE ARGENTINA ( C I L S A )</denominacion>
+			<descBasica>30562113289 - CENTRO DE INTEGRACION LIBRE Y SOLIDARIO DE ARGENTINA ( C I L S A )</descBasica>
+			<montoTotal>14400</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="12" montoMensual="1200"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="4">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30617275801</nroDoc>
+			<denominacion>INMOBILIARIA Y FINANCIERA LA CAPITAL SA</denominacion>
+			<descBasica>30617275801 - INMOBILIARIA Y FINANCIERA LA CAPITAL SA</descBasica>
+			<montoTotal>29700</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="12" montoMensual="2475"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>20112015419</nroDoc>
+			<denominacion>PANETTA JUAN JOSE</denominacion>
+			<descBasica>20112015419 - PANETTA JUAN JOSE</descBasica>
+			<montoTotal>9160</montoTotal>
+			<periodos>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="2000.00"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="4240.00"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="1520.00"/>
+				<periodo mesDesde="6" mesHasta="6" montoMensual="600.00"/>
+				<periodo mesDesde="9" mesHasta="9" montoMensual="800.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>20171324956</nroDoc>
+			<denominacion>CHIARADIA PABLO ALBERTO</denominacion>
+			<descBasica>20171324956 - CHIARADIA PABLO ALBERTO</descBasica>
+			<montoTotal>19600</montoTotal>
+			<periodos>
+				<periodo mesDesde="7" mesHasta="7" montoMensual="9600.00"/>
+				<periodo mesDesde="9" mesHasta="9" montoMensual="10000.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>20367627973</nroDoc>
+			<denominacion>FONTANA IGNACIO JOSE</denominacion>
+			<descBasica>20367627973 - FONTANA IGNACIO JOSE</descBasica>
+			<montoTotal>2400</montoTotal>
+			<periodos>
+				<periodo mesDesde="7" mesHasta="7" montoMensual="2400.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>23217629934</nroDoc>
+			<denominacion>VILLANI MARIA EMILIA</denominacion>
+			<descBasica>23217629934 - VILLANI MARIA EMILIA</descBasica>
+			<montoTotal>25800</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="8200.00"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="8600.00"/>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="9000.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27163364943</nroDoc>
+			<denominacion>DOS REIS NORA MARCELA</denominacion>
+			<descBasica>27163364943 - DOS REIS NORA MARCELA</descBasica>
+			<montoTotal>40000</montoTotal>
+			<periodos>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="9400.00"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="9800.00"/>
+				<periodo mesDesde="6" mesHasta="6" montoMensual="10200.00"/>
+				<periodo mesDesde="8" mesHasta="8" montoMensual="10600.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27244360322</nroDoc>
+			<denominacion>PEREZ GISELA PAULA</denominacion>
+			<descBasica>27244360322 - PEREZ GISELA PAULA</descBasica>
+			<montoTotal>3360</montoTotal>
+			<periodos>
+				<periodo mesDesde="8" mesHasta="8" montoMensual="1120.00"/>
+				<periodo mesDesde="9" mesHasta="9" montoMensual="1120.00"/>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="1120.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27264206265</nroDoc>
+			<denominacion>GARCIA VILLAVERDE MAGDALENA</denominacion>
+			<descBasica>27264206265 - GARCIA VILLAVERDE MAGDALENA</descBasica>
+			<montoTotal>18600</montoTotal>
+			<periodos>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="9200.00"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="9400.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27279870196</nroDoc>
+			<denominacion>LEONE HEBE LAURA</denominacion>
+			<descBasica>27279870196 - LEONE HEBE LAURA</descBasica>
+			<montoTotal>4200</montoTotal>
+			<periodos>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="4200.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="24">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30678574097</nroDoc>
+			<denominacion>CONSOLIDAR COMPAÑIA DE SEGUROS DE RETIRO S A</denominacion>
+			<descBasica>30678574097 - CONSOLIDAR COMPAÑIA DE SEGUROS DE RETIRO S A</descBasica>
+			<montoTotal>24600</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="12" montoMensual="2050"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+	<retPerPagos>
+		<retPerPago tipo="27">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33999242109</nroDoc>
+			<denominacion>BANCO DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>33999242109 - BANCO DE LA PROVINCIA DE BUENOS AIRES</descBasica>
+			<montoTotal>28140</montoTotal>
+			<periodos>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="6475"/>
+				<periodo mesDesde="6" mesHasta="6" montoMensual="7052.5"/>
+				<periodo mesDesde="7" mesHasta="7" montoMensual="7105"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="7507.5"/>
+			</periodos>
+		</retPerPago>
+	</retPerPagos>
+</presentacion>

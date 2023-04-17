@@ -1,0 +1,46 @@
+{{ template "base" . }}
+
+{{define "body"}}
+<h1>Modificación de relación de atributos</h1>
+
+{{if .flashes}}
+   <div class="alert alert-danger" role="alert">
+   {{range $key, $val := .flashes}}
+      {{$val}}<br>
+   {{end}}
+   </div>
+{{end}}
+<br>
+
+{{ if .form }}
+ <div class="row">
+   <div class="col-md-6">
+   <br>Grupo:  <strong>{{.entity.grupo}}</strong>
+   <br>Código AFIP: <strong>{{.entity.codigoafip}}</strong>
+   <br>Descripción AFIP: <strong>{{.entity.descripafip}}</strong>
+   <hr>
+   <form action="?" name="frm1" id="frm1" method="POST" enctype="multipart/form-data">
+     {{.form.RenderWidgets}}
+     <br>
+     <hr>
+     <a href="/atributo/list">[Volver a Listado]</a>
+     <input style="float:right" type="submit" value="Grabar datos">
+   </form>
+   </div>
+</div>
+{{else}}
+   Ouch!!!
+{{ end }}
+
+<style>
+#frm1{border: 1px solid black;padding: 10px;}
+</style>
+<script>
+
+$(document).ready(function() {
+
+   
+});
+
+</script>
+{{ end }}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2022-03-08</fechaPresentacion>
+	<empleado>
+		<cuit>27227082424</cuit>
+		<tipoDoc>86</tipoDoc>
+		<apellido>RULET</apellido>
+		<nombre>ALICIA SUSANA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>PJE ROBERTO PERFUMO</calle>
+			<nro>745</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20496105304</nroDoc>
+			<apellido>LEIS</apellido>
+			<nombre>SANTIAGO BORIS</nombre>
+			<fechaNac>2009-11-05</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27486781314</nroDoc>
+			<apellido>LEIS</apellido>
+			<nombre>MIA</nombre>
+			<fechaNac>2008-03-29</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+</presentacion>

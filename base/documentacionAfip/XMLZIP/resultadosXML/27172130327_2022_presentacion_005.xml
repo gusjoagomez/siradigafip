@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>5</nroPresentacion>
+	<fechaPresentacion>2022-04-03</fechaPresentacion>
+	<empleado>
+		<cuit>27172130327</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>SORIA</apellido>
+		<nombre>MARIA FABIANA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1874</cp>
+			<localidad>VILLA DOMINICO</localidad>
+			<calle>avda. belgrano</calle>
+			<nro>4040</nro>
+			<piso>p b </piso>
+			<dpto>3</dpto>
+		</direccion>
+	</empleado>
+	<ganLiqOtrosEmpEnt>
+		<empEnt>
+			<cuit>30542265317</cuit>
+			<denominacion>CAJA DE PREVISION Y SEGURO MEDICO DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<ingresosAportes>
+				<ingAp mes="1">
+					<obraSoc>0</obraSoc>
+					<segSoc>0</segSoc>
+					<sind>0</sind>
+					<ganBrut>18375</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>28500</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+					<bonosProd>0</bonosProd>
+					<remunExentaLey27549>0</remunExentaLey27549>
+					<suplemParticLey19101>0</suplemParticLey19101>
+					<teletrabajoExento>0</teletrabajoExento>
+				</ingAp>
+				<ingAp mes="2">
+					<obraSoc>0</obraSoc>
+					<segSoc>0</segSoc>
+					<sind>0</sind>
+					<ganBrut>18375</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>28500</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+					<bonosProd>0</bonosProd>
+					<remunExentaLey27549>0</remunExentaLey27549>
+					<suplemParticLey19101>0</suplemParticLey19101>
+					<teletrabajoExento>0</teletrabajoExento>
+				</ingAp>
+				<ingAp mes="3">
+					<obraSoc>0</obraSoc>
+					<segSoc>0</segSoc>
+					<sind>0</sind>
+					<ganBrut>18375</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>28500</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+					<bonosProd>0</bonosProd>
+					<remunExentaLey27549>0</remunExentaLey27549>
+					<suplemParticLey19101>0</suplemParticLey19101>
+					<teletrabajoExento>0</teletrabajoExento>
+				</ingAp>
+			</ingresosAportes>
+		</empEnt>
+	</ganLiqOtrosEmpEnt>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30707972552</nroDoc>
+			<denominacion>BRISTOL MEDICINE SRL</denominacion>
+			<descBasica>30707972552 - BRISTOL MEDICINE SRL</descBasica>
+			<montoTotal>24776.24</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="6257.93"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="7134.64"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="6705.18"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="4678.49"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

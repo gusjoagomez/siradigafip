@@ -1,0 +1,360 @@
+Schema: public
+Table: tablaAuxiliarDetalle
+Fields:
+    activado:
+        Name: activado
+        Ftype: bool
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    activadoEn:
+        Name: activadoEn
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    activadoPorId:
+        Name: activadoPorId
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 20
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    caracter1:
+        Name: caracter1
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 20
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    caracter2:
+        Name: caracter2
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 20
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    caracter3:
+        Name: caracter3
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 20
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    codigoInt:
+        Name: codigoInt
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 250
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    codigoString:
+        Name: codigoString
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 250
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    creadoEn:
+        Name: creadoEn
+        Ftype: timestamp
+        Key: false
+        Required: true
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    creadoPorId:
+        Name: creadoPorId
+        Ftype: int4
+        Key: false
+        Required: true
+        Length: 20
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    descripcion:
+        Name: descripcion
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 20
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    descripcion1:
+        Name: descripcion1
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 20
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    descripcion2:
+        Name: descripcion2
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 20
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    descripcion3:
+        Name: descripcion3
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 20
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    eliminadoEn:
+        Name: eliminadoEn
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    eliminadoPorId:
+        Name: eliminadoPorId
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 20
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    fechaDesde:
+        Name: fechaDesde
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    fechaHasta:
+        Name: fechaHasta
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    id:
+        Name: id
+        Ftype: int4
+        Key: true
+        Required: true
+        Length: 0
+        Precision: 32
+        Autoinc: true
+        Api: 0
+        value: null
+    modificadoEn:
+        Name: modificadoEn
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    modificadoPorId:
+        Name: modificadoPorId
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 20
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    nombre:
+        Name: nombre
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 20
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    numerico1:
+        Name: numerico1
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 20
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    numerico2:
+        Name: numerico2
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 20
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    numerico3:
+        Name: numerico3
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 20
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    numerico4:
+        Name: numerico4
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 20
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    numerico5:
+        Name: numerico5
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 20
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    numerico6:
+        Name: numerico6
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 20
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    numerico7:
+        Name: numerico7
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 20
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    numerico8:
+        Name: numerico8
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 20
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    numerico9:
+        Name: numerico9
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 20
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    numerico10:
+        Name: numerico10
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 20
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    tablaAuxiliarId:
+        Name: tablaAuxiliarId
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+Relations:
+    activadoPorId:
+        Tabler: ""
+        Joincolumns: {}
+        Fieldsl: ""
+        Criteria: ""
+    creadoPorId:
+        Tabler: ""
+        Joincolumns: {}
+        Fieldsl: ""
+        Criteria: ""
+    eliminadoPorId:
+        Tabler: ""
+        Joincolumns: {}
+        Fieldsl: ""
+        Criteria: ""
+    modificadoPorId:
+        Tabler: ""
+        Joincolumns: {}
+        Fieldsl: ""
+        Criteria: ""
+    tablaAuxiliarId:
+        Tabler: ""
+        Joincolumns: {}
+        Fieldsl: ""
+        Criteria: ""
+tx: null

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>16</nroPresentacion>
+	<fechaPresentacion>2022-01-26</fechaPresentacion>
+	<empleado>
+		<cuit>20142476089</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>MONZON</apellido>
+		<nombre>FABIAN ORLANDO</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1874</cp>
+			<localidad>VILLA DOMINICO</localidad>
+			<calle>PUERO DE PALOS</calle>
+			<nro>71</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20459123963</nroDoc>
+			<apellido>MONZON</apellido>
+			<nombre>MARTIN NICOLAS</nombre>
+			<fechaNac>2004-07-13</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30546741253</nroDoc>
+			<denominacion>OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</denominacion>
+			<descBasica>30546741253 - OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</descBasica>
+			<montoTotal>7416.3</montoTotal>
+			<periodos>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="7416.3"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="3">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30717237184</nroDoc>
+			<denominacion>FRENTE DE TODOS A. P. - ALIANZA</denominacion>
+			<descBasica>30717237184 - FRENTE DE TODOS A. P. - ALIANZA</descBasica>
+			<montoTotal>65000</montoTotal>
+			<periodos>
+				<periodo mesDesde="9" mesHasta="9" montoMensual="15000"/>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="50000"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="8">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>23140713759</nroDoc>
+			<denominacion>RODRIGUEZ ALFREDO RAMON</denominacion>
+			<descBasica>23140713759 - RODRIGUEZ ALFREDO RAMON</descBasica>
+			<montoTotal>92416.16</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="12363.25"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="12363.35"/>
+				<periodo mesDesde="3" mesHasta="4" montoMensual="12363"/>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="12464.22"/>
+				<periodo mesDesde="6" mesHasta="6" montoMensual="18499.34"/>
+				<periodo mesDesde="7" mesHasta="7" montoMensual="12000"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="8">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27950851398</nroDoc>
+			<denominacion>GONZALEZ VILLALBA AURELIA</denominacion>
+			<descBasica>27950851398 - GONZALEZ VILLALBA AURELIA</descBasica>
+			<montoTotal>111000</montoTotal>
+			<periodos>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="28500"/>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="33000"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="49500"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+	<retPerPagos>
+		<retPerPago tipo="27">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30500008454</nroDoc>
+			<denominacion>BANCO SANTANDER RIO SOCIEDAD ANONIMA</denominacion>
+			<descBasica>30500008454 - BANCO SANTANDER RIO SOCIEDAD ANONIMA</descBasica>
+			<montoTotal>7352.1</montoTotal>
+			<periodos>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="7352.1"/>
+			</periodos>
+		</retPerPago>
+	</retPerPagos>
+</presentacion>

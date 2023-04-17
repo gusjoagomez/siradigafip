@@ -1,0 +1,11 @@
+<div class="mb-3 row">
+    <label for="{{.frmname}}_{{.id}}" class="col-sm-2 col-form-label">{{.label}}</label>
+    <div class="col-sm-10">
+      <textarea id="{{.frmname}}_{{.id}}"  name="{{.frmname}}_{{.id}}" {{.options}}>
+      {{.value}}
+      </textarea>
+    </div>
+    {{if .caption}}
+        <small id="{{.id}}_Help" class="form-text text-muted">{{.caption}}</small>
+    {{end}}
+</div>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>13</nroPresentacion>
+	<fechaPresentacion>2022-01-18</fechaPresentacion>
+	<empleado>
+		<cuit>27166775006</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>MENISALE</apellido>
+		<nombre>MONICA GRACIELA</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1408</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>PALMAR</calle>
+			<nro>6611</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30683032227</nroDoc>
+			<denominacion>OBRA SOCIAL UNION PERSONAL DE LA UNION  DEL PERSONAL CIVIL DE LA NACION</denominacion>
+			<descBasica>30683032227 - OBRA SOCIAL UNION PERSONAL DE LA UNION  DEL PERSONAL CIVIL DE LA NACION</descBasica>
+			<montoTotal>8513.8</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="1662.72"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="1142.76"/>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="296.28"/>
+				<periodo mesDesde="6" mesHasta="6" montoMensual="1233.94"/>
+				<periodo mesDesde="7" mesHasta="8" montoMensual="596.66"/>
+				<periodo mesDesde="9" mesHasta="9" montoMensual="1023"/>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="1075.44"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="886.34"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+	<retPerPagos>
+		<retPerPago tipo="27">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30500001735</nroDoc>
+			<denominacion>BANCO DE GALICIA Y BUENOS AIRES S A U</denominacion>
+			<descBasica>30500001735 - BANCO DE GALICIA Y BUENOS AIRES S A U</descBasica>
+			<montoTotal>27036.63</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="3363.5"/>
+				<periodo mesDesde="7" mesHasta="7" montoMensual="5362.88"/>
+				<periodo mesDesde="8" mesHasta="8" montoMensual="5412.75"/>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="7332.5"/>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="5565"/>
+			</periodos>
+		</retPerPago>
+		<retPerPago tipo="28">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30500001735</nroDoc>
+			<denominacion>BANCO DE GALICIA Y BUENOS AIRES S A U</denominacion>
+			<descBasica>30500001735 - BANCO DE GALICIA Y BUENOS AIRES S A U</descBasica>
+			<montoTotal>813.75</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="97.3"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="194.6"/>
+				<periodo mesDesde="4" mesHasta="5" montoMensual="97.3"/>
+				<periodo mesDesde="7" mesHasta="7" montoMensual="118.3"/>
+				<periodo mesDesde="8" mesHasta="10" montoMensual="69.65"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoTarjeta" valor="0"/>
+			</detalles>
+		</retPerPago>
+	</retPerPagos>
+</presentacion>

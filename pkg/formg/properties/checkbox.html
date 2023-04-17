@@ -1,0 +1,4 @@
+<tr>
+    <td>{{.data.label}}</td>
+    <td><input type="checkbox" value="{{.data.value}}" {{ if eq .data.value "1" }}checked{{end}} class="form-check-input mt-0{{if .data.class}} {{.data.class}}{{end}}"{{ range $key, $value := .attr }} {{$key}}="{{$value}}"{{end}}></td>
+</tr>

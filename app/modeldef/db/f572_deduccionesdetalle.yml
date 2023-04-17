@@ -1,0 +1,50 @@
+Schema: siradig
+Table: f572_deduccionesdetalle
+Fields:
+    deduccion_id:
+        Name: deduccion_id
+        Ftype: int4
+        Key: false
+        Required: false
+        Length: 0
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    id:
+        Name: id
+        Ftype: int4
+        Key: true
+        Required: true
+        Length: 0
+        Precision: 32
+        Autoinc: true
+        Api: 0
+        value: null
+    nombre:
+        Name: nombre
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 300
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    valor:
+        Name: valor
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 300
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+Relations:
+    deduccion:
+        Tabler: ""
+        Joincolumns: {}
+        Fieldsl: ""
+        Criteria: ""
+tx: null

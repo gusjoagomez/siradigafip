@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>12</nroPresentacion>
+	<fechaPresentacion>2022-01-04</fechaPresentacion>
+	<empleado>
+		<cuit>27200232157</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>BARRACCHIA</apellido>
+		<nombre>NANCI CLAUDIA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>CARABELAS</calle>
+			<nro>1885</nro>
+		</direccion>
+	</empleado>
+	<agenteRetencion>
+		<cuit>30545867679</cuit>
+		<denominacion>SOCIEDAD ITALIANA DE BENEFICENCIA EN BUENOS AIRES</denominacion>
+	</agenteRetencion>
+</presentacion>

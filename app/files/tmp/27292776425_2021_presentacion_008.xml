@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>8</nroPresentacion>
+	<fechaPresentacion>2022-03-03</fechaPresentacion>
+	<empleado>
+		<cuit>27292776425</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>ORTIZ</apellido>
+		<nombre>ANALIA GABRIELA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>LIMAY</calle>
+			<nro>1470</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30546741253</nroDoc>
+			<denominacion>OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</denominacion>
+			<descBasica>30546741253 - OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</descBasica>
+			<montoTotal>37557.16</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="4421"/>
+				<periodo mesDesde="2" mesHasta="4" montoMensual="2524.71"/>
+				<periodo mesDesde="5" mesHasta="6" montoMensual="3120"/>
+				<periodo mesDesde="8" mesHasta="8" montoMensual="2437.29"/>
+				<periodo mesDesde="9" mesHasta="9" montoMensual="4311.58"/>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="7001.48"/>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="5571.68"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="3">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30717237184</nroDoc>
+			<denominacion>FRENTE DE TODOS A. P. - ALIANZA</denominacion>
+			<descBasica>30717237184 - FRENTE DE TODOS A. P. - ALIANZA</descBasica>
+			<montoTotal>50000</montoTotal>
+			<periodos>
+				<periodo mesDesde="9" mesHasta="9" montoMensual="20000"/>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="30000"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27264164066</nroDoc>
+			<denominacion>SCE MARIELA ALEJANDRA</denominacion>
+			<descBasica>27264164066 - SCE MARIELA ALEJANDRA</descBasica>
+			<montoTotal>6080</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="1280.00"/>
+				<periodo mesDesde="7" mesHasta="7" montoMensual="600.00"/>
+				<periodo mesDesde="8" mesHasta="8" montoMensual="600.00"/>
+				<periodo mesDesde="9" mesHasta="9" montoMensual="600.00"/>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="600.00"/>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="1200.00"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="1200.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="8">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27262279605</nroDoc>
+			<denominacion>APESTEGUIA ELIZABETH EULALIA</denominacion>
+			<descBasica>27262279605 - APESTEGUIA ELIZABETH EULALIA</descBasica>
+			<montoTotal>64932.23</montoTotal>
+			<periodos>
+				<periodo mesDesde="6" mesHasta="7" montoMensual="7999.34"/>
+				<periodo mesDesde="8" mesHasta="8" montoMensual="8905.01"/>
+				<periodo mesDesde="9" mesHasta="10" montoMensual="8937.42"/>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="8976.85"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="13176.85"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

@@ -1,0 +1,55 @@
+Schema: siradig
+Table: f572_relacionatributosgrp
+Fields:
+    active:
+        Name: active
+        Ftype: bool
+        Key: false
+        Required: false
+        Length: 255
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    name:
+        Name: name
+        Ftype: varchar
+        Key: false
+        Required: true
+        Length: 100
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    obj:
+        Name: obj
+        Ftype: varchar
+        Key: true
+        Required: true
+        Length: 7
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    orderlist:
+        Name: orderlist
+        Ftype: int4
+        Key: false
+        Required: true
+        Length: 100
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    property:
+        Name: property
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 255
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+Relations: {}
+tx: null

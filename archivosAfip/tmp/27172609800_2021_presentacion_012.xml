@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>12</nroPresentacion>
+	<fechaPresentacion>2022-02-08</fechaPresentacion>
+	<empleado>
+		<cuit>27172609800</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>LEZCANO</apellido>
+		<nombre>PATRICIA BEATRIZ</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1881</cp>
+			<localidad>SAN FRANCISCO SOLANO (QUILMES)</localidad>
+			<calle>846</calle>
+			<nro>2343</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30546741253</nroDoc>
+			<denominacion>OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</denominacion>
+			<descBasica>30546741253 - OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</descBasica>
+			<montoTotal>112305.9</montoTotal>
+			<periodos>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="5935.41"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="9599.81"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="9098.36"/>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="9533.98"/>
+				<periodo mesDesde="6" mesHasta="6" montoMensual="9723.51"/>
+				<periodo mesDesde="7" mesHasta="7" montoMensual="11311.55"/>
+				<periodo mesDesde="8" mesHasta="8" montoMensual="6685.96"/>
+				<periodo mesDesde="9" mesHasta="9" montoMensual="9969.52"/>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="11730.92"/>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="13003.02"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="15713.86"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+	<retPerPagos>
+		<retPerPago tipo="27">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33999242109</nroDoc>
+			<denominacion>BANCO DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>33999242109 - BANCO DE LA PROVINCIA DE BUENOS AIRES</descBasica>
+			<montoTotal>69702.5</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="6247.5"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="6457.5"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="6807.5"/>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="6947.5"/>
+				<periodo mesDesde="6" mesHasta="6" montoMensual="7017.5"/>
+				<periodo mesDesde="7" mesHasta="7" montoMensual="7105"/>
+				<periodo mesDesde="8" mesHasta="8" montoMensual="7140"/>
+				<periodo mesDesde="9" mesHasta="9" montoMensual="7192.5"/>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="7367.5"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="7420"/>
+			</periodos>
+		</retPerPago>
+	</retPerPagos>
+</presentacion>

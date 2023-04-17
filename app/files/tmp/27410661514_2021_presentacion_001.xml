@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2022-01-06</fechaPresentacion>
+	<empleado>
+		<cuit>27410661514</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>BAÑA</apellido>
+		<nombre>AYELEN LUCIANA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1872</cp>
+			<localidad>SARANDI</localidad>
+			<calle>LUIS MARIA CAMPOS</calle>
+			<nro>2927</nro>
+		</direccion>
+	</empleado>
+	<retPerPagos>
+		<retPerPago tipo="27">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33999242109</nroDoc>
+			<denominacion>BANCO DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>33999242109 - BANCO DE LA PROVINCIA DE BUENOS AIRES</descBasica>
+			<montoTotal>21647.5</montoTotal>
+			<periodos>
+				<periodo mesDesde="7" mesHasta="7" montoMensual="7122.5"/>
+				<periodo mesDesde="8" mesHasta="8" montoMensual="7140"/>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="7385"/>
+			</periodos>
+		</retPerPago>
+	</retPerPagos>
+</presentacion>

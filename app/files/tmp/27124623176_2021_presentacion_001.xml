@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2022-01-21</fechaPresentacion>
+	<empleado>
+		<cuit>27124623176</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>ALMIRON</apellido>
+		<nombre>NORA ELENA</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1268</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>ISABEL LA CATOLICA</calle>
+			<nro>160</nro>
+			<piso>5</piso>
+			<dpto>A</dpto>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30546741253</nroDoc>
+			<denominacion>OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</denominacion>
+			<descBasica>30546741253 - OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</descBasica>
+			<montoTotal>179481.45</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="2" montoMensual="12289.59"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="12719.46"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="13706.79"/>
+				<periodo mesDesde="5" mesHasta="7" montoMensual="14021.72"/>
+				<periodo mesDesde="8" mesHasta="8" montoMensual="15283.26"/>
+				<periodo mesDesde="9" mesHasta="9" montoMensual="16657.92"/>
+				<periodo mesDesde="10" mesHasta="12" montoMensual="18156.56"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+	<retPerPagos>
+		<retPerPago tipo="27">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30500010912</nroDoc>
+			<denominacion>BANCO DE LA NACION ARGENTINA</denominacion>
+			<descBasica>30500010912 - BANCO DE LA NACION ARGENTINA</descBasica>
+			<montoTotal>77863.48</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="11596"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="11986"/>
+				<periodo mesDesde="8" mesHasta="8" montoMensual="13318.49"/>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="13513.5"/>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="13643.49"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="13806"/>
+			</periodos>
+		</retPerPago>
+	</retPerPagos>
+</presentacion>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>13</nroPresentacion>
+	<fechaPresentacion>2022-01-11</fechaPresentacion>
+	<empleado>
+		<cuit>20171720967</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>PANTIGA</apellido>
+		<nombre>ALBERTO MARIANO</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1824</cp>
+			<localidad>LANUS</localidad>
+			<calle>CAMINO GRAL BELGRANO</calle>
+			<nro>1921</nro>
+		</direccion>
+	</empleado>
+	<ganLiqOtrosEmpEnt>
+		<empEnt>
+			<cuit>30648722563</cuit>
+			<denominacion>EMEZETA S. A.</denominacion>
+			<ingresosAportes>
+				<ingAp mes="1">
+					<obraSoc>1232.29</obraSoc>
+					<segSoc>5751.14</segSoc>
+					<sind>616.19</sind>
+					<ganBrut>41079.58</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="2">
+					<obraSoc>1377.48</obraSoc>
+					<segSoc>6428.22</segSoc>
+					<sind>688.74</sind>
+					<ganBrut>45915.89</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="3">
+					<obraSoc>1377.48</obraSoc>
+					<segSoc>6428.22</segSoc>
+					<sind>688.74</sind>
+					<ganBrut>45915.89</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="4">
+					<obraSoc>1710.35</obraSoc>
+					<segSoc>7981.65</segSoc>
+					<sind>855.18</sind>
+					<ganBrut>57011.83</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="5">
+					<obraSoc>1763.95</obraSoc>
+					<segSoc>8231.78</segSoc>
+					<sind>881.98</sind>
+					<ganBrut>58798.44</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="6">
+					<obraSoc>2565.53</obraSoc>
+					<segSoc>11972.46</segSoc>
+					<sind>1282.77</sind>
+					<ganBrut>85517.75</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>28505.92</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="7">
+					<obraSoc>0</obraSoc>
+					<segSoc>0</segSoc>
+					<sind>0</sind>
+					<ganBrut>0</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>12610.29</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+			</ingresosAportes>
+		</empEnt>
+	</ganLiqOtrosEmpEnt>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33677781489</nroDoc>
+			<denominacion>SWISS MEDICAL GROUP S A</denominacion>
+			<descBasica>33677781489 - SWISS MEDICAL GROUP S A</descBasica>
+			<montoTotal>134785.36</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="10295.57"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="10046.93"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="10007.41"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="10282.61"/>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="6262.13"/>
+				<periodo mesDesde="6" mesHasta="6" montoMensual="11657.11"/>
+				<periodo mesDesde="7" mesHasta="7" montoMensual="10960.59"/>
+				<periodo mesDesde="8" mesHasta="8" montoMensual="10917.59"/>
+				<periodo mesDesde="9" mesHasta="9" montoMensual="11904.1"/>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="13522.44"/>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="10066.22"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="18862.66"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="8">
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27226945496</nroDoc>
+			<denominacion>SAAVEDRA PATRICIA MONICA</denominacion>
+			<descBasica>27226945496 - SAAVEDRA PATRICIA MONICA</descBasica>
+			<montoTotal>186010.5</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="14097.55"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="14099.96"/>
+				<periodo mesDesde="3" mesHasta="4" montoMensual="14170.81"/>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="14253.84"/>
+				<periodo mesDesde="6" mesHasta="6" montoMensual="20989.24"/>
+				<periodo mesDesde="7" mesHasta="7" montoMensual="14303.34"/>
+				<periodo mesDesde="8" mesHasta="8" montoMensual="14364.18"/>
+				<periodo mesDesde="9" mesHasta="9" montoMensual="14634.18"/>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="14666.47"/>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="14694.57"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="21565.55"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

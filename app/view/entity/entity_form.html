@@ -1,0 +1,16 @@
+{{ template "base" . }}
+
+{{define "body"}}
+<h1>Entidad</h1>
+
+{{ if .form }}
+   <form action="/entity/edit" name="frm1" id="frm1" method="POST" enctype="multipart/form-data">
+     {{.form.RenderWidgets}}
+     <hr>
+     <input type="submit" value="Grabar datos">
+   </form>
+{{else}}
+   Ouch!!!
+{{ end }}
+
+{{ end }}

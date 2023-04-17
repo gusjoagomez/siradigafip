@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2022-01-28</fechaPresentacion>
+	<empleado>
+		<cuit>27277784675</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>ARLANDI GRANADOS</apellido>
+		<nombre>NATALIA ANDREA</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1128</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>LOPEZ VICENTE</calle>
+			<nro>2261</nro>
+			<piso>4</piso>
+			<dpto>A</dpto>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27557603617</nroDoc>
+			<apellido>RODRIGUEZ URROZ</apellido>
+			<nombre>EMILIA</nombre>
+			<fechaNac>2016-08-21</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27580273012</nroDoc>
+			<apellido>RODRIGUEZ URROZ</apellido>
+			<nombre>LUCIA</nombre>
+			<fechaNac>2019-10-24</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30546771314</nroDoc>
+			<denominacion>MEDICUS SOCIEDAD ANONIMA DE ASISTENCIA MEDICA Y CIENTIFICA</denominacion>
+			<descBasica>30546771314 - MEDICUS SOCIEDAD ANONIMA DE ASISTENCIA MEDICA Y CIENTIFICA</descBasica>
+			<montoTotal>13114.48</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="13114.48"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

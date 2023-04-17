@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2022-01-25</fechaPresentacion>
+	<empleado>
+		<cuit>27100098437</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>GARCIA</apellido>
+		<nombre>ESTHER MABEL</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1013</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>TALCAHUANO</calle>
+			<nro>981</nro>
+			<piso>20</piso>
+			<dpto>j</dpto>
+		</direccion>
+	</empleado>
+	<retPerPagos>
+		<retPerPago tipo="27">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33999242109</nroDoc>
+			<denominacion>BANCO DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>33999242109 - BANCO DE LA PROVINCIA DE BUENOS AIRES</descBasica>
+			<montoTotal>7542.5</montoTotal>
+			<periodos>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="7542.5"/>
+			</periodos>
+		</retPerPago>
+	</retPerPagos>
+</presentacion>

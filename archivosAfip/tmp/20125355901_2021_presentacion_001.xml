@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2022-02-07</fechaPresentacion>
+	<empleado>
+		<cuit>20125355901</cuit>
+		<tipoDoc>86</tipoDoc>
+		<apellido>AZARIO</apellido>
+		<nombre>CARLOS ALBERTO</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1872</cp>
+			<localidad>SARANDI</localidad>
+			<calle>PASAJE 4</calle>
+			<nro>1823</nro>
+			<dpto>182</dpto>
+		</direccion>
+	</empleado>
+	<retPerPagos>
+		<retPerPago tipo="27">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33999242109</nroDoc>
+			<denominacion>BANCO DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>33999242109 - BANCO DE LA PROVINCIA DE BUENOS AIRES</descBasica>
+			<montoTotal>70288.75</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="6317.5"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="3263.75"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="6711.25"/>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="3473.75"/>
+				<periodo mesDesde="6" mesHasta="6" montoMensual="7035"/>
+				<periodo mesDesde="7" mesHasta="7" montoMensual="7070"/>
+				<periodo mesDesde="8" mesHasta="8" montoMensual="7122.5"/>
+				<periodo mesDesde="9" mesHasta="9" montoMensual="7227.5"/>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="7280"/>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="7350"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="7437.5"/>
+			</periodos>
+		</retPerPago>
+	</retPerPagos>
+</presentacion>

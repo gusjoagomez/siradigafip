@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2022-02-08</fechaPresentacion>
+	<empleado>
+		<cuit>20287462477</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>LERICI</apellido>
+		<nombre>ARIEL</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>BLANDENGUES</calle>
+			<nro>2572</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27287477096</nroDoc>
+			<apellido>FRANCES</apellido>
+			<nombre>YUDITH YANINA</nombre>
+			<fechaNac>1980-10-06</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>1</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20511349150</nroDoc>
+			<apellido>LERICI</apellido>
+			<nombre>SANTINO</nombre>
+			<fechaNac>2011-06-28</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30707573690</nroDoc>
+			<denominacion>PRIVAMED  SA</denominacion>
+			<descBasica>30707573690 - PRIVAMED  SA</descBasica>
+			<montoTotal>9940.4</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="5436.04"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="4504.36"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

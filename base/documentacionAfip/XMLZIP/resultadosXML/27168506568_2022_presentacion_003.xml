@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>3</nroPresentacion>
+	<fechaPresentacion>2022-04-08</fechaPresentacion>
+	<empleado>
+		<cuit>27168506568</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>ANTIG</apellido>
+		<nombre>ANDREA SUSANA</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1222</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>SARANDI</calle>
+			<nro>922</nro>
+			<piso>1</piso>
+			<dpto>A</dpto>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30546741253</nroDoc>
+			<denominacion>OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</denominacion>
+			<descBasica>30546741253 - OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</descBasica>
+			<montoTotal>39720.74</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="2" montoMensual="19860.37"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27250718522</nroDoc>
+			<denominacion>NEGROTTO MARIA JIMENA</denominacion>
+			<descBasica>27250718522 - NEGROTTO MARIA JIMENA</descBasica>
+			<montoTotal>3232</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="2000.00"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="1120.00"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="112.00"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

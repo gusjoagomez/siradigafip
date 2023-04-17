@@ -1,0 +1,241 @@
+{{ template "base" . }}
+
+{{define "body"}}
+
+<h1>DETALLE DE PRESENTACIÓN</h1>
+<h5>PRESENTACIÓN TIPO: {{.tipo}}</h5>
+<!--
+<a style="float: right;" href="/project/{{.PR.emplcuit}}/{{.PR.periodo}}/detalle">[Detalle acumulado]</a>
+-->
+<table class="table table-bordered table-sm">
+<thead>
+<tr><th>CUIT</th><th>Periodo</th><th>Envio</th><th>F.Presentación</th><th>TipoDoc</th></tr>
+</thead>
+<tbody>
+<tr><td>{{.PR.emplcuit}}</td><td>{{.PR.periodo}}</td><td>{{.PR.envio}}</td><td>{{.PR.fechapresentacion}}</td></tr>
+</tbody>
+</table>
+
+<table class="table table-bordered table-sm">
+<thead>
+   <tr>
+      <th>Apellido Nombre</th><th>Provincia</th><th>CodPos</th><th>Localidad</th><th>Calle</th><th>Nro</th><th>Piso</th><th>Depto</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+      <td>{{.PR.emplapellido}} {{.PR.emplnombre}}</td>
+      <td>{{.PR.dirprovincia}}</td>
+      <td>{{.PR.dircp}}</td>
+      <td>{{.PR.dirlocalidad}}</td>
+      <td>{{.PR.dircalle}}</td>
+      <td>{{.PR.dirnro}}</td>
+      <td>{{.PR.dirpiso}}</td>
+      <td>{{.PR.dirdpto}}</td>
+   </tr>
+</tbody>
+</table>
+
+{{if .PR.agretcuit}}
+<h5>AGENTE DE RETENCIÓN</h5>
+<table class="table table-bordered table-sm">
+<thead><tr><th>CUIT</th><th>Denominación</th></tr></thead>
+<tbody>
+<tr><td>{{.PR.agretcuit}}</td><td>{{.PR.agretdenominacion}}</td></tr>
+</tbody>
+</table>
+{{- end}}
+
+{{if .CFS }}
+<h5>***CARGAS FAMILIA</h5>
+<table class="table table-bordered table-sm">
+<thead class="btn-primary">
+   <tr>
+   <th>TipoDoc</th><th>NroDoc</th><th>Apellido Nombre</th><th>F.Nac</th><th>M.Desde</th><th>M.Hasta</th><th>Parentesco</th><th>Vigente</th><th>F.Limite</th><th>%Deducción</th>
+   </tr>
+   </thead>
+   <tbody>
+      {{- range $key, $item := .CFS}}
+      <tr>
+         <td>{{$item.tipodoc}}</td>
+         <td>{{$item.nrodoc}}</td>
+         <td>{{$item.apellido}} {{$item.nombre}}</td>
+         <td>{{$item.fechanac}}</td>
+         <td>{{$item.mesdesde}}</td>
+         <td>{{$item.meshasta}}</td>
+         <td>{{$item.parentesco}}</td>
+         <td>{{$item.vigenteproxper}}</td>
+         <td>{{$item.fechalimite}}</td>
+         <td>{{$item.porcdeduccion}}</td>
+      </tr>
+      {{- end}}
+   </tbody>
+</table>
+{{- end}}
+
+{{if .OES }}
+<h5>***OTROS EMPLEADORES</h5>
+<table class="table table-bordered table-sm">
+<thead class="btn-primary">
+   <tr><th>CUIT</th><th>Denominación</th></tr>
+</thead>
+<tbody>
+   {{- range $key, $item := .OES}}
+      <tr><td>{{$item.cuit}}</td><td>{{$item.denominacion}}</td></tr>
+   {{- end}}
+</tbody>
+</table>
+{{- end}}
+
+{{if .DES }}
+<h5>***DEDUCCIONES</h5>
+{{- range $key, $item := .DES}}
+<table class="table table-bordered table-sm">
+   <thead class="btn-secondary">
+      <tr>
+         <th>Tipo</th><th>TipoDoc</th><th>NroDoc</th><th>Denominación</th><th>DescBasica</th><th>DescAdicional</th><th>MontoTotal</th>
+      </tr>
+   </thead>
+   <tbody>   
+   <tr>
+      <td>{{$item.tipo}}</td>
+      <td>{{$item.tipodoc}}</td>
+      <td>{{$item.nrodoc}}</td>
+      <td>{{$item.denominacion}}</td>
+      <td>{{$item.descbasica}}</td>
+      <td>{{$item.descadicional}}</td>
+      <td>{{$item.montototal}}</td>
+   </tr>
+   <tr>
+      <td colspan="7">
+         <div class="row">
+            <div class="col"></div>
+            <div class="col">
+               Detalles
+               <table class="table table-bordered table-sm">
+                  <thead><tr><th>Nombre</th><th>Valor</th></tr></thead>
+                  <tbody>
+                     {{- range $keyx, $itemx := $item.DET }}
+                     <tr><td>{{$itemx.nombre}}</td><td>{{$itemx.valor}}</td></tr>
+                     {{- end}}
+                  </tbody>
+               </table>      
+            </div>
+            <div class="col">
+               Períodos
+               <table class="table table-bordered table-sm">
+                  <thead><tr><th>MesDesde</th><th>MesHasta</th><th>MtoMensual</th></tr></thead>
+                  <tbody>
+                     {{- range $keyx, $itemx := $item.PER }}
+                     <tr><td>{{$itemx.mesdesde}}</td><td>{{$itemx.meshasta}}</td><td>{{$itemx.montomensual}}</td></tr>
+                     {{- end}}                    
+                  </tbody>
+               </table>
+            </div>
+         </div>
+
+      </td>
+   </tr>
+</tbody>
+</table>
+{{- end}}
+{{- end}}
+
+{{if .RES }}
+<h5>***DETALLE DE LAS PERCEPCIONES Y PAGOS A CUENTA</h5>
+{{- range $key, $item := .RES}}
+<table class="table table-bordered table-sm">
+<thead class="btn-primary">
+   <tr>
+      <th>Tipo</th><th>TipoDoc</th><th>NroDoc</th><th>Denominación</th><th>DescBasica</th><th>DescAdicional</th><th>MontoTotal</th>
+   </tr>
+</thead>
+<tbody>
+   <tr>
+      <td>{{$item.tipo}}</td>
+      <td>{{$item.tipodoc}}</td>
+      <td>{{$item.nrodoc}}</td>
+      <td>{{$item.denominacion}}</td>
+      <td>{{$item.descbasica}}</td>
+      <td>{{$item.descadicional}}</td>
+      <td>{{$item.montototal}}</td>
+   </tr>
+   <tr>
+      <td colspan="7">
+         <div class="row">
+            <div class="col"></div>
+            <div class="col">
+               Detalles
+               <table class="table table-bordered table-sm">
+                  <thead><tr><th>Nombre</th><th>Valor</th></tr></thead>
+                  <tbody>
+                     {{- range $keyx, $itemx := $item.DET }}
+                     <tr><td>{{$itemx.nombre}}</td><td>{{$itemx.valor}}</td></tr>
+                     {{- end}}
+                  </tbody>
+               </table>      
+            </div>
+            <div class="col">
+               Períodos
+               <table class="table table-bordered table-sm">
+                  <thead><tr><th>MesDesde</th><th>MesHasta</th><th>MtoMensual</th></tr></thead>
+                  <tbody>
+                     {{- range $keyx, $itemx := $item.PER }}
+                     <tr><td>{{$itemx.mesdesde}}</td><td>{{$itemx.meshasta}}</td><td>{{$itemx.montomensual}}</td></tr>
+                     {{- end}}                    
+                  </tbody>
+               </table>
+            </div>
+         </div>
+      </td>
+   </tr>
+</tbody>
+</table>
+{{- end}}
+{{- end}}
+
+
+{{if .SAS }}
+<h5>***DETALLE DE LOS AJUSTES</h5>
+<table class="table table-bordered table-sm">
+<thead class="btn-primary">
+   <tr>
+      <th>Tipo</th><th>CUIT</th><th>Denominación</th><th>DescBasica</th><th>DescAdicional</th><th>MontoTotal</th><th>Detalles</th>
+   </tr>
+</thead>
+<tbody>
+{{- range $key, $item := .SAS}}
+   <tr>
+      <td>{{$item.tipo}}</td>
+      <td>{{$item.cuit}}</td>
+      <td>{{$item.denominacion}}</td>
+      <td>{{$item.descbasica}}</td>
+      <td>{{$item.descadicional}}</td>
+      <td>{{$item.montototal}}</td>
+      <td>{{$item.detalles}}</td>
+   </tr>
+{{- end}}
+</tbody>
+</table>
+{{- end}}
+
+
+{{if .DAS }}
+<h5>***DATOS ADICIONALES</h5>
+<table class="table table-bordered table-sm">
+<thead class="btn-primary">
+   <tr><th>Nombre</th><th>MesDesde</th><th>MesHasta</th><th>Valor</th></tr>
+</thead>
+<tbody>
+{{- range $key, $item := .DAS}}
+   <tr>
+      <td>{{$item.nombre}}</td>
+      <td>{{$item.mesdesde}}</td>
+      <td>{{$item.meshasta}}</td>
+      <td>{{$item.valor}}</td>
+   </tr>
+{{- end}}
+</tbody>
+</table>
+{{- end}}
+{{ end }}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2022-02-22</fechaPresentacion>
+	<empleado>
+		<cuit>27260108072</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>RAMUNDO</apellido>
+		<nombre>LORENA CECILIA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1872</cp>
+			<localidad>SARANDI</localidad>
+			<calle>PASTEUR</calle>
+			<nro>554</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30546741253</nroDoc>
+			<denominacion>OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</denominacion>
+			<descBasica>30546741253 - OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</descBasica>
+			<montoTotal>21468</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="21468"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

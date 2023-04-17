@@ -1,0 +1,62 @@
+{{ template "base" . }}
+
+{{define "body"}}
+<a href="/entity/{{.enctable}}/ver">[Volver]</a>
+<br>
+<br>
+{{if .flashes}}
+   <div class="alert alert-warning" role="alert">
+   {{range $key, $val := .flashes}}
+      {{$val}}<br>
+   {{end}}
+   </div>
+{{end}}
+<h5>Archivos generados</h5>
+
+{{$curfile := .curfile}}
+{{$enctable := .enctable}}
+
+<ul class="nav nav-pills">
+   {{range $key, $val := .filesnames}}
+   <li class="nav-item">
+     <a class="nav-link{{if eq $curfile $val}} active{{end}}"{{if eq $curfile $val}} aria-current="page"{{end}}  href="/genfiles/{{$enctable}}/{{$val}}/archivos">{{$val}}</a>
+   </li>
+   {{end}}
+</ul>
+<textarea id="code" name="code" style="width:100%; height: 900px;">{{.contenidofile}}</textarea>
+<br>
+<div class="card" style="width: 100%;">
+  <div class="card-body">
+    <strong>¡IMPORTANTE!</strong>:  Recuerde que luego de copiar los archivos al proyecto deberá modificar el archivo  <strong>src/__init__.py </strong> y agregar las siguientes lineas: <br>
+    <br>
+   <strong>&nbsp;&nbsp;&nbsp;&nbsp;from src.modulos.{{.tableplural}}Modulo import {{.tableplural}}Modulo</strong> <br>
+   <strong>&nbsp;&nbsp;&nbsp;&nbsp;app.register_blueprint({{.tableplural}}Modulo)</strong><br>
+  </div>
+</div>
+<br>
+<div class="card" style="width: 100%;">
+   <div class="card-body">
+     <h5 class="card-title">Copiar al proyecto</h5>
+     <p class="card-text">Se copiara el archivo visualizado <strong>({{$curfile}}</strong>) a: <strong>{{.copiara}}</strong></p>
+     <form action="/genfiles/{{$enctable}}/copyfile" method="post" enctype="multipart/form-data">
+     <input type="hidden" id="destino" name="destino" value="{{.copiara}}">
+     <input type="hidden" id="file" name="file" value="{{$curfile}}">
+     <center><input type="submit" id="btncopiar" name="btncopiar" class="btn btn-warning" value="Copiar archivo"></center>
+     </form>
+   </div>
+ </div>
+<script src="/public/lib/codemirror.js"></script>
+<link rel="stylesheet" href="/public/lib/codemirror.css">
+<script src="/public/lib/python.js"></script>
+
+<script>
+   var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+     lineNumbers: true,
+     styleActiveLine: true,
+     matchBrackets: true
+   });
+   //     readOnly: 'nocursor'
+   editor.setSize(null, 600);
+ </script>
+ <br><br><br><br>
+{{ end }}

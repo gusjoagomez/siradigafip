@@ -1,0 +1,94 @@
+{{ template "base" . }}
+
+{{define "body"}}
+<h1 style="width:100%;">Entidad: {{.entidad.entityname}}</h1>
+
+  <div class="row">
+    <div class="col-6">
+      <table class="table table-bordered table-striped table-hover table-sm" id="tbl">
+        <thead>
+          <tr><th colspan="7" style="text-align:center;">CAMPOS DETECTADOS</th></tr>
+          <tr><th>PK</th><th>Label</th><th>Fielname</th><th>Type</th><th>IsNull</th><th>FK table</th><th>FK field</th></tr>
+        </thead>
+        <tbody>
+            {{range $key, $val := .campos}}
+              <tr>
+                <td>{{ if eq $val.pk "1"}}*{{ end}}</td>
+                <td>{{$val.label}}</td><td>{{$val.fieldname}}</td>
+                <td>{{$val.typename}}</td>
+                <td>{{ if eq $val.isnull "0"}}Not Null{{ end}}</td>
+                <td>{{$val.ftable}}</td><td>{{$val.fkey}}</td>
+              </tr>
+            {{end}}
+            <tr><td colspan="7"><strong>Type: s=string, i=integer, t=datetime, d=date, b=bool</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="col-6">
+
+        <table class="table table-bordered table-striped table-hover table-sm" id="tbl">
+        <thead>
+          <tr><th colspan="4" style="text-align:center;">RELACIONES ENCONTRADAS</th></tr>
+          <tr><th>Type</th><th>Field</th><th>TableRel</th><th>FieldRel</th></tr>
+        </thead>
+        <tbody>
+            {{range $key, $val := .relations}}
+              <tr>
+                <td>{{$val.typerel}}</td><td>{{$val.fname}}</td><td>{{$val.tabler}}</td><td>{{$val.fnamepk}}</td>
+              </tr>
+            {{end}}
+          </tbody>
+        </table> 
+      <hr>
+
+      <form action="/genfiles/{{.enctable}}/generate" name="frm1" id="frm1" method="POST" enctype="multipart/form-data">
+      <table class="table table-bordered table-hover table-sm" id="tbl">
+        <thead>
+          <tr><th colspan="3" style="text-align:center;">DATOS ENTIDAD</th></tr>
+          <tr><th>DATA</th><th>VALUE</th><th></th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Entity name</td><td>{{.entidad.entityname}}</td></tr>
+          <tr><td>Tablaname</td><td>{{.entidad.tablename}}</td></tr>
+          <tr><td>Entity name</td><td>{{.entidad.entityname}}</td></tr>
+          <tr>
+            <td>Entity file</td>
+            <td><label for="fentity">{{.entidad.entityfile}}</label></td>
+            <td><input type="checkbox" id="fentity" name="fentity"></td>
+          </tr>
+          <tr>
+            <td>Repository file</td>
+            <td><label for="frepository">{{.entidad.repositoryfile}}</label></td>
+            <td><input type="checkbox" id="frepository" name="frepository"></td>
+          </tr>
+          <tr>
+              <td>Module file</td>
+              <td><label for="fmodule">{{.entidad.modulefile}}</label></td>
+              <td><input type="checkbox" id="fmodule" name="fmodule"></td>
+          </tr>
+          <tr>
+            <td>Script file</td>
+            <td><label for="fscript">{{.entidad.scriptfile}}</label></td>
+            <td><input type="checkbox" id="fscript" name="fscript"></td>
+        </tr>
+          <tr>
+            <td>Test file</td>
+            <td><label for="ftest">{{.entidad.testfile}}</label></td>
+            <td><input type="checkbox" id="ftest" name="ftest"></td>
+          </tr>
+        </tbody>
+      </table>
+      <a href="/genfiles/{{.enctable}}/x/archivos">[Ver archivos generados]</a>
+      <input style="float: right" type="submit" class="btn btn-success" value="GENERAR ARCHIVOS">
+      </form>
+      
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+{{ end }}

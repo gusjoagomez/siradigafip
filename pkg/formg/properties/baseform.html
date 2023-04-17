@@ -1,0 +1,5 @@
+<table class="table table-striped table-hover table-condensed">
+<tr><td>Property</td><td>Value</td></tr>
+	{{ range .fields}}{{ .Render}}{{end}}
+	{{ csrftoken . }}
+</table>

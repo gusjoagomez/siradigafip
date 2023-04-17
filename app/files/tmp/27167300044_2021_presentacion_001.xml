@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2022-01-13</fechaPresentacion>
+	<empleado>
+		<cuit>27167300044</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>RAFUL</apellido>
+		<nombre>ANALIA JORGELINA</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1155</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>PEREZ GALDOS BENITO</calle>
+			<nro>235</nro>
+			<piso>1</piso>
+			<dpto>a</dpto>
+		</direccion>
+	</empleado>
+	<retPerPagos>
+		<retPerPago tipo="27">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33999242109</nroDoc>
+			<denominacion>BANCO DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>33999242109 - BANCO DE LA PROVINCIA DE BUENOS AIRES</descBasica>
+			<montoTotal>7402.5</montoTotal>
+			<periodos>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="7402.5"/>
+			</periodos>
+		</retPerPago>
+	</retPerPagos>
+</presentacion>

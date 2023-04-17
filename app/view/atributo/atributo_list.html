@@ -1,0 +1,65 @@
+{{ template "base" . }}
+
+{{define "body"}}
+
+<table cellspacing="0" cellpadding="0" width="100%">
+<tr>
+  <td><h1>Listas Atributos AFIP vs Atributos Liquidador</h1></td>
+</tr>
+</table>
+<hr>
+<h5>Filtrar datos</h5>
+<table cellspacing="5" cellpadding="5" border="0" class="table table-sn" width="50%">
+<tbody>
+  <tr>
+    <td>Grupo: 
+      <select id="selgrupo" name="selgrupo" class="filtro" data="1">
+      <option value="">TODOS</option>
+        {{- range $key, $val := .grupos}}
+          <option value="{{$val.obj}}">{{$val.obj}} - {{$val.name}}</option>
+        {{- end}}
+      </select>
+    </td>
+    <td><button id="btnfiltro" class="btn btn-primary">Filtrar</button></td>
+  </tr>
+</tbody></table>
+
+<table id="tbl" class="display" style="width:100%">
+<thead><tr><th>*</th><th>Grupo</th><th>CodigoAFIP</th><th>Descrip.AFIP</th><th>Atributo</th></tr>
+</thead>
+</table>
+<script>
+$(document).ready(function() {
+  var table = $('#tbl').DataTable({
+    "ajax": "/atributo/getdata",
+    stateSave: true,
+    "language": { "url": "http://cdn.datatables.net/plug-ins/1.10.16/i18n/Spanish.json"},
+    "columns": [
+      { "data": "atributo_50",
+         "render": function(data, type, row, meta){
+            id=row["grupo"]+"|"+row["codigoafip"]
+            if(type === 'display'){data = '<a href="/atributo/' + id + '/edit">MODIFICAR</a>';}
+            return data;
+         }
+      },
+      {"data": "grupo","searchable": true },
+      {"data": "codigoafip","searchable": true },
+      {"data": "descripafip","searchable": true },
+      {"data": "atributo","searchable": true },
+      ],
+  });
+
+  $('#btnfiltro').on('click', function(e) {
+    e.preventDefault();
+    $('.filtro').each(function( index ) {
+        table.column($(this).attr("data") ).search($(this).val(), true, false);
+    });
+    table.table().draw();
+  });
+});
+</script>
+<style>
+#tbl_filter, .dataTables_filter{display: none;}
+</style>
+
+{{ end }}

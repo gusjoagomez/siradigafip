@@ -1,0 +1,9 @@
+<div class="form-group">
+    <label for="{{.frmname}}_{{.id}}">{{.label}}</label>
+    <textarea id="{{.frmname}}_{{.id}}"  name="{{.frmname}}_{{.id}}" {{.options}}>
+      {{.value}}
+    </textarea>
+    {{if .caption}}
+        <small id="{{.id}}_Help" class="form-text text-muted">{{.caption}}</small>
+    {{end}}
+</div>

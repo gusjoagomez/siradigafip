@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>5</nroPresentacion>
+	<fechaPresentacion>2022-04-09</fechaPresentacion>
+	<empleado>
+		<cuit>27166775006</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>MENISALE</apellido>
+		<nombre>MONICA GRACIELA</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1408</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>PALMAR</calle>
+			<nro>6611</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30683032227</nroDoc>
+			<denominacion>OBRA SOCIAL UNION PERSONAL DE LA UNION  DEL PERSONAL CIVIL DE LA NACION</denominacion>
+			<descBasica>30683032227 - OBRA SOCIAL UNION PERSONAL DE LA UNION  DEL PERSONAL CIVIL DE LA NACION</descBasica>
+			<montoTotal>3386.68</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="2194.26"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="1192.42"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

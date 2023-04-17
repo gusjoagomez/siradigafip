@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>4</nroPresentacion>
+	<fechaPresentacion>2022-01-04</fechaPresentacion>
+	<empleado>
+		<cuit>20170309430</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>PRESTIA</apellido>
+		<nombre>FABIAN HUMBERTO</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1875</cp>
+			<localidad>WILDE</localidad>
+			<calle>RAMON FRANCO</calle>
+			<nro>6171</nro>
+			<dpto>B</dpto>
+		</direccion>
+	</empleado>
+	<ganLiqOtrosEmpEnt>
+		<empEnt>
+			<cuit>30702849515</cuit>
+			<denominacion>INSTITUTO DEL PROFESORADO VERBO         DIVINO</denominacion>
+			<ingresosAportes>
+				<ingAp mes="1">
+					<obraSoc>2696.97</obraSoc>
+					<segSoc>14383.84</segSoc>
+					<sind>4045.45</sind>
+					<ganBrut>92528.98</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="2">
+					<obraSoc>2696.97</obraSoc>
+					<segSoc>14383.84</segSoc>
+					<sind>4045.45</sind>
+					<ganBrut>92528.98</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="3">
+					<obraSoc>3027.87</obraSoc>
+					<segSoc>16148.63</segSoc>
+					<sind>4541.8</sind>
+					<ganBrut>104058.93</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="4">
+					<obraSoc>3027.87</obraSoc>
+					<segSoc>16148.63</segSoc>
+					<sind>4541.8</sind>
+					<ganBrut>104058.93</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="5">
+					<obraSoc>3027.87</obraSoc>
+					<segSoc>4541.8</segSoc>
+					<sind>4541.8</sind>
+					<ganBrut>104058.93</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="6">
+					<obraSoc>4551.8</obraSoc>
+					<segSoc>24222.94</segSoc>
+					<sind>6812.7</sind>
+					<ganBrut>104058.93</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>50464.46</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="7">
+					<obraSoc>3483.6</obraSoc>
+					<segSoc>18579.19</segSoc>
+					<sind>5225.4</sind>
+					<ganBrut>119249.93</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="8">
+					<obraSoc>3483.6</obraSoc>
+					<segSoc>18579.19</segSoc>
+					<sind>5225.4</sind>
+					<ganBrut>119249.93</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="9">
+					<obraSoc>3611.48</obraSoc>
+					<segSoc>19261.25</segSoc>
+					<sind>5417.23</sind>
+					<ganBrut>124212.83</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="10">
+					<obraSoc>3726.81</obraSoc>
+					<segSoc>19876.33</segSoc>
+					<sind>5590.22</sind>
+					<ganBrut>128057.08</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="11">
+					<obraSoc>3939.96</obraSoc>
+					<segSoc>21013.1</segSoc>
+					<sind>5909.93</sind>
+					<ganBrut>131331.85</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="12">
+					<obraSoc>4101.8</obraSoc>
+					<segSoc>21876.26</segSoc>
+					<sind>6152.7</sind>
+					<ganBrut>136726.63</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>65665.92</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+			</ingresosAportes>
+		</empEnt>
+		<empEnt>
+			<cuit>30538521848</cuit>
+			<denominacion>INSTITUTO NTRA SRA DEL PERPETUO SOCORRO</denominacion>
+			<ingresosAportes>
+				<ingAp mes="1">
+					<obraSoc>1245.31</obraSoc>
+					<segSoc>6641.64</segSoc>
+					<sind>1867.96</sind>
+					<ganBrut>44140.2</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="2">
+					<obraSoc>1245.31</obraSoc>
+					<segSoc>6641.64</segSoc>
+					<sind>1867.96</sind>
+					<ganBrut>44140.2</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="3">
+					<obraSoc>1427.14</obraSoc>
+					<segSoc>7611.39</segSoc>
+					<sind>2140.7</sind>
+					<ganBrut>50701.17</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="4">
+					<obraSoc>1427.14</obraSoc>
+					<segSoc>7611.39</segSoc>
+					<sind>2140.7</sind>
+					<ganBrut>50701.17</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="5">
+					<obraSoc>1427.17</obraSoc>
+					<segSoc>7611.39</segSoc>
+					<sind>2140.7</sind>
+					<ganBrut>48701.17</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="6">
+					<obraSoc>2140.71</obraSoc>
+					<segSoc>11417.08</segSoc>
+					<sind>3240.74</sind>
+					<ganBrut>48701.17</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>23785.58</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="7">
+					<obraSoc>1636</obraSoc>
+					<segSoc>8725.31</segSoc>
+					<sind>2453.99</sind>
+					<ganBrut>57663.17</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="8">
+					<obraSoc>1636</obraSoc>
+					<segSoc>8725.31</segSoc>
+					<sind>2453.99</sind>
+					<ganBrut>57663.17</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="9">
+					<obraSoc>1674.63</obraSoc>
+					<segSoc>8931.35</segSoc>
+					<sind>2511.94</sind>
+					<ganBrut>59650.96</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="10">
+					<obraSoc>1737.73</obraSoc>
+					<segSoc>9267.92</segSoc>
+					<sind>2606.6</sind>
+					<ganBrut>61754.47</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="11">
+					<obraSoc>1816.58</obraSoc>
+					<segSoc>9688.44</segSoc>
+					<sind>2724.84</sind>
+					<ganBrut>60552.72</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>0</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+				<ingAp mes="12">
+					<obraSoc>2785.5</obraSoc>
+					<segSoc>14856.5</segSoc>
+					<sind>0</sind>
+					<ganBrut>62576.77</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajuste>0</ajuste>
+					<exeNoAlc>0</exeNoAlc>
+					<sac>30276.36</sac>
+					<horasExtGr>0</horasExtGr>
+					<horasExtEx>0</horasExtEx>
+					<matDid>0</matDid>
+					<gastosMovViat>0</gastosMovViat>
+				</ingAp>
+			</ingresosAportes>
+		</empEnt>
+	</ganLiqOtrosEmpEnt>
+	<deducciones>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30532708059</nroDoc>
+			<denominacion>CAJA DE PREVISION SOCIAL PARA ABOGADOS  DE LA PROVINCIA  DE BUENOS AIRES</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Diciembre - 30532708059 - CAJA DE PREVISION SOCIAL PARA ABOGADOS  DE LA PROVINCIA  DE BUENOS AIRES</descAdicional>
+			<montoTotal>61170</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="12"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30533874912</nroDoc>
+			<denominacion>COLEGIO DE ABOGADOS DE LA PCIA DE BS AS</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Enero - 30533874912 - COLEGIO DE ABOGADOS DE LA PCIA DE BS AS</descAdicional>
+			<montoTotal>38544</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="1"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

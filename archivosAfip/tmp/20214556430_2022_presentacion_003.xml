@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>3</nroPresentacion>
+	<fechaPresentacion>2022-03-18</fechaPresentacion>
+	<empleado>
+		<cuit>20214556430</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>CEBALLOS</apellido>
+		<nombre>SERGIO DANIEL</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1075</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>SANTIAGO DEL ESTERO</calle>
+			<nro>454</nro>
+			<piso>8</piso>
+			<dpto>34</dpto>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27462073289</nroDoc>
+			<apellido>CEBALLOS JUANA LUJAN</apellido>
+			<nombre></nombre>
+			<fechaNac>2004-11-30</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27479403851</nroDoc>
+			<apellido>CEBALLOS</apellido>
+			<nombre>EMILIA DEL PILAR</nombre>
+			<fechaNac>2007-02-08</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30654855168</nroDoc>
+			<denominacion>SWISS MEDICAL S A</denominacion>
+			<descBasica>30654855168 - SWISS MEDICAL S A</descBasica>
+			<montoTotal>56214.82</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="27470.91"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="28743.91"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

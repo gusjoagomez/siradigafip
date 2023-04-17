@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>2</nroPresentacion>
+	<fechaPresentacion>2022-04-05</fechaPresentacion>
+	<empleado>
+		<cuit>27171033247</cuit>
+		<tipoDoc>86</tipoDoc>
+		<apellido>CAMPOS VIVIANA SILVIA</apellido>
+		<nombre></nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>GRAL PAZ</calle>
+			<nro>8</nro>
+			<piso>07</piso>
+			<dpto>B</dpto>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="8">
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27929759074</nroDoc>
+			<denominacion>FLECHA TORALES FERMINA</denominacion>
+			<descBasica>27929759074 - FLECHA TORALES FERMINA</descBasica>
+			<montoTotal>33927.64</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="11164.26"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="10943.88"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="11819.5"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

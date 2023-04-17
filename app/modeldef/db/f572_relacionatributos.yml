@@ -1,0 +1,75 @@
+Schema: siradig
+Table: f572_relacionatributos
+Fields:
+    active:
+        Name: active
+        Ftype: bool
+        Key: false
+        Required: true
+        Length: 25
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    atributo:
+        Name: atributo
+        Ftype: varchar
+        Key: false
+        Required: true
+        Length: 25
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    atributo_50:
+        Name: atributo_50
+        Ftype: varchar
+        Key: false
+        Required: true
+        Length: 25
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    codigoafip:
+        Name: codigoafip
+        Ftype: varchar
+        Key: true
+        Required: true
+        Length: 25
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    descripafip:
+        Name: descripafip
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 300
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    grupo:
+        Name: grupo
+        Ftype: varchar
+        Key: true
+        Required: true
+        Length: 10
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    porc:
+        Name: porc
+        Ftype: bool
+        Key: false
+        Required: false
+        Length: 25
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+Relations: {}
+tx: null

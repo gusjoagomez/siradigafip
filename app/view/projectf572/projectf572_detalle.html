@@ -1,0 +1,80 @@
+{{ template "base" . }}
+
+{{define "body"}}
+
+<h3>Detalle del empleado para el período</h3>
+<table class="table table-bordered table-sm">
+<thead>
+   <tr><th>CUIT</th><th>Periodo</th><th>Empleado</th></tr>
+</thead>
+<tbody>
+   <tr><td>{{.cuit}}</td><td>{{.periodo}}</td><td>{{.apeynom}}</td></tr>
+</tbody>
+</table>
+<br>
+{{$periodo := .periodo}}
+{{$cuit := .cuit}}
+<ul class="nav nav-tabs">
+   {{- range $key, $anio := .anios}}
+   <li class="nav-item">
+     <a class="nav-link{{- if eq $periodo $anio.anio}} active{{- end}}" aria-current="page" href="/project/{{$cuit}}/{{$anio.anio}}/detalle">{{$anio.anio}}</a>
+   </li>
+   {{- end}}
+</ul>
+<div class="tab-content" id="myTabContent">
+   <div class="tab-pane fade show active" role="tabpanel" aria-labelledby="home-tab">
+      <h4>Detalle familia</h4>
+
+      <table class="table table-bordered table-sm">
+         <thead>
+            <tr>
+               <th>Atributo\Mes</th>
+               {{- range $key, $mes := .meses}}
+               <th>{{$mes}}</th>
+               {{- end }}
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+               {{- range $attr, $vals := .grillaFam}}
+               <td>{{$attr}}</td>
+                  {{- range $km, $vm := $vals}}
+                  <td>{{$vm}}%</td>
+                  {{- end }}
+               {{- end }}
+            </tr>
+      </tbody>
+      </table>
+      <br>
+      <h4>Detalle Deducciones </h4>
+      <table class="table table-bordered table-sm">
+         <thead>
+            <tr>
+               <th>Atributo\Mes</th>
+               {{- range $key, $mes := .meses}}
+               <th>{{$mes}}</th>
+               {{- end }}
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+               <td>xxx</td>
+            </tr>
+      </tbody>
+      </table>
+      
+   </div>
+</div>
+
+<style>
+#myTabContent{
+   border-left: 1px solid #dee2e6;
+   border-right: 1px solid #dee2e6;
+   border-bottom: 1px solid #dee2e6;
+   background-color: #fff;
+   padding-right: 10px;
+   padding-left: 10px;
+   min-height: 600px;
+}
+</style>
+{{ end }}

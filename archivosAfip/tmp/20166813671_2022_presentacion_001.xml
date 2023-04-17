@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2022-01-07</fechaPresentacion>
+	<empleado>
+		<cuit>20166813671</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>RIAÑO</apellido>
+		<nombre>HORACIO OSCAR</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1900</cp>
+			<localidad>LA PLATA SUDESTE CALLE 50 AMBAS VEREDAS</localidad>
+			<calle>3</calle>
+			<nro>1640</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30542265317</nroDoc>
+			<denominacion>CAJA DE PREVISION Y SEGURO MEDICO DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Enero - 30542265317 - CAJA DE PREVISION Y SEGURO MEDICO DE LA PROVINCIA DE BUENOS AIRES</descAdicional>
+			<montoTotal>12425</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="1"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

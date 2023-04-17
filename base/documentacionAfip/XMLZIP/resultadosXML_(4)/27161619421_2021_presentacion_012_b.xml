@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>12</nroPresentacion>
+	<fechaPresentacion>2022-01-05</fechaPresentacion>
+	<empleado>
+		<cuit>27161619421</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>RIDOLFI</apellido>
+		<nombre>ROSA CARMEN</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1427</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>CALDAS</calle>
+			<nro>180</nro>
+		</direccion>
+	</empleado>
+	<agenteRetencion>
+		<cuit>34999032089</cuit>
+		<denominacion>GOBIERNO DE LA CIUDAD DE BUENOS AIRES</denominacion>
+	</agenteRetencion>
+</presentacion>

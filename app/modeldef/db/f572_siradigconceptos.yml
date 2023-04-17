@@ -1,0 +1,115 @@
+Schema: siradig
+Table: f572_siradigconceptos
+Fields:
+    anio:
+        Name: anio
+        Ftype: int4
+        Key: false
+        Required: true
+        Length: 0
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    atributo:
+        Name: atributo
+        Ftype: varchar
+        Key: false
+        Required: true
+        Length: 30
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    createdat:
+        Name: createdat
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 30
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    cuit:
+        Name: cuit
+        Ftype: int8
+        Key: false
+        Required: true
+        Length: 0
+        Precision: 64
+        Autoinc: false
+        Api: 0
+        value: null
+    estadoliq:
+        Name: estadoliq
+        Ftype: bpchar
+        Key: false
+        Required: false
+        Length: 1
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    id:
+        Name: id
+        Ftype: int4
+        Key: true
+        Required: true
+        Length: 0
+        Precision: 32
+        Autoinc: true
+        Api: 0
+        value: null
+    legajo:
+        Name: legajo
+        Ftype: int8
+        Key: false
+        Required: true
+        Length: 0
+        Precision: 64
+        Autoinc: false
+        Api: 0
+        value: null
+    mes:
+        Name: mes
+        Ftype: int2
+        Key: false
+        Required: true
+        Length: 0
+        Precision: 16
+        Autoinc: false
+        Api: 0
+        value: null
+    nrover:
+        Name: nrover
+        Ftype: int4
+        Key: false
+        Required: true
+        Length: 0
+        Precision: 32
+        Autoinc: false
+        Api: 0
+        value: null
+    updatedat:
+        Name: updatedat
+        Ftype: timestamp
+        Key: false
+        Required: false
+        Length: 30
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    valor:
+        Name: valor
+        Ftype: numeric
+        Key: false
+        Required: false
+        Length: 30
+        Precision: 10
+        Autoinc: false
+        Api: 0
+        value: null
+Relations: {}
+tx: null

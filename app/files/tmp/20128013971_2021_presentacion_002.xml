@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>2</nroPresentacion>
+	<fechaPresentacion>2022-02-16</fechaPresentacion>
+	<empleado>
+		<cuit>20128013971</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>LONARDI</apellido>
+		<nombre>LUIS ERNESTO</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1643</cp>
+			<localidad>BECCAR</localidad>
+			<calle>USPALLATA</calle>
+			<nro>2510</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="3">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30717237184</nroDoc>
+			<denominacion>FRENTE DE TODOS A. P. - ALIANZA</denominacion>
+			<descBasica>30717237184 - FRENTE DE TODOS A. P. - ALIANZA</descBasica>
+			<montoTotal>60000</montoTotal>
+			<periodos>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="60000"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+	<retPerPagos>
+		<retPerPago tipo="28">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33537186009</nroDoc>
+			<denominacion>HSBC BANK ARGENTINA SA</denominacion>
+			<descBasica>33537186009 - HSBC BANK ARGENTINA SA</descBasica>
+			<montoTotal>790.68</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="653.81"/>
+				<periodo mesDesde="9" mesHasta="9" montoMensual="136.87"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoTarjeta" valor="0"/>
+			</detalles>
+		</retPerPago>
+	</retPerPagos>
+</presentacion>

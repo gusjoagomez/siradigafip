@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>2</nroPresentacion>
+	<fechaPresentacion>2022-04-11</fechaPresentacion>
+	<empleado>
+		<cuit>27361629731</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>CHAMORRO</apellido>
+		<nombre>LORENA TAMARA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1874</cp>
+			<localidad>VILLA DOMINICO</localidad>
+			<calle>Bolivar</calle>
+			<nro>4707</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>20214310180</nroDoc>
+			<denominacion>VELA FERREIRA ATILIO</denominacion>
+			<descBasica>20214310180 - VELA FERREIRA ATILIO</descBasica>
+			<montoTotal>12000</montoTotal>
+			<periodos>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="12000.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27323950712</nroDoc>
+			<denominacion>SALZANO ROXANA LAURA</denominacion>
+			<descBasica>27323950712 - SALZANO ROXANA LAURA</descBasica>
+			<montoTotal>14800</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="14800.00"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

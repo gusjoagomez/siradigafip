@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2021</periodo>
+	<nroPresentacion>7</nroPresentacion>
+	<fechaPresentacion>2022-01-17</fechaPresentacion>
+	<empleado>
+		<cuit>27253986048</cuit>
+		<tipoDoc>86</tipoDoc>
+		<apellido>CATAFFO MARIA ESTHER</apellido>
+		<nombre></nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1834</cp>
+			<localidad>SAN JOSE</localidad>
+			<calle>GABOTO</calle>
+			<nro>5628</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30546741253</nroDoc>
+			<denominacion>OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</denominacion>
+			<descBasica>30546741253 - OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</descBasica>
+			<montoTotal>23727.52</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="4236.74"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="895.05"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="4757.55"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="4405.29"/>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="4601.72"/>
+				<periodo mesDesde="6" mesHasta="6" montoMensual="4831.17"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+	<retPerPagos>
+		<retPerPago tipo="27">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33999242109</nroDoc>
+			<denominacion>BANCO DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>33999242109 - BANCO DE LA PROVINCIA DE BUENOS AIRES</descBasica>
+			<montoTotal>83580</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="6247.5"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="6492.5"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="6632.5"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="6860"/>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="6912.5"/>
+				<periodo mesDesde="6" mesHasta="6" montoMensual="7000"/>
+				<periodo mesDesde="7" mesHasta="7" montoMensual="7052.5"/>
+				<periodo mesDesde="8" mesHasta="8" montoMensual="7122.5"/>
+				<periodo mesDesde="9" mesHasta="9" montoMensual="7210"/>
+				<periodo mesDesde="10" mesHasta="10" montoMensual="7280"/>
+				<periodo mesDesde="11" mesHasta="11" montoMensual="7350"/>
+				<periodo mesDesde="12" mesHasta="12" montoMensual="7420"/>
+			</periodos>
+		</retPerPago>
+	</retPerPagos>
+</presentacion>

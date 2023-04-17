@@ -1,0 +1,65 @@
+Schema: siradig
+Table: f572_siradiglogs
+Fields:
+    descripcion:
+        Name: descripcion
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 255
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    fechahora:
+        Name: fechahora
+        Ftype: timestamp
+        Key: false
+        Required: true
+        Length: 0
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    id:
+        Name: id
+        Ftype: int4
+        Key: true
+        Required: true
+        Length: 0
+        Precision: 32
+        Autoinc: true
+        Api: 0
+        value: null
+    referencia:
+        Name: referencia
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 100
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    sessid:
+        Name: sessid
+        Ftype: varchar
+        Key: false
+        Required: false
+        Length: 100
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+    tipo:
+        Name: tipo
+        Ftype: varchar
+        Key: false
+        Required: true
+        Length: 5
+        Precision: 0
+        Autoinc: false
+        Api: 0
+        value: null
+Relations: {}
+tx: null

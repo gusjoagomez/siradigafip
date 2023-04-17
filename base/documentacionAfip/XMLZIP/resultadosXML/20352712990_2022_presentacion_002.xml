@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>2</nroPresentacion>
+	<fechaPresentacion>2022-03-31</fechaPresentacion>
+	<empleado>
+		<cuit>20352712990</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>TALENTO</apellido>
+		<nombre>JULIAN IGNACIO</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1266</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>PATRICIOS REGTO. AV.</calle>
+			<nro>1485</nro>
+			<piso>2</piso>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>23228584819</nroDoc>
+			<denominacion>ROLDAN GUIDO</denominacion>
+			<descBasica>23228584819 - ROLDAN GUIDO</descBasica>
+			<montoTotal>5560</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="3240.00"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="2320.00"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

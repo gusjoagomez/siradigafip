@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>2</nroPresentacion>
+	<fechaPresentacion>2022-03-11</fechaPresentacion>
+	<empleado>
+		<cuit>27264662872</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>DOMINGUEZ RUIZ</apellido>
+		<nombre>LAURA MARCELA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>CABILDO</calle>
+			<nro>1987</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27471685386</nroDoc>
+			<apellido>SANTAMARIA DELFINA</apellido>
+			<nombre></nombre>
+			<fechaNac>2006-02-09</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30590354798</nroDoc>
+			<denominacion>ASOCIACION MUTUAL SANCOR SALUD</denominacion>
+			<descBasica>30590354798 - ASOCIACION MUTUAL SANCOR SALUD</descBasica>
+			<montoTotal>3090.64</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="1702.25"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="1158.49"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="229.9"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30532708059</nroDoc>
+			<denominacion>CAJA DE PREVISION SOCIAL PARA ABOGADOS  DE LA PROVINCIA  DE BUENOS AIRES</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Enero - 30532708059 - CAJA DE PREVISION SOCIAL PARA ABOGADOS  DE LA PROVINCIA  DE BUENOS AIRES</descAdicional>
+			<montoTotal>6465.55</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="1"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30532708059</nroDoc>
+			<denominacion>CAJA DE PREVISION SOCIAL PARA ABOGADOS  DE LA PROVINCIA  DE BUENOS AIRES</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Febrero - 30532708059 - CAJA DE PREVISION SOCIAL PARA ABOGADOS  DE LA PROVINCIA  DE BUENOS AIRES</descAdicional>
+			<montoTotal>3060</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="2"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30532708059</nroDoc>
+			<denominacion>CAJA DE PREVISION SOCIAL PARA ABOGADOS  DE LA PROVINCIA  DE BUENOS AIRES</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Marzo - 30532708059 - CAJA DE PREVISION SOCIAL PARA ABOGADOS  DE LA PROVINCIA  DE BUENOS AIRES</descAdicional>
+			<montoTotal>6982.9</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="3"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

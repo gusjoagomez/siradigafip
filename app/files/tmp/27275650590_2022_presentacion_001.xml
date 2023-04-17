@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2022</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2022-03-23</fechaPresentacion>
+	<empleado>
+		<cuit>27275650590</cuit>
+		<tipoDoc>86</tipoDoc>
+		<apellido>IORGI</apellido>
+		<nombre>SABRINA LILIAN</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>DIAZ VELEZ</calle>
+			<nro>499</nro>
+			<piso>2</piso>
+			<dpto>2</dpto>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>23458224749</nroDoc>
+			<apellido>PENAYO VALDEZ</apellido>
+			<nombre>SANTINO</nombre>
+			<fechaNac>2007-07-08</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20526463243</nroDoc>
+			<apellido>PENAYO VALDEZ</apellido>
+			<nombre>LAUTARO</nombre>
+			<fechaNac>2012-08-02</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+</presentacion>
