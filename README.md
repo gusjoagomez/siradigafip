@@ -1,18 +1,36 @@
-# siradigafip
+# Siradigafip
   El siguiente es un aplicativo realizado en go para importar a esquema de tablas los datos descargados periodicamente en formato .zip desde la AFIP y representan datos del sistema Siradig.
 
-Requisitos previos.
+### Requisitos previos.
 
 Este aplicativo accede a 2 bases de datos.
+
  * rrhh:  Es la base donde se encuentran las tablas de liquidacion. Dentro de esta base existe un esquema llamado "siradig" con las tablas que soportaran la importacion de dichos archivos .zip.
 
  * legajos: es la base de datos de donde se consultan los empleados y los legajos de las personas representadas en los archivos .zip.
  
  En este proyecto se incluyen estas 2 bases (de ejemplo) para que pueda correr el aplicativo.
+ 
+### **Pasos para deploy base de datos**
+ 
+ Para instalar el entorno de base de datos debera tener instalado docker y docker-compose.
+ 
+Ir a la carpeta de docker:
+
+cd siradigafip/docker/
+
+docker-compose build
+
+docker-compose up -d
+
+Luego de esto deberá restaurar la base de ejemplo con el siguiente script:
+
+cd siradigafip/docker/baseejemplo
+
+./crearbases.sh
 
 
-
-**Pasos para deploy**
+### **Pasos para deploy aplicativo**
 
 1.- Descargarse este proyecto con el comando:
 
@@ -49,9 +67,8 @@ Este aplicativo accede a 2 bases de datos.
      
      * Para ejecutar desde el codigo fuente
      go run importaxml.go -procesar /home/usuario1/resultadosXML.zip
-     
-     
-     
+
+
  Existen una serie de scripts en  /siradigafip/docker/baseejemplo/
      
      
