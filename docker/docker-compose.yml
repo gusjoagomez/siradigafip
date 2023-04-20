@@ -1,0 +1,23 @@
+version: '3.9'
+
+networks:
+  stack_net:
+
+services:      
+  dbserverposgres:
+    build:
+      context: .
+      dockerfile: ./docker/postgres/Dockerfile
+    container_name: 'siradig-postgres'
+    restart: always
+    volumes:
+      - ./postgres/data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB:       passwordadm
+      POSTGRES_USER:     admin
+      POSTGRES_PASSWORD: passwordadmin
+    ports:
+      - '35432:5432'
+    networks:
+      - stack_net
+
