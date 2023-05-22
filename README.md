@@ -73,7 +73,7 @@ cd siradigafip/docker/baseejemplo
 
      
      
- 4.- Para importar los archivos .zip descargados de AFIP
+ 4.- Para version de linea de comandos. Importar los archivos .zip descargados de AFIP
 
      * Para ejecutar desde el archivo binario
      go run importaxml -procesar /home/usuario1/resultadosXML.zip
