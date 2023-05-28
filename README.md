@@ -40,6 +40,19 @@ cd siradigafip/docker/baseejemplo
 2.- El ultimo paso creará un directorio. Ingresar al mismo con:
 
    cd siradigafip
+   
+   
+2.1.-  Configuracion de base de datos
+       DEBERÁ configurar las conexiones a las bases de datos de rrhh y legajos en el archivo ubicado en
+       config/config.conf
+ 
+      [db]
+      # ---- Base de tablas del F572
+      rrhh="postgres://admin:passwordadmin@localhost:35432/rrhh"
+
+      # ---- Base Legajos
+      legajos="postgres://admin:passwordadmin@localhost:35432/legajos"
+
 
 3.- Para la version web, ejecutar:
    
@@ -60,7 +73,7 @@ cd siradigafip/docker/baseejemplo
 
      
      
- 4.- Para importar los archivos .zip descargados de AFIP
+ 4.- Para version de linea de comandos. Importar los archivos .zip descargados de AFIP
 
      * Para ejecutar desde el archivo binario
      go run importaxml -procesar /home/usuario1/resultadosXML.zip
