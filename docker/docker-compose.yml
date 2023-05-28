@@ -9,7 +9,7 @@ services:
       context: .
       dockerfile: ./docker/postgres/Dockerfile
     container_name: 'siradig-postgres'
-    restart: always
+    #restart: always
     volumes:
       - ./postgres/data:/var/lib/postgresql/data
     environment:
