@@ -69,10 +69,9 @@ cd siradigafip/docker/baseejemplo
      go run importaxml.go -procesar /home/usuario1/resultadosXML.zip
 
 
+
+
  Existen una serie de scripts en  /siradigafip/docker/baseejemplo/
-     
-     
- ./crearbases.sh  : (bash script) dropea y crea nuevamente la base de ejemplo
 
 sql_limpiaProceso.sql : (sentencias sql) sql para limpiar las tablas de siradig y probar nuevamente el proceso de importación.
 

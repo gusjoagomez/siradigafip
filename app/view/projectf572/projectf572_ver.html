@@ -5,14 +5,14 @@
 <h1>DETALLE DE PRESENTACIÓN</h1>
 <h5>PRESENTACIÓN TIPO: {{.tipo}}</h5>
 <!--
-<a style="float: right;" href="/project/{{.PR.emplcuit}}/{{.PR.periodo}}/detalle">[Detalle acumulado]</a>
+<a style="float: right;" href="/project/{{.PR.Emplcuit}}/{{.PR.Periodo}}/detalle">[Detalle acumulado]</a>
 -->
 <table class="table table-bordered table-sm">
 <thead>
 <tr><th>CUIT</th><th>Periodo</th><th>Envio</th><th>F.Presentación</th><th>TipoDoc</th></tr>
 </thead>
 <tbody>
-<tr><td>{{.PR.emplcuit}}</td><td>{{.PR.periodo}}</td><td>{{.PR.envio}}</td><td>{{.PR.fechapresentacion}}</td></tr>
+<tr><td>{{.PR.Emplcuit}}</td><td>{{.PR.Periodo}}</td><td>{{.PR.Envio}}</td><td>{{.PR.Fechapresentacion}}</td></tr>
 </tbody>
 </table>
 
@@ -24,24 +24,24 @@
    </thead>
    <tbody>
    <tr>
-      <td>{{.PR.emplapellido}} {{.PR.emplnombre}}</td>
-      <td>{{.PR.dirprovincia}}</td>
-      <td>{{.PR.dircp}}</td>
-      <td>{{.PR.dirlocalidad}}</td>
-      <td>{{.PR.dircalle}}</td>
-      <td>{{.PR.dirnro}}</td>
-      <td>{{.PR.dirpiso}}</td>
-      <td>{{.PR.dirdpto}}</td>
+      <td>{{.PR.Emplapellido}} {{.PR.Emplnombre}}</td>
+      <td>{{.PR.Dirprovincia}}</td>
+      <td>{{.PR.Dircp}}</td>
+      <td>{{.PR.Dirlocalidad}}</td>
+      <td>{{.PR.Dircalle}}</td>
+      <td>{{.PR.Dirnro}}</td>
+      <td>{{.PR.Dirpiso}}</td>
+      <td>{{.PR.Dirdpto}}</td>
    </tr>
 </tbody>
 </table>
 
-{{if .PR.agretcuit}}
+{{if eq .tipo "B"}}
 <h5>AGENTE DE RETENCIÓN</h5>
 <table class="table table-bordered table-sm">
 <thead><tr><th>CUIT</th><th>Denominación</th></tr></thead>
 <tbody>
-<tr><td>{{.PR.agretcuit}}</td><td>{{.PR.agretdenominacion}}</td></tr>
+<tr><td>{{.PR.Agretcuit}}</td><td>{{.PR.Agretdenominacion}}</td></tr>
 </tbody>
 </table>
 {{- end}}
@@ -57,16 +57,16 @@
    <tbody>
       {{- range $key, $item := .CFS}}
       <tr>
-         <td>{{$item.tipodoc}}</td>
-         <td>{{$item.nrodoc}}</td>
-         <td>{{$item.apellido}} {{$item.nombre}}</td>
-         <td>{{$item.fechanac}}</td>
-         <td>{{$item.mesdesde}}</td>
-         <td>{{$item.meshasta}}</td>
-         <td>{{$item.parentesco}}</td>
-         <td>{{$item.vigenteproxper}}</td>
-         <td>{{$item.fechalimite}}</td>
-         <td>{{$item.porcdeduccion}}</td>
+         <td>{{$item.Tipodoc}}</td>
+         <td>{{$item.Nrodoc}}</td>
+         <td>{{$item.Apellido}} {{$item.Nombre}}</td>
+         <td>{{$item.Fechanac}}</td>
+         <td>{{$item.Mesdesde}}</td>
+         <td>{{$item.Meshasta}}</td>
+         <td>{{$item.Parentesco}}</td>
+         <td>{{$item.Vigenteproxper}}</td>
+         <td>{{$item.Fechalimite}}</td>
+         <td>{{$item.Porcdeduccion}}</td>
       </tr>
       {{- end}}
    </tbody>
@@ -81,7 +81,7 @@
 </thead>
 <tbody>
    {{- range $key, $item := .OES}}
-      <tr><td>{{$item.cuit}}</td><td>{{$item.denominacion}}</td></tr>
+      <tr><td>{{$item.Cuit}}</td><td>{{$item.Denominacion}}</td></tr>
    {{- end}}
 </tbody>
 </table>
@@ -98,13 +98,13 @@
    </thead>
    <tbody>   
    <tr>
-      <td>{{$item.tipo}}</td>
-      <td>{{$item.tipodoc}}</td>
-      <td>{{$item.nrodoc}}</td>
-      <td>{{$item.denominacion}}</td>
-      <td>{{$item.descbasica}}</td>
-      <td>{{$item.descadicional}}</td>
-      <td>{{$item.montototal}}</td>
+      <td>{{$item.GEN.Tipo}}</td>
+      <td>{{$item.GEN.Tipodoc}}</td>
+      <td>{{$item.GEN.Nrodoc}}</td>
+      <td>{{$item.GEN.Denominacion}}</td>
+      <td>{{$item.GEN.Descbasica}}</td>
+      <td>{{$item.GEN.Descadicional}}</td>
+      <td>{{$item.GEN.Montototal}}</td>
    </tr>
    <tr>
       <td colspan="7">
@@ -116,7 +116,7 @@
                   <thead><tr><th>Nombre</th><th>Valor</th></tr></thead>
                   <tbody>
                      {{- range $keyx, $itemx := $item.DET }}
-                     <tr><td>{{$itemx.nombre}}</td><td>{{$itemx.valor}}</td></tr>
+                     <tr><td>{{$itemx.Nombre}}</td><td>{{$itemx.Valor}}</td></tr>
                      {{- end}}
                   </tbody>
                </table>      
@@ -127,7 +127,7 @@
                   <thead><tr><th>MesDesde</th><th>MesHasta</th><th>MtoMensual</th></tr></thead>
                   <tbody>
                      {{- range $keyx, $itemx := $item.PER }}
-                     <tr><td>{{$itemx.mesdesde}}</td><td>{{$itemx.meshasta}}</td><td>{{$itemx.montomensual}}</td></tr>
+                     <tr><td>{{$itemx.Mesdesde}}</td><td>{{$itemx.Meshasta}}</td><td>{{$itemx.Montomensual}}</td></tr>
                      {{- end}}                    
                   </tbody>
                </table>
@@ -152,13 +152,13 @@
 </thead>
 <tbody>
    <tr>
-      <td>{{$item.tipo}}</td>
-      <td>{{$item.tipodoc}}</td>
-      <td>{{$item.nrodoc}}</td>
-      <td>{{$item.denominacion}}</td>
-      <td>{{$item.descbasica}}</td>
-      <td>{{$item.descadicional}}</td>
-      <td>{{$item.montototal}}</td>
+      <td>{{$item.GEN.Tipo}}</td>
+      <td>{{$item.GEN.Tipodoc}}</td>
+      <td>{{$item.GEN.Nrodoc}}</td>
+      <td>{{$item.GEN.Denominacion}}</td>
+      <td>{{$item.GEN.Descbasica}}</td>
+      <td>{{$item.GEN.Descadicional}}</td>
+      <td>{{$item.GEN.Montototal}}</td>
    </tr>
    <tr>
       <td colspan="7">
@@ -170,7 +170,7 @@
                   <thead><tr><th>Nombre</th><th>Valor</th></tr></thead>
                   <tbody>
                      {{- range $keyx, $itemx := $item.DET }}
-                     <tr><td>{{$itemx.nombre}}</td><td>{{$itemx.valor}}</td></tr>
+                     <tr><td>{{$itemx.Nombre}}</td><td>{{$itemx.Valor}}</td></tr>
                      {{- end}}
                   </tbody>
                </table>      
@@ -181,7 +181,7 @@
                   <thead><tr><th>MesDesde</th><th>MesHasta</th><th>MtoMensual</th></tr></thead>
                   <tbody>
                      {{- range $keyx, $itemx := $item.PER }}
-                     <tr><td>{{$itemx.mesdesde}}</td><td>{{$itemx.meshasta}}</td><td>{{$itemx.montomensual}}</td></tr>
+                     <tr><td>{{$itemx.Mesdesde}}</td><td>{{$itemx.Meshasta}}</td><td>{{$itemx.Montomensual}}</td></tr>
                      {{- end}}                    
                   </tbody>
                </table>
@@ -206,13 +206,13 @@
 <tbody>
 {{- range $key, $item := .SAS}}
    <tr>
-      <td>{{$item.tipo}}</td>
-      <td>{{$item.cuit}}</td>
-      <td>{{$item.denominacion}}</td>
-      <td>{{$item.descbasica}}</td>
-      <td>{{$item.descadicional}}</td>
-      <td>{{$item.montototal}}</td>
-      <td>{{$item.detalles}}</td>
+      <td>{{$item.Tipo}}</td>
+      <td>{{$item.Cuit}}</td>
+      <td>{{$item.Denominacion}}</td>
+      <td>{{$item.Descbasica}}</td>
+      <td>{{$item.Descadicional}}</td>
+      <td>{{$item.Montototal}}</td>
+      <td>{{$item.Detalles}}</td>
    </tr>
 {{- end}}
 </tbody>
@@ -229,10 +229,10 @@
 <tbody>
 {{- range $key, $item := .DAS}}
    <tr>
-      <td>{{$item.nombre}}</td>
-      <td>{{$item.mesdesde}}</td>
-      <td>{{$item.meshasta}}</td>
-      <td>{{$item.valor}}</td>
+      <td>{{$item.Nombre}}</td>
+      <td>{{$item.Mesdesde}}</td>
+      <td>{{$item.Meshasta}}</td>
+      <td>{{$item.Valor}}</td>
    </tr>
 {{- end}}
 </tbody>

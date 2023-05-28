@@ -6,7 +6,6 @@ import (
 	"io/ioutil"
 	"log"
 	"path/filepath"
-	"reflect"
 	"siradigafip/pkg/config"
 	"siradigafip/pkg/gormfun"
 	models "siradigafip/pkg/modelssiradig"
@@ -15,6 +14,7 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/shopspring/decimal"
 	"gorm.io/gorm"
 )
 
@@ -160,22 +160,26 @@ func insertarPresentacion(CUIT int64, periodo, envio int, db *gorm.DB, px *Prese
 	otrosEmpAttribs := valorParametroOtrosEmp(db)
 
 	// Si ya existe, retorna - No hace nada
-	row := gormfun.FindOne(db, "f572_presentacion", "cuit="+sCUIT+" AND periodo="+sPeriodo+" AND envio="+sEnvio, "id")
-	if (row != nil) && (len(row) > 0) {
-		return mensaje
+	Presentacion := models.F572Presentacion{}
+	resu := db.Where("cuit = ? AND periodo = ? AND envio = ?", sCUIT, sPeriodo, sEnvio).First(&Presentacion)
+	if resu.Error != nil && resu.Error != gorm.ErrRecordNotFound {
+		panic(resu.Error)
 	}
+	// if resu.RowsAffected == 0 {
+	// 	return mensaje
+	// }
 
 	//---- Busca el legajo para SIRADIG
 	config.DB("legajos")
 	gormfun.SetSchema("public")
-	xLegajo := gormfun.FindOne(db, "empleado", "\"nroCuil\"='"+sCUIT+"'", "legajo")
-	if xLegajo["legajo"] == nil {
+	row := db.Raw("SELECT legajo FROM empleado WHERE \"nroCuil\"= ?", sCUIT).Row()
+	if row == nil {
 		Legajo = 0
 		mensajeerr := fmt.Sprintf("** NO se encontro legajo para el CUIT: %s (%s , %s)", sCUIT, px.Empleado.Apellido, px.Empleado.Nombre)
 		fmt.Println(mensajeerr)
 		//return mensaje
 	} else {
-		Legajo = xLegajo["legajo"].(int64)
+		row.Scan(&Legajo)
 	}
 	empleadorCuit := fmt.Sprintf("%v", px.Empleado.Cuit)
 
@@ -222,7 +226,7 @@ func insertarPresentacion(CUIT int64, periodo, envio int, db *gorm.DB, px *Prese
 			Tipo:            uint(unTipo),
 			Tipodoc:         uint(deduccion.TipoDoc),
 			Descbasica:      string(deduccion.DescBasica),
-			Montototal:      uint(deduccion.MontoTotal),
+			Montototal:      decimal.NewFromFloat(float64(deduccion.MontoTotal)),
 			Nrodoc:          string(deduccion.NroDoc),
 			Denominacion:    string(deduccion.Denominacion),
 			Descadicional:   string(deduccion.DescAdicional),
@@ -239,23 +243,24 @@ func insertarPresentacion(CUIT int64, periodo, envio int, db *gorm.DB, px *Prese
 
 			mdesde, err := strconv.ParseUint(periodox.MesDesde, 10, 64)
 			if err != nil {
-				// Error de parseo
+				fmt.Println("Error de parseo MesDesde", err)
 			}
-			mhasta, err := strconv.ParseUint(periodox.MesDesde, 10, 64)
+			mhasta, err := strconv.ParseUint(periodox.MesHasta, 10, 64)
 			if err != nil {
-				// Error de parseo
+				fmt.Println("Error de parseo MesHasta", err)
 			}
-			mtomensual, err := strconv.ParseUint(periodox.MontoMensual, 10, 64)
+			mtomensual, err := strconv.ParseFloat(periodox.MontoMensual, 64)
 			if err != nil {
-				// Error de parseo
+				fmt.Println("Error de parseo MontoMensual", err)
 			}
 
 			per1 := models.F572Deduccionesperiodo{
 				Deduccion_id: uint(deduccionId),
 				Mesdesde:     uint(mdesde),
 				Meshasta:     uint(mhasta),
-				Montomensual: uint(mtomensual),
+				Montomensual: decimal.NewFromFloat(float64(mtomensual)),
 			}
+
 			result := tx.Create(&per1)
 			if result.Error != nil {
 				mensaje = fmt.Sprintf("Error al insertar deduccion-periodo: cuit-periodo-envio-tipo-tipoDoc-MesDesde: %d-%d-%d-%s-%d-%s-%s", CUIT, periodo, envio, deduccion.Tipo, deduccion.TipoDoc, periodox.MesDesde, periodox.MesHasta)
@@ -372,20 +377,20 @@ func insertarPresentacion(CUIT int64, periodo, envio int, db *gorm.DB, px *Prese
 
 				oea := models.F572Otrosemplingaporte{
 					Otrosemp_id:   uint(ganLiqId),
-					Ganbrut:       uint(ingAp.GanBrut),
-					Retgan:        uint(ingAp.RetGan),
-					Exenoalc:      uint(ingAp.ExeNoAlc),
-					Matdid:        uint(ingAp.MatDid),
-					Retribnohab:   uint(ingAp.RetribNoHab),
-					Ajuste:        uint(ingAp.Ajuste),
-					Sac:           uint(ingAp.Sac),
-					Horasextex:    uint(ingAp.HorasExtEx),
-					Gastosmovviat: uint(ingAp.GastosMovViat),
-					Segsoc:        uint(ingAp.SegSoc),
-					Obrasoc:       uint(ingAp.ObraSoc),
-					Horasextgr:    uint(ingAp.HorasExtGr),
+					Ganbrut:       decimal.NewFromFloat(float64(ingAp.GanBrut)),
+					Retgan:        decimal.NewFromFloat(float64(ingAp.RetGan)),
+					Exenoalc:      decimal.NewFromFloat(float64(ingAp.ExeNoAlc)),
+					Matdid:        decimal.NewFromFloat(float64(ingAp.MatDid)),
+					Retribnohab:   decimal.NewFromFloat(float64(ingAp.RetribNoHab)),
+					Ajuste:        decimal.NewFromFloat(float64(ingAp.Ajuste)),
+					Sac:           decimal.NewFromFloat(float64(ingAp.Sac)),
+					Horasextex:    decimal.NewFromFloat(float64(ingAp.HorasExtEx)),
+					Gastosmovviat: decimal.NewFromFloat(float64(ingAp.GastosMovViat)),
+					Segsoc:        decimal.NewFromFloat(float64(ingAp.SegSoc)),
+					Obrasoc:       decimal.NewFromFloat(float64(ingAp.ObraSoc)),
+					Horasextgr:    decimal.NewFromFloat(float64(ingAp.HorasExtGr)),
 					Mes:           uint(unMes),
-					Sind:          uint(ingAp.Sind),
+					Sind:          decimal.NewFromFloat(float64(ingAp.Sind)),
 				}
 
 				result := tx.Create(&oea)
@@ -404,7 +409,7 @@ func insertarPresentacion(CUIT int64, periodo, envio int, db *gorm.DB, px *Prese
 
 					valorstr := fmt.Sprintf("%v", oeaKV[tipo])
 
-					valorP, _ := strconv.ParseUint(valorstr, 10, 64)
+					valorP, _ := strconv.ParseFloat(valorstr, 64)
 					if valorP > 0 {
 						if atributo != "" {
 							mesx, _ := strconv.Atoi(ingAp.Mes)
@@ -417,11 +422,15 @@ func insertarPresentacion(CUIT int64, periodo, envio int, db *gorm.DB, px *Prese
 								"atributo": atributo,
 							}
 
-							registrox, _ := gormfun.GetGormObject(db, reflect.TypeOf(models.F572Siradigconceptos{}), criteria)
+							//registrox, _ := gormfun.GetGormObject(db, reflect.TypeOf(models.F572Siradigconceptos{}), criteria)
+
+							dedu := models.F572Siradigconceptos{}
+							err := db.Where(criteria).First(&dedu).Error
 							/// Si ya existe
-							if registrox != nil {
-								dedu := registrox.(*models.F572Siradigconceptos)
-								dedu.Valor = dedu.Valor + uint(valorP)
+							if err != nil && err != gorm.ErrRecordNotFound {
+								//dedu := registrox.(*models.F572Siradigconceptos)
+								valAux, _ := dedu.Valor.Float64()
+								dedu.Valor = decimal.NewFromFloat(valAux + valorP)
 								result := tx.Save(&dedu)
 								if result.Error != nil {
 									mensaje = fmt.Sprintln("Error al modificar concepto cuit-periodo-envio-atributo: ", CUIT, periodo, envio, atributo)
@@ -437,7 +446,7 @@ func insertarPresentacion(CUIT int64, periodo, envio int, db *gorm.DB, px *Prese
 								dedu.Mes = uint(mesx)
 								dedu.Nrover = uint(envio)
 								dedu.Atributo = atributo
-								dedu.Valor = uint(valorP)
+								dedu.Valor = decimal.NewFromFloat(float64(valorP))
 
 								result := tx.Create(&dedu)
 								if result.Error != nil {
@@ -495,7 +504,7 @@ func insertarPresentacion(CUIT int64, periodo, envio int, db *gorm.DB, px *Prese
 			Descbasica:      string(retpago.DescBasica),
 			Denominacion:    string(retpago.Denominacion),
 			Descadicional:   string(retpago.DescAdicional),
-			Montototal:      uint(retpago.MontoTotal),
+			Montototal:      decimal.NewFromFloat(float64(retpago.MontoTotal)),
 		}
 		result := tx.Create(&rpp)
 		if result.Error != nil {
@@ -514,8 +523,9 @@ func insertarPresentacion(CUIT int64, periodo, envio int, db *gorm.DB, px *Prese
 				Retperpago_id: uint(rppID),
 				Mesdesde:      uint(unMesDesde),
 				Meshasta:      uint(unMesHasta),
-				Montomensual:  uint(unMtoMensual),
+				Montomensual:  decimal.NewFromFloat(float64(unMtoMensual)),
 			}
+
 			result := tx.Create(&rpx)
 			if result.Error != nil {
 				mensaje = fmt.Sprintln("Error al insertar Retperpagos-periodo: cuit-periodo-envio: ", CUIT, periodo, envio)
@@ -546,15 +556,20 @@ func insertarPresentacionB(CUIT int64, periodo, envio int, db *gorm.DB, px *Pres
 	// Recupera la transaccion
 	tx := gormfun.GetTX()
 
-	var mensaje string = ""
-	pr := models.F572Presentacionb{}
+	mensaje := ""
 
 	sCUIT := strconv.FormatInt(CUIT, 10)
 	sEnvio := strconv.Itoa(envio)
 	sPeriodo := strconv.Itoa(periodo)
 	// Si ya existe, retorna - No hace nada
-	row := gormfun.FindOne(db, "f572_presentacion", "cuit="+sCUIT+" AND periodo="+sPeriodo+" AND envio="+sEnvio, "id")
-	if (row != nil) && (len(row) > 0) {
+
+	pr := models.F572Presentacionb{}
+	resu := db.Where("cuit = ? AND periodo = ? AND envio = ?", sCUIT, sPeriodo, sEnvio).First(&pr)
+	if resu.Error != nil && resu.Error != gorm.ErrRecordNotFound {
+		panic(resu.Error)
+	}
+	if resu.RowsAffected > 0 {
+		//YA existe la Presentacion B
 		return mensaje
 	}
 
@@ -591,5 +606,5 @@ func insertarPresentacionB(CUIT int64, periodo, envio int, db *gorm.DB, px *Pres
 // valorParametroOtrosEmp
 // Retorna el campo y su atributo para grabar valores de Otros Empleadores
 func valorParametroOtrosEmp(db *gorm.DB) map[string]string {
-	return gormfun.FindValuesSelect(db, "f572_relacionatributos", "codigoafip", "atributo", "grupo='AFOEMPL' AND active =true", "codigoafip")
+	return gormfun.FindValuesSelect(db, "siradig", "f572_relacionatributos", "codigoafip", "atributo", "grupo='AFOEMPL' AND active=true", "codigoafip")
 }

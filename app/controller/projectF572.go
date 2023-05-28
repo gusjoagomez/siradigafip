@@ -12,6 +12,7 @@ import (
 	"siradigafip/pkg/config"
 	"siradigafip/pkg/f572"
 	"siradigafip/pkg/gormfun"
+	models "siradigafip/pkg/modelssiradig"
 
 	"siradigafip/pkg/mvc"
 	"siradigafip/pkg/tpl"
@@ -117,6 +118,8 @@ func (c *ProjectF572Controller) TraerDatosGrilla(w http.ResponseWriter, r *http.
 func (c *ProjectF572Controller) Ver(w http.ResponseWriter, r *http.Request) {
 	ts := []string{"projectf572/projectf572_ver.html"}
 	m := make(map[string]interface{})
+	Presentacion := models.F572Presentacion{}
+	PresentacionB := models.F572Presentacionb{}
 
 	config.CreateConnections()
 
@@ -131,63 +134,91 @@ func (c *ProjectF572Controller) Ver(w http.ResponseWriter, r *http.Request) {
 		m["tipo"] = strings.ToUpper(params["tipo"])
 		if params["tipo"] == "b" {
 
-			Presentacion := gormfun.FindOne(db, "f572_presentacionb", "id="+id, "*")
-			m["PR"] = Presentacion
+			db.First(&PresentacionB, id)
+			m["PR"] = PresentacionB
 
 			/// Descipcion provincia
-			m["PROV"] = TraerDescripcionProvincia(db, Presentacion["dirprovincia"].(int64))
+			m["PROV"] = TraerDescripcionProvincia(db, int64(PresentacionB.Dirprovincia))
 
 		} else {
-			Presentacion := gormfun.FindOne(db, "f572_presentacion", "id="+id, "*")
+
+			CargasFamilias := []models.F572Cargasfamilia{}
+			OtrosEmpl := []models.F572Otrosempl{}
+			Deducciones := []models.F572Deducciones{}
+			DeduccionesDetalle := []models.F572Deduccionesdetalle{}
+			DeduccionesPeriodo := []models.F572Deduccionesperiodo{}
+			datades := make(map[int]map[string]interface{}, 0)
+			datares := make(map[int]map[string]interface{}, 0)
+
+			db.First(&Presentacion, id)
+			db.Where("presentacion_id = ?", id).Find(&CargasFamilias)
+			db.Where("presentacion_id = ?", id).Find(&OtrosEmpl)
+
 			m["PR"] = Presentacion
-			m["CFS"] = gormfun.Find(db, "f572_cargasfamilia", "presentacion_id="+id, "*")
-			m["OES"] = gormfun.Find(db, "f572_otrosempl", "presentacion_id="+id, "*")
+			m["CFS"] = CargasFamilias
+			m["OES"] = OtrosEmpl
 
 			/// Descipcion provincia
-			m["PROV"] = TraerDescripcionProvincia(db, Presentacion["dirprovincia"].(int64))
+			m["PROV"] = TraerDescripcionProvincia(db, int64(Presentacion.Dirprovincia))
 
 			//----Deducciones--------------------
-			datades := gormfun.Find(db, "f572_deducciones", "presentacion_id="+id, "*")
+			db.Where("presentacion_id = ?", id).Find(&Deducciones)
 
-			for k, item := range datades {
-				id := strconv.FormatInt(item["id"].(int64), 10)
-				deta := gormfun.Find(db, "f572_deduccionesdetalle", "deduccion_id="+id, "*")
-				datades[k]["DET"] = deta
+			for k, item := range Deducciones {
+				id := strconv.FormatInt(int64(item.Id), 10)
+				db.Where("deduccion_id = ?", id).Find(&DeduccionesDetalle)
+				datades[k] = make(map[string]interface{})
+				datades[k]["GEN"] = item
+				datades[k]["DET"] = DeduccionesDetalle
 			}
-			for k, item := range datades {
-				id := strconv.FormatInt(item["id"].(int64), 10)
-				deta := gormfun.Find(db, "f572_deduccionesperiodo", "deduccion_id="+id, "*")
-				datades[k]["PER"] = deta
+			for k, item := range Deducciones {
+				id := strconv.FormatInt(int64(item.Id), 10)
+				db.Where("deduccion_id = ?", id).Find(&DeduccionesPeriodo)
+				datades[k]["PER"] = DeduccionesPeriodo
 			}
 			m["DES"] = datades
 
 			//----RetPerPagos--------------------
-			datares := gormfun.Find(db, "f572_retperpagos", "presentacion_id="+id, "*")
-			for k, item := range datares {
-				id := strconv.FormatInt(item["id"].(int64), 10)
-				detx := gormfun.Find(db, "f572_retperpagosdetalle", "retperpago_id="+id, "*")
-				datares[k]["DET"] = detx
+			RetPerPagos := []models.F572Retperpagos{}
+			RetPerPagosDetalle := []models.F572Retperpagosdetalle{}
+			RetPerPagosPeriodo := []models.F572Retperpagosperiodo{}
+
+			db.Where("presentacion_id = ?", id).Find(&RetPerPagos)
+			for k, item := range RetPerPagos {
+				id := strconv.FormatInt(int64(item.Id), 10)
+				db.Where("retperpago_id = ?", id).Find(&RetPerPagosDetalle)
+				datares[k] = make(map[string]interface{})
+				datares[k]["GEN"] = item
+				datares[k]["DET"] = RetPerPagosDetalle
 			}
-			for k, item := range datares {
-				id := strconv.FormatInt(item["id"].(int64), 10)
-				detx := gormfun.Find(db, "f572_retperpagosperiodo", "retperpago_id="+id, "*")
-				datares[k]["PER"] = detx
+
+			for k, item := range RetPerPagos {
+				id := strconv.FormatInt(int64(item.Id), 10)
+				db.Where("retperpago_id = ?", id).Find(&RetPerPagosPeriodo)
+				datares[k] = make(map[string]interface{})
+				datares[k]["GEN"] = item
+				datares[k]["PER"] = RetPerPagosPeriodo
 			}
 			m["RES"] = datares
 
-			m["SAS"] = gormfun.Find(db, "f572_sajustes", "presentacion_id="+id, "*")
-			m["DAS"] = gormfun.Find(db, "f572_datadicional", "presentacion_id="+id, "*")
+			SAjustes := []models.F572Sajustes{}
+			db.Where("presentacion_id = ?", id).Find(&SAjustes)
+			m["SAS"] = SAjustes
+
+			Datadicional := []models.F572Datadicional{}
+			db.Where("presentacion_id = ?", id).Find(&Datadicional)
+			m["DAS"] = Datadicional
 		}
 	}
+
 	tpl.RenderTemplate(ts, w, m)
 }
 
 func TraerDescripcionProvincia(db *gorm.DB, provId int64) string {
 	codprov := strconv.FormatInt(provId, 10)
-	ret := gormfun.FindOne(db, "f572_relacionatributos", "grupo ='AFPROVI' AND codigoafip ='"+codprov+"'", "descripafip")
-
-	return ret["descripafip"].(string)
-
+	Atributo := models.F572Relacionatributos{}
+	db.Where("grupo ='AFPROVI' AND codigoafip = ?", codprov).Find(&Atributo)
+	return Atributo.Descripafip //ret["descripafip"].(string)
 }
 
 func (c *ProjectF572Controller) Register(r *mux.Router, store *sessions.CookieStore) {

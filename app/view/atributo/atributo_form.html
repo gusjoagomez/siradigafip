@@ -15,9 +15,9 @@
 {{ if .form }}
  <div class="row">
    <div class="col-md-6">
-   <br>Grupo:  <strong>{{.entity.grupo}}</strong>
-   <br>Código AFIP: <strong>{{.entity.codigoafip}}</strong>
-   <br>Descripción AFIP: <strong>{{.entity.descripafip}}</strong>
+   <br>Grupo: <strong>{{.grupo.Obj}}</strong>
+   <br>Código AFIP: <strong>{{.entity.Codigoafip}}</strong>
+   <br>Descripción AFIP: <strong>{{.entity.Descripafip}}</strong>
    <hr>
    <form action="?" name="frm1" id="frm1" method="POST" enctype="multipart/form-data">
      {{.form.RenderWidgets}}

@@ -3,7 +3,6 @@ package controller
 import (
 	"encoding/json"
 	"net/http"
-	"reflect"
 	"strings"
 
 	"siradigafip/pkg/config"
@@ -66,17 +65,23 @@ func (c *AtributoController) Edit(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r)
 	d := strings.Split(params["id"], "|")
 
+	//atributox, _ := gormfun.GetGormObject(db, reflect.TypeOf(models.F572Relacionatributos{}), criteria)
+	//atributo := gormfun.FindOne(db, "f572_relacionatributos", "grupo='"+d[0]+"' AND codigoafip='"+d[1]+"'", "*")
+
 	//--- Busca el Registro ---
 	criteria := map[string]interface{}{"grupo": d[0], "codigoafip": d[1]}
-	atributox, _ := gormfun.GetGormObject(db, reflect.TypeOf(models.F572Relacionatributos{}), criteria)
 
-	atributo := gormfun.FindOne(db, "f572_relacionatributos", "grupo='"+d[0]+"' AND codigoafip='"+d[1]+"'", "*")
+	atributodb := models.F572Relacionatributos{}
+	db.Where(criteria).First(&atributodb)
 
-	form := c.getForm(r, gormfun.GetValuesMapString(atributo))
+	atributogrupo := models.F572Relacionatributosgrp{}
+	db.Where("obj = ? ", d[0]).First(&atributogrupo)
+
+	form := c.getForm(r, gormfun.ObjectToMapString(atributodb))
 	if form.Valid() {
 		data := form.PostValues(r)
 
-		atributodb := atributox.(*models.F572Relacionatributos)
+		//atributodb := atributox.(*models.F572Relacionatributos)
 		atributodb.Atributo = data["atributo"].(string)
 		_, existe := data["atributo_50"]
 		if existe {
@@ -88,7 +93,8 @@ func (c *AtributoController) Edit(w http.ResponseWriter, r *http.Request) {
 	}
 	m := make(map[string]interface{})
 	m["form"] = form
-	m["entity"] = atributo
+	m["entity"] = atributodb
+	m["grupo"] = atributogrupo
 
 	tpl.RenderTemplate(ts, w, m)
 }
@@ -99,7 +105,7 @@ func (c *AtributoController) TraerDatosGrilla(w http.ResponseWriter, r *http.Req
 	var data gormfun.DatatableGrid
 	c.init()
 	db := config.DB("rrhh")
-	data = gormfun.FindForGrid(db, "f572_relacionatributos", "*", "")
+	data = gormfun.FindForGrid(db, "siradig", "f572_relacionatributos", "*", "")
 
 	json.NewEncoder(w).Encode(data)
 }
@@ -110,7 +116,7 @@ func (c *AtributoController) getForm(r *http.Request, data map[string]string) *f
 	db := config.DB("rrhh")
 
 	gormfun.Schema = "public"
-	lista := gormfun.FindValuesSelect(db, "tablaAuxiliarDetalle", "codigoString", "descripcion", "\"tablaAuxiliarId\"="+AtributosRelacionID, "descripcion")
+	lista := gormfun.FindValuesSelect(db, "public", "tablaAuxiliarDetalle", "\"codigoString\"", "descripcion", "\"tablaAuxiliarId\"="+AtributosRelacionID, "descripcion")
 	if data["porc"] == "true" {
 		att100 = "Atributo 100%"
 		att50 = "Atributo 50%"
