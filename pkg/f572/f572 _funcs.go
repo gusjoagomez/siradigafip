@@ -1,6 +1,7 @@
 package f572
 
 import (
+	"fmt"
 	"siradigafip/pkg/gormfun"
 
 	"gorm.io/gorm"
@@ -14,7 +15,10 @@ import (
 func GetRelacionAtributosGrp(db *gorm.DB) []map[string]interface{} {
 	var results []map[string]interface{}
 	sql := "SELECT distinct obj,\"name\" FROM " + gormfun.Schema + ".f572_relacionatributosgrp order by obj"
-	db.Raw(sql).Scan(&results)
+	if err := db.Raw(sql).Scan(&results).Error; err != nil {
+		fmt.Println("Error al ejecutar SQL [funcion GetRelacionAtributosGrp]: ", err)
+		panic(err)
+	}
 	return results
 }
 

@@ -153,11 +153,23 @@ func insertarPresentacion(CUIT int64, periodo, envio int, db *gorm.DB, px *Prese
 	tx := gormfun.GetTX()
 
 	var mensaje string = ""
-	var Legajo int64 //para extraccionSiradig
+	var Legajo uint //para extraccionSiradig
+
 	sCUIT := strconv.FormatInt(CUIT, 10)
 	sEnvio := strconv.Itoa(envio)
 	sPeriodo := strconv.Itoa(periodo)
 	otrosEmpAttribs := valorParametroOtrosEmp(db)
+
+	//---- Busca el legajo para SIRADIG
+	db = config.DB("legajos")
+	db.Raw(`SELECT distinct legajo FROM "public".empleado WHERE "nroCuil"= ?`, sCUIT).Scan(&Legajo)
+	if Legajo == 0 {
+		mensajeerr := fmt.Sprintf("** NO se encontro legajo para el CUIT: %s (%s , %s)", sCUIT, px.Empleado.Apellido, px.Empleado.Nombre)
+		fmt.Println(mensajeerr)
+	}
+
+	db = config.DB("rrhh")
+	gormfun.SetSchema("siradig")
 
 	// Si ya existe, retorna - No hace nada
 	Presentacion := models.F572Presentacion{}
@@ -169,22 +181,7 @@ func insertarPresentacion(CUIT int64, periodo, envio int, db *gorm.DB, px *Prese
 	// 	return mensaje
 	// }
 
-	//---- Busca el legajo para SIRADIG
-	config.DB("legajos")
-	gormfun.SetSchema("public")
-	row := db.Raw("SELECT legajo FROM empleado WHERE \"nroCuil\"= ?", sCUIT).Row()
-	if row == nil {
-		Legajo = 0
-		mensajeerr := fmt.Sprintf("** NO se encontro legajo para el CUIT: %s (%s , %s)", sCUIT, px.Empleado.Apellido, px.Empleado.Nombre)
-		fmt.Println(mensajeerr)
-		//return mensaje
-	} else {
-		row.Scan(&Legajo)
-	}
 	empleadorCuit := fmt.Sprintf("%v", px.Empleado.Cuit)
-
-	config.DB("rrhh")
-	gormfun.SetSchema("siradig")
 
 	//---- Busca el legajo
 	pr := models.F572Presentacion{}

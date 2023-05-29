@@ -27,7 +27,7 @@ func (e *F572Siradigconceptos) TableName() string {
 	return "siradig.f572_siradigconceptos"
 }
 
-func (c *F572Siradigconceptos) SetGrupoTipo(db *gorm.DB, legajo, cuit int64, anio, mes, version int, grupo, tipo string, valor float64) bool {
+func (c *F572Siradigconceptos) SetGrupoTipo(db *gorm.DB, legajo uint, cuit int64, anio, mes, version int, grupo, tipo string, valor float64) bool {
 	var ret bool = false
 
 	Atributo := F572Relacionatributos{}
@@ -38,7 +38,7 @@ func (c *F572Siradigconceptos) SetGrupoTipo(db *gorm.DB, legajo, cuit int64, ani
 		c.Anio = uint(anio)
 		c.Mes = uint(mes)
 		c.Nrover = uint(version)
-		c.Atributo = Atributo.Codigoafip
+		c.Atributo = Atributo.Atributo
 		c.Valor = decimal.NewFromFloat(valor)
 		ret = true
 	} else {
