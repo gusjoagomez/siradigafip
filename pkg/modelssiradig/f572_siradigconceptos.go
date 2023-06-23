@@ -18,8 +18,8 @@ type F572Siradigconceptos struct {
 	Nrover    uint            `json:"nrover" gorm:"not null;type:int4;column:nrover"`
 	Atributo  string          `json:"atributo" gorm:"not null;type:varchar(30);column:atributo"`
 	Valor     decimal.Decimal `json:"valor" gorm:"type:numeric(10,2);column:valor"`
-	Createdat time.Time       `json:"createdat" gorm:"type:timestamp;column:createdat"`
-	Updatedat time.Time       `json:"updatedat" gorm:"type:timestamp;column:updatedat"`
+	CreatedAt time.Time       `json:"createdat" gorm:"type:timestamp;column:createdat;not null"`
+	UpdatedAt time.Time       `json:"updatedat" gorm:"type:timestamp;column:updatedat;not null"`
 	Estadoliq string          `json:"estadoliq" gorm:"type:varchar(1);column:estadoliq"`
 }
 

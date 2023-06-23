@@ -24,8 +24,8 @@ type F572Presentacion struct {
 	Dirpiso           string    `json:"dirpiso" gorm:"type:varchar(5);column:dirpiso"`
 	Dirdpto           string    `json:"dirdpto" gorm:"type:varchar(5);column:dirdpto"`
 	File_id           uint      `json:"file_id" gorm:"type:int4;column:file_id"`
-	Createdat         time.Time `json:"createdat" gorm:"type:timestamp;column:createdat"`
-	Updatedat         time.Time `json:"updatedat" gorm:"type:timestamp;column:updatedat"`
+	CreatedAt         time.Time `json:"createdat" gorm:"type:timestamp;column:createdat;not null"`
+	UpdatedAt         time.Time `json:"updatedat" gorm:"type:timestamp;column:updatedat;not null"`
 }
 
 func (e *F572Presentacion) TableName() string {
