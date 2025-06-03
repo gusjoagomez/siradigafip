@@ -29,6 +29,13 @@ cd siradigafip/docker/baseejemplo
 
 ./crearbases.sh
 
+### **Pasos generar un archivo binario (EJECUTABLE) **
+
+Simplemente debará compilarlo con la sentencia de go llamada build:
+
+   go build siradigafip.go
+
+Luego de esto encontrará un archivo ejecutable en el raiz del proyecto.
 
 ### **Pasos para deploy aplicativo**
 
@@ -76,7 +83,7 @@ cd siradigafip/docker/baseejemplo
  4.- Para version de linea de comandos. Importar los archivos .zip descargados de AFIP
 
      * Para ejecutar desde el archivo binario
-     go run importaxml -procesar /home/usuario1/resultadosXML.zip
+     ./importaxml -procesar /home/usuario1/resultadosXML.zip
      
      * Para ejecutar desde el codigo fuente
      go run importaxml.go -procesar /home/usuario1/resultadosXML.zip
