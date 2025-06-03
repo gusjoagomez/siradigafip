@@ -179,7 +179,7 @@ func insertarPresentacion(CUIT int64, periodo, envio int, db *gorm.DB, px *Prese
 	}
 	if resu.RowsAffected > 0 {
 		// Si ya existe, retorna sin mensaje. Hace nada!
-		return fmt.Sprintf("Ya existe presentacion (cuit-periodo-envio): %v %v %v", sCUIT, sPeriodo, sEnvio)
+		return mensaje
 	}
 
 	empleadorCuit := fmt.Sprintf("%v", px.Empleado.Cuit)
