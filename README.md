@@ -29,7 +29,7 @@ cd siradigafip/docker/baseejemplo
 
 ./crearbases.sh
 
-### **Pasos generar un archivo binario (EJECUTABLE) **
+### Pasos generar un archivo binario (EJECUTABLE)
 
 Simplemente debará compilarlo con la sentencia de go llamada build:
 
