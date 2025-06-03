@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>3</nroPresentacion>
+	<fechaPresentacion>2025-04-21</fechaPresentacion>
+	<empleado>
+		<cuit>27253986048</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>CATAFFO</apellido>
+		<nombre>MARIA ESTHER</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>MARIANO ACOSTA</calle>
+			<nro>117</nro>
+			<piso>1</piso>
+			<dpto>B</dpto>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30546741253</nroDoc>
+			<denominacion>OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</denominacion>
+			<descBasica>30546741253 - OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</descBasica>
+			<montoTotal>448100.89</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="120647.28"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="57064.99"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="132083.88"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="138304.74"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

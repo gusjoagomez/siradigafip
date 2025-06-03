@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-01-21</fechaPresentacion>
+	<empleado>
+		<cuit>20147676736</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>BARRUECO</apellido>
+		<nombre>HUGO DINO</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1872</cp>
+			<localidad>SARANDI</localidad>
+			<calle>PASTEUR</calle>
+			<nro>227</nro>
+		</direccion>
+	</empleado>
+</presentacion>

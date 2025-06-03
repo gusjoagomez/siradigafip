@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>2</nroPresentacion>
+	<fechaPresentacion>2025-04-03</fechaPresentacion>
+	<empleado>
+		<cuit>27381551097</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>MACIA</apellido>
+		<nombre>MACARENA ROCIO</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1869</cp>
+			<localidad>GERLI</localidad>
+			<calle>AGUERO</calle>
+			<nro>1415</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20594962347</nroDoc>
+			<apellido>ALDECO</apellido>
+			<nombre>VALENTINO MILO</nombre>
+			<fechaNac>2022-09-11</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+</presentacion>

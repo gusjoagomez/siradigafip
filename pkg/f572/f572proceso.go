@@ -177,9 +177,10 @@ func insertarPresentacion(CUIT int64, periodo, envio int, db *gorm.DB, px *Prese
 	if resu.Error != nil && resu.Error != gorm.ErrRecordNotFound {
 		panic(resu.Error)
 	}
-	// if resu.RowsAffected == 0 {
-	// 	return mensaje
-	// }
+	if resu.RowsAffected > 0 {
+		// Si ya existe, retorna sin mensaje. Hace nada!
+		return fmt.Sprintf("Ya existe presentacion (cuit-periodo-envio): %v %v %v", sCUIT, sPeriodo, sEnvio)
+	}
 
 	empleadorCuit := fmt.Sprintf("%v", px.Empleado.Cuit)
 
@@ -204,7 +205,7 @@ func insertarPresentacion(CUIT int64, periodo, envio int, db *gorm.DB, px *Prese
 
 	result := tx.Create(&pr)
 	if result.Error != nil {
-		mensaje = fmt.Sprintf("Error al insertar presentacion: cuit-periodo-envio: %d-%d-%d", CUIT, periodo, envio)
+		//mensaje = fmt.Sprintf("Error al insertar presentacion: cuit-periodo-envio: %d-%d-%d", CUIT, periodo, envio)
 		return mensaje
 	}
 	presentacionId := pr.Id

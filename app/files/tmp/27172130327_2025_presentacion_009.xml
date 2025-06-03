@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>9</nroPresentacion>
+	<fechaPresentacion>2025-05-05</fechaPresentacion>
+	<empleado>
+		<cuit>27172130327</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>SORIA</apellido>
+		<nombre>MARIA FABIANA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1874</cp>
+			<localidad>VILLA DOMINICO</localidad>
+			<calle>avda. belgrano</calle>
+			<nro>4040</nro>
+			<piso>p b </piso>
+			<dpto>3</dpto>
+		</direccion>
+	</empleado>
+	<ganLiqOtrosEmpEnt>
+		<empEnt>
+			<cuit>30542265317</cuit>
+			<denominacion>CAJA DE PREVISION Y SEGURO MEDICO DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<convenioColectivo></convenioColectivo>
+			<transporteLargaDist></transporteLargaDist>
+			<transporteTerrLargaDist></transporteTerrLargaDist>
+			<ingresosAportes>
+				<ingAp mes="1">
+					<obraSoc>0</obraSoc>
+					<segSocANSES>0</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>268899.28</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>222989.65</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+				<ingAp mes="2">
+					<obraSoc>0</obraSoc>
+					<segSocANSES>0</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>268899.28</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>222989.65</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+				<ingAp mes="3">
+					<obraSoc>0</obraSoc>
+					<segSocANSES>0</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>275244.85</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>228251.83</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+				<ingAp mes="4">
+					<obraSoc>0</obraSoc>
+					<segSocANSES>0</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>275244.85</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>228251.83</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+			</ingresosAportes>
+		</empEnt>
+		<empEnt>
+			<cuit>33633178009</cuit>
+			<denominacion>INSTITUTO DE PREVISION SOCIAL DE LA PCIA DE BS AS</denominacion>
+			<convenioColectivo></convenioColectivo>
+			<transporteLargaDist></transporteLargaDist>
+			<transporteTerrLargaDist></transporteTerrLargaDist>
+			<ingresosAportes>
+				<ingAp mes="1">
+					<obraSoc>4145.68</obraSoc>
+					<segSocANSES>0</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>870252.51</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+				<ingAp mes="2">
+					<obraSoc>4145.68</obraSoc>
+					<segSocANSES>0</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>870252.51</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+				<ingAp mes="3">
+					<obraSoc>4145.68</obraSoc>
+					<segSocANSES>0</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>870252.51</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+				<ingAp mes="4">
+					<obraSoc>51467.6</obraSoc>
+					<segSocANSES>0</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>1072241.88</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>79055.54</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>79055.54</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+			</ingresosAportes>
+		</empEnt>
+	</ganLiqOtrosEmpEnt>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30590354798</nroDoc>
+			<denominacion>ASOCIACION MUTUAL SANCOR SALUD</denominacion>
+			<descBasica>30590354798 - ASOCIACION MUTUAL SANCOR SALUD</descBasica>
+			<montoTotal>1340794.18</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="372147.8"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="307802.71"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="255746.77"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="405096.9"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

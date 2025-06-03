@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-01-16</fechaPresentacion>
+	<empleado>
+		<cuit>20281747704</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>SANTAGADA</apellido>
+		<nombre>GERMAN LUIS</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>HIPOLITO YRIGOYEN</calle>
+			<nro>1202</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27701439819</nroDoc>
+			<apellido>MANZELLI SANTAGADA</apellido>
+			<nombre>VITA</nombre>
+			<fechaNac>2024-02-23</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+</presentacion>

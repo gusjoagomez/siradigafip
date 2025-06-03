@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>4</nroPresentacion>
+	<fechaPresentacion>2025-05-15</fechaPresentacion>
+	<empleado>
+		<cuit>20182349586</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>MARTIN</apellido>
+		<nombre>MIGUEL ANGEL</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1156</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>BRAUN MENENDEZ E.DR.</calle>
+			<nro>235</nro>
+			<piso>PB</piso>
+			<dpto>4</dpto>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27490051274</nroDoc>
+			<apellido>MARTIN CAMILA ZOE</apellido>
+			<nombre></nombre>
+			<fechaNac>2008-11-18</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<deducciones>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30610211638</nroDoc>
+			<denominacion>INSTITUCION SALESIANA</denominacion>
+			<descBasica>30610211638 - INSTITUCION SALESIANA</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 27490051274 - MARTIN CAMILA ZOE - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>181580</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="181580.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="27490051274"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="MARTIN CAMILA ZOE"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30610211638</nroDoc>
+			<denominacion>INSTITUCION SALESIANA</denominacion>
+			<descBasica>30610211638 - INSTITUCION SALESIANA</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 27490051274 - MARTIN CAMILA ZOE - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>181580</montoTotal>
+			<periodos>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="181580.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="27490051274"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="MARTIN CAMILA ZOE"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30610211638</nroDoc>
+			<denominacion>INSTITUCION SALESIANA</denominacion>
+			<descBasica>30610211638 - INSTITUCION SALESIANA</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 27490051274 - MARTIN CAMILA ZOE - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>190960</montoTotal>
+			<periodos>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="190960.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="27490051274"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="MARTIN CAMILA ZOE"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

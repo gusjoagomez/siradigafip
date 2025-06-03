@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-05-05</fechaPresentacion>
+	<empleado>
+		<cuit>27367215750</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>GARCIA DARQUIBEL</apellido>
+		<nombre>MAYRA ANTONELLA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1876</cp>
+			<localidad>BERNAL</localidad>
+			<calle>PRINGLES</calle>
+			<nro>209</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="21">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>23229966529</nroDoc>
+			<denominacion>VILA MAURO JAVIER</denominacion>
+			<descBasica>23229966529 - VILA MAURO JAVIER</descBasica>
+			<montoTotal>36000</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="36000.00"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

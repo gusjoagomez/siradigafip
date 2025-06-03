@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>6</nroPresentacion>
+	<fechaPresentacion>2025-05-12</fechaPresentacion>
+	<empleado>
+		<cuit>27171033247</cuit>
+		<tipoDoc>86</tipoDoc>
+		<apellido>CAMPOS VIVIANA SILVIA</apellido>
+		<nombre></nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>GRAL PAZ</calle>
+			<nro>8</nro>
+			<piso>07</piso>
+			<dpto>B</dpto>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30546741253</nroDoc>
+			<denominacion>OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</denominacion>
+			<descBasica>30546741253 - OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</descBasica>
+			<montoTotal>1973680.06</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="476100.57"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="489007.55"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="498297.03"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="510274.91"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="8">
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27929759074</nroDoc>
+			<denominacion>FLECHA TORALES FERMINA</denominacion>
+			<descBasica>27929759074 - FLECHA TORALES FERMINA</descBasica>
+			<montoTotal>294178.91</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="88264.08"/>
+				<periodo mesDesde="2" mesHasta="3" montoMensual="68594.61"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="68725.61"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

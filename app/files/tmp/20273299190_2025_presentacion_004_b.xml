@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2025</periodo>
+	<nroPresentacion>4</nroPresentacion>
+	<fechaPresentacion>2025-05-05</fechaPresentacion>
+	<empleado>
+		<cuit>20273299190</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>NUÑEZ</apellido>
+		<nombre>MARTIN SEBASTIAN</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1874</cp>
+			<localidad>VILLA DOMINICO</localidad>
+			<calle>ALTOLAGUIRRE</calle>
+			<nro>38</nro>
+		</direccion>
+	</empleado>
+	<agenteRetencion>
+		<cuit>30659863789</cuit>
+		<denominacion>SERVICIO ELECTRONICO DE PAGO SA</denominacion>
+	</agenteRetencion>
+</presentacion>

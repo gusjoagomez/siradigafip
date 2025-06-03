@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-01-16</fechaPresentacion>
+	<empleado>
+		<cuit>20142476089</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>MONZON</apellido>
+		<nombre>FABIAN ORLANDO</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1874</cp>
+			<localidad>VILLA DOMINICO</localidad>
+			<calle>PUERO DE PALOS</calle>
+			<nro>71</nro>
+		</direccion>
+	</empleado>
+</presentacion>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-03-27</fechaPresentacion>
+	<empleado>
+		<cuit>27250276422</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>ESPINDOLA</apellido>
+		<nombre>NATALIA SILVINA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1824</cp>
+			<localidad>LANUS</localidad>
+			<calle>FRAY MAMERTO ESQUIU</calle>
+			<nro>1077</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27551673389</nroDoc>
+			<apellido>SAGOT DUVAUROUX</apellido>
+			<nombre>HELENA</nombre>
+			<fechaNac>2015-11-17</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>23500306874</nroDoc>
+			<apellido>SAGOT DUVAUROUX TRINIDAD NATALIA</apellido>
+			<nombre></nombre>
+			<fechaNac>2010-02-07</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+</presentacion>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2025</periodo>
+	<nroPresentacion>4</nroPresentacion>
+	<fechaPresentacion>2025-05-06</fechaPresentacion>
+	<empleado>
+		<cuit>23076078149</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>FARIÑA</apellido>
+		<nombre>OSCAR ALBERTO</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>E ZEBALLOS</calle>
+			<nro>2479</nro>
+		</direccion>
+	</empleado>
+	<agenteRetencion>
+		<cuit>33633178009</cuit>
+		<denominacion>INSTITUTO DE PREVISION SOCIAL DE LA PCIA DE BS AS</denominacion>
+	</agenteRetencion>
+</presentacion>

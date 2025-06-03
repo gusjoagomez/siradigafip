@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>4</nroPresentacion>
+	<fechaPresentacion>2025-05-08</fechaPresentacion>
+	<empleado>
+		<cuit>20166806330</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>CASCARINO</apellido>
+		<nombre>JOSE LUIS</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1875</cp>
+			<localidad>WILDE</localidad>
+			<calle>RAQUEL ESPAÑOL</calle>
+			<nro>520</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30707972552</nroDoc>
+			<denominacion>BRISTOL MEDICINE S. R. L.</denominacion>
+			<descBasica>30707972552 - BRISTOL MEDICINE S. R. L.</descBasica>
+			<montoTotal>2170604.31</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="433103.04"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="450004.38"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="456593.52"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="341604.01"/>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="489299.36"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30554492211</nroDoc>
+			<denominacion>CAJA DE SEGURIDAD SOCIAL PARA ODONTOLOGOS DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Enero - 30554492211 - CAJA DE SEGURIDAD SOCIAL PARA ODONTOLOGOS DE LA PROVINCIA DE BUENOS AIRES</descAdicional>
+			<montoTotal>86842.32</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="1"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30554492211</nroDoc>
+			<denominacion>CAJA DE SEGURIDAD SOCIAL PARA ODONTOLOGOS DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Febrero - 30554492211 - CAJA DE SEGURIDAD SOCIAL PARA ODONTOLOGOS DE LA PROVINCIA DE BUENOS AIRES</descAdicional>
+			<montoTotal>89085.12</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="2"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30554492211</nroDoc>
+			<denominacion>CAJA DE SEGURIDAD SOCIAL PARA ODONTOLOGOS DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Marzo - 30554492211 - CAJA DE SEGURIDAD SOCIAL PARA ODONTOLOGOS DE LA PROVINCIA DE BUENOS AIRES</descAdicional>
+			<montoTotal>90971.82</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="3"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30554492211</nroDoc>
+			<denominacion>CAJA DE SEGURIDAD SOCIAL PARA ODONTOLOGOS DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Abril - 30554492211 - CAJA DE SEGURIDAD SOCIAL PARA ODONTOLOGOS DE LA PROVINCIA DE BUENOS AIRES</descAdicional>
+			<montoTotal>95084.37</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="4"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30554492211</nroDoc>
+			<denominacion>CAJA DE SEGURIDAD SOCIAL PARA ODONTOLOGOS DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Mayo - 30554492211 - CAJA DE SEGURIDAD SOCIAL PARA ODONTOLOGOS DE LA PROVINCIA DE BUENOS AIRES</descAdicional>
+			<montoTotal>98434.97</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="5"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

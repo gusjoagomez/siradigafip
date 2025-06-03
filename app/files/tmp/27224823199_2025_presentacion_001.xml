@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-03-18</fechaPresentacion>
+	<empleado>
+		<cuit>27224823199</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>BASILE</apellido>
+		<nombre>ANDREA FABIANA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1872</cp>
+			<localidad>SARANDI</localidad>
+			<calle>ZEBALLOS</calle>
+			<nro>3827</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20504904181</nroDoc>
+			<apellido>GONZALEZ</apellido>
+			<nombre>MATEO FACUNDO</nombre>
+			<fechaNac>2010-07-14</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<deducciones>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30662184140</nroDoc>
+			<denominacion>CENEDUC SAN PATRICIO S. A.</denominacion>
+			<descBasica>30662184140 - CENEDUC SAN PATRICIO S. A.</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20504904181 - GONZALEZ, MATEO FACUNDO - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>409604</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="409604.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20504904181"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="GONZALEZ, MATEO FACUNDO"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

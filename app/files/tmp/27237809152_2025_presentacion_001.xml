@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-03-19</fechaPresentacion>
+	<empleado>
+		<cuit>27237809152</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>LO FARO</apellido>
+		<nombre>MARIEL CARINA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>BERUTI</calle>
+			<nro>205</nro>
+			<piso>15</piso>
+			<dpto>F</dpto>
+		</direccion>
+	</empleado>
+	<ganLiqOtrosEmpEnt>
+		<empEnt>
+			<cuit>30682873864</cuit>
+			<denominacion>UNIVERSIDAD NACIONAL DE LANUS</denominacion>
+			<convenioColectivo></convenioColectivo>
+			<transporteLargaDist></transporteLargaDist>
+			<transporteTerrLargaDist></transporteTerrLargaDist>
+			<ingresosAportes>
+				<ingAp mes="1">
+					<obraSoc>25765.27</obraSoc>
+					<segSocANSES>166211.25</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>1010402.76</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+				<ingAp mes="2">
+					<obraSoc>26850.27</obraSoc>
+					<segSocANSES>173210.54</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>1052951.6</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+			</ingresosAportes>
+		</empEnt>
+	</ganLiqOtrosEmpEnt>
+</presentacion>

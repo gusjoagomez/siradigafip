@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>3</nroPresentacion>
+	<fechaPresentacion>2025-05-01</fechaPresentacion>
+	<empleado>
+		<cuit>20371039660</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>CHORNOBROFF</apellido>
+		<nombre>ALEJO</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1874</cp>
+			<localidad>VILLA DOMINICO</localidad>
+			<calle>Oyuelas</calle>
+			<nro>1502</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27119987143</nroDoc>
+			<denominacion>PAOLANTONIO MIRTA</denominacion>
+			<descBasica>27119987143 - PAOLANTONIO MIRTA</descBasica>
+			<montoTotal>150000</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="120000.00"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="30000.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="8">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27950693814</nroDoc>
+			<denominacion>DELGADO QUINTANA EVELYN SOLANG</denominacion>
+			<descBasica>27950693814 - DELGADO QUINTANA EVELYN SOLANG</descBasica>
+			<montoTotal>1824186.15</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="328688.55"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="429283.8"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="456013.8"/>
+				<periodo mesDesde="4" mesHasta="5" montoMensual="305100"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

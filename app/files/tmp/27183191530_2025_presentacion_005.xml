@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>5</nroPresentacion>
+	<fechaPresentacion>2025-05-05</fechaPresentacion>
+	<empleado>
+		<cuit>27183191530</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>YANZON</apellido>
+		<nombre>DELIA MARCELA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1875</cp>
+			<localidad>WILDE</localidad>
+			<calle>LAS FLORES</calle>
+			<nro>1600</nro>
+			<piso>6</piso>
+			<dpto>A</dpto>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30657314974</nroDoc>
+			<denominacion>OBRA SOCIAL DEL PERSONAL DEL ORGANISMO DE CONTROL EXTERNO</denominacion>
+			<descBasica>30657314974 - OBRA SOCIAL DEL PERSONAL DEL ORGANISMO DE CONTROL EXTERNO</descBasica>
+			<montoTotal>566796.79</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="128801.2"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="144180.63"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="13568.24"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="126708.02"/>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="153538.7"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

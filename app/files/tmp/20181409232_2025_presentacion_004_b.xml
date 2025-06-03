@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2025</periodo>
+	<nroPresentacion>4</nroPresentacion>
+	<fechaPresentacion>2025-05-02</fechaPresentacion>
+	<empleado>
+		<cuit>20181409232</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>TORRES</apellido>
+		<nombre>OSCAR ALBERTO</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1291</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>IRIARTE</calle>
+			<nro>2150</nro>
+			<piso>1</piso>
+		</direccion>
+	</empleado>
+	<agenteRetencion>
+		<cuit>30620698012</cuit>
+		<denominacion>CAJA DE RETIROS JUBILACIONES Y PENSIONES DE LA POLICIA DE LA PROVINCIA DE BS AS</denominacion>
+	</agenteRetencion>
+</presentacion>

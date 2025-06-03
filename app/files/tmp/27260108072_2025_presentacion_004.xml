@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>4</nroPresentacion>
+	<fechaPresentacion>2025-04-09</fechaPresentacion>
+	<empleado>
+		<cuit>27260108072</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>RAMUNDO</apellido>
+		<nombre>LORENA CECILIA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1872</cp>
+			<localidad>SARANDI</localidad>
+			<calle>PASTEUR</calle>
+			<nro>554</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27592455329</nroDoc>
+			<apellido>RAMUNDO</apellido>
+			<nombre>ANNA</nombre>
+			<fechaNac>2022-03-23</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30546741253</nroDoc>
+			<denominacion>OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</denominacion>
+			<descBasica>30546741253 - OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</descBasica>
+			<montoTotal>1011955</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="2" montoMensual="317370"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="377215"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="8">
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27244312891</nroDoc>
+			<denominacion>PEREIRA VICTORIA ISABEL</denominacion>
+			<descBasica>27244312891 - PEREIRA VICTORIA ISABEL</descBasica>
+			<montoTotal>1777957.39</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="571022.55"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="576756.5"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="630178.34"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="21">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>20265055355</nroDoc>
+			<denominacion>MARMOL JUAN CARLOS</denominacion>
+			<descBasica>20265055355 - MARMOL JUAN CARLOS</descBasica>
+			<montoTotal>5000</montoTotal>
+			<periodos>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="5000.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="21">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30593229064</nroDoc>
+			<denominacion>VESTIDITOS  S A</denominacion>
+			<descBasica>30593229064 - VESTIDITOS  S A</descBasica>
+			<montoTotal>27000</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="27000.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="21">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30709501719</nroDoc>
+			<denominacion>SCOTS S.R.L.</denominacion>
+			<descBasica>30709501719 - SCOTS S.R.L.</descBasica>
+			<montoTotal>70990</montoTotal>
+			<periodos>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="70990.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="21">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30710779062</nroDoc>
+			<denominacion>CRESKOTEC SA</denominacion>
+			<descBasica>30710779062 - CRESKOTEC SA</descBasica>
+			<montoTotal>13920</montoTotal>
+			<periodos>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="13920.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="21">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33542082459</nroDoc>
+			<denominacion>TOPYED SA</denominacion>
+			<descBasica>33542082459 - TOPYED SA</descBasica>
+			<montoTotal>200600</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="200600.00"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>2</nroPresentacion>
+	<fechaPresentacion>2025-04-28</fechaPresentacion>
+	<empleado>
+		<cuit>27266226328</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>PORTA</apellido>
+		<nombre>VALERIA VIVIANA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1826</cp>
+			<localidad>REMEDIOS DE ESCALADA</localidad>
+			<calle>LUIS VERNET</calle>
+			<nro>3435</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30590354798</nroDoc>
+			<denominacion>ASOCIACION MUTUAL SANCOR SALUD</denominacion>
+			<descBasica>30590354798 - ASOCIACION MUTUAL SANCOR SALUD</descBasica>
+			<montoTotal>11748</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="2831"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="2907"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="2971"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="3039"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

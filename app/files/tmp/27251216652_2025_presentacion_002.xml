@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>2</nroPresentacion>
+	<fechaPresentacion>2025-04-22</fechaPresentacion>
+	<empleado>
+		<cuit>27251216652</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>GUITERA</apellido>
+		<nombre>MARIA DEL ROSARIO</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1876</cp>
+			<localidad>BERNAL</localidad>
+			<calle>DON BOSCO</calle>
+			<nro>440</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30546741253</nroDoc>
+			<denominacion>OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</denominacion>
+			<descBasica>30546741253 - OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</descBasica>
+			<montoTotal>919265</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="330471"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="227031"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="361763"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30542265317</nroDoc>
+			<denominacion>CAJA DE PREVISION Y SEGURO MEDICO DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Enero - 30542265317 - CAJA DE PREVISION Y SEGURO MEDICO DE LA PROVINCIA DE BUENOS AIRES</descAdicional>
+			<montoTotal>164716</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="1"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30542265317</nroDoc>
+			<denominacion>CAJA DE PREVISION Y SEGURO MEDICO DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Febrero - 30542265317 - CAJA DE PREVISION Y SEGURO MEDICO DE LA PROVINCIA DE BUENOS AIRES</descAdicional>
+			<montoTotal>175291.33</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="2"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30542265317</nroDoc>
+			<denominacion>CAJA DE PREVISION Y SEGURO MEDICO DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Marzo - 30542265317 - CAJA DE PREVISION Y SEGURO MEDICO DE LA PROVINCIA DE BUENOS AIRES</descAdicional>
+			<montoTotal>175291.33</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="3"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

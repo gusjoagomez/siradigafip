@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-01-20</fechaPresentacion>
+	<empleado>
+		<cuit>20344159603</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>VIDAL</apellido>
+		<nombre>SEBASTIAN</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1824</cp>
+			<localidad>LANUS</localidad>
+			<calle>COLOMBIA</calle>
+			<nro>922</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20704585501</nroDoc>
+			<apellido>VIDAL</apellido>
+			<nombre>SOL VICTORIA</nombre>
+			<fechaNac>2024-08-23</fechaNac>
+			<mesDesde>8</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+</presentacion>

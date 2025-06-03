@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>10</nroPresentacion>
+	<fechaPresentacion>2025-05-15</fechaPresentacion>
+	<empleado>
+		<cuit>27925229070</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>BENECH</apellido>
+		<nombre>CLAUDIA ANDREA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1869</cp>
+			<localidad>GERLI</localidad>
+			<calle>CAMPICHUELO</calle>
+			<nro>1504</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27563918506</nroDoc>
+			<apellido>ROJAS BENECH</apellido>
+			<nombre>MIA SOFIA</nombre>
+			<fechaNac>2017-07-14</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>30</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<deducciones>
+		<deduccion tipo="2">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30678832576</nroDoc>
+			<denominacion>PROVINCIA SEGUROS DE VIDA S A</denominacion>
+			<descBasica>30678832576 - PROVINCIA SEGUROS DE VIDA S A</descBasica>
+			<montoTotal>33100</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="2" montoMensual="8050"/>
+				<periodo mesDesde="3" mesHasta="4" montoMensual="8500"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="2">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33999242109</nroDoc>
+			<denominacion>BANCO DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>33999242109 - BANCO DE LA PROVINCIA DE BUENOS AIRES</descBasica>
+			<montoTotal>262.75</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="66.78"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="66.09"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="65.33"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="64.55"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="3">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30716004119</nroDoc>
+			<denominacion>ASOCIACION CIVIL MAMIS SOLIDARIAS</denominacion>
+			<descBasica>30716004119 - ASOCIACION CIVIL MAMIS SOLIDARIAS</descBasica>
+			<montoTotal>5000</montoTotal>
+			<periodos>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="5000"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="4">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33999242109</nroDoc>
+			<denominacion>BANCO DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>33999242109 - BANCO DE LA PROVINCIA DE BUENOS AIRES</descBasica>
+			<montoTotal>7310.19</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="2036.83"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="1886.76"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="1730"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="1656.6"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>20226819399</nroDoc>
+			<denominacion>MUSANTE CHRISTIAN OSCAR</denominacion>
+			<descBasica>20226819399 - MUSANTE CHRISTIAN OSCAR</descBasica>
+			<montoTotal>10000</montoTotal>
+			<periodos>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="10000.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>23148076499</nroDoc>
+			<denominacion>GODOY RICARDO OSCAR ANIBAL</denominacion>
+			<descBasica>23148076499 - GODOY RICARDO OSCAR ANIBAL</descBasica>
+			<montoTotal>38400</montoTotal>
+			<periodos>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="11200.00"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="27200.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>20146150722</nroDoc>
+			<denominacion>BACHETTI MANINO MARCELO</denominacion>
+			<descBasica>20146150722 - BACHETTI MANINO MARCELO</descBasica>
+			<descAdicional>Herramientas educativas - Familiar: CUIL 27563918506 - ROJAS BENECH, MIA SOFIA - Hijastro/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>10900</montoTotal>
+			<periodos>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="10900.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="2"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="27563918506"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="ROJAS BENECH, MIA SOFIA"/>
+				<detalle nombre="parentescoFamiliar" valor="30"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30544153958</nroDoc>
+			<denominacion>ASOCIACION CIVIL COLEGIO PARROQUIAL PIO XII</denominacion>
+			<descBasica>30544153958 - ASOCIACION CIVIL COLEGIO PARROQUIAL PIO XII</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 27563918506 - ROJAS BENECH, MIA SOFIA - Hijastro/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>211089</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="211089.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="27563918506"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="ROJAS BENECH, MIA SOFIA"/>
+				<detalle nombre="parentescoFamiliar" valor="30"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30544153958</nroDoc>
+			<denominacion>ASOCIACION CIVIL COLEGIO PARROQUIAL PIO XII</denominacion>
+			<descBasica>30544153958 - ASOCIACION CIVIL COLEGIO PARROQUIAL PIO XII</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 27563918506 - ROJAS BENECH, MIA SOFIA - Hijastro/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>217188</montoTotal>
+			<periodos>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="217188.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="27563918506"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="ROJAS BENECH, MIA SOFIA"/>
+				<detalle nombre="parentescoFamiliar" valor="30"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30544153958</nroDoc>
+			<denominacion>ASOCIACION CIVIL COLEGIO PARROQUIAL PIO XII</denominacion>
+			<descBasica>30544153958 - ASOCIACION CIVIL COLEGIO PARROQUIAL PIO XII</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 27563918506 - ROJAS BENECH, MIA SOFIA - Hijastro/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>217188</montoTotal>
+			<periodos>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="217188.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="27563918506"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="ROJAS BENECH, MIA SOFIA"/>
+				<detalle nombre="parentescoFamiliar" valor="30"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30677291083</nroDoc>
+			<denominacion>CHEEK SOCIEDAD ANONIMA</denominacion>
+			<descBasica>30677291083 - CHEEK SOCIEDAD ANONIMA</descBasica>
+			<descAdicional>Herramientas educativas - Familiar: CUIL 27563918506 - ROJAS BENECH, MIA SOFIA - Hijastro/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>126250</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="126250.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="2"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="27563918506"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="ROJAS BENECH, MIA SOFIA"/>
+				<detalle nombre="parentescoFamiliar" valor="30"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30711350841</nroDoc>
+			<denominacion>GP PRODUCTOS TEXTILES  SOCIEDAD DE HECHO</denominacion>
+			<descBasica>30711350841 - GP PRODUCTOS TEXTILES  SOCIEDAD DE HECHO</descBasica>
+			<descAdicional>Herramientas educativas - Familiar: CUIL 27563918506 - ROJAS BENECH, MIA SOFIA - Hijastro/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>24500</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="24500.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="2"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="27563918506"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="ROJAS BENECH, MIA SOFIA"/>
+				<detalle nombre="parentescoFamiliar" valor="30"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30717951294</nroDoc>
+			<denominacion>ELEONORA FRACCHIA Y EMILIANA FRACCHIA S. CAP I SECC IV  ACCHIA S. CAP I SECC IV</denominacion>
+			<descBasica>30717951294 - ELEONORA FRACCHIA Y EMILIANA FRACCHIA S. CAP I SECC IV  ACCHIA S. CAP I SECC IV</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 27563918506 - ROJAS BENECH, MIA SOFIA - Hijastro/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>100300</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="100300.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="27563918506"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="ROJAS BENECH, MIA SOFIA"/>
+				<detalle nombre="parentescoFamiliar" valor="30"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30717951294</nroDoc>
+			<denominacion>ELEONORA FRACCHIA Y EMILIANA FRACCHIA S. CAP I SECC IV  ACCHIA S. CAP I SECC IV</denominacion>
+			<descBasica>30717951294 - ELEONORA FRACCHIA Y EMILIANA FRACCHIA S. CAP I SECC IV  ACCHIA S. CAP I SECC IV</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 27563918506 - ROJAS BENECH, MIA SOFIA - Hijastro/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>115900</montoTotal>
+			<periodos>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="115900.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="27563918506"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="ROJAS BENECH, MIA SOFIA"/>
+				<detalle nombre="parentescoFamiliar" valor="30"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30717951294</nroDoc>
+			<denominacion>ELEONORA FRACCHIA Y EMILIANA FRACCHIA S. CAP I SECC IV  ACCHIA S. CAP I SECC IV</denominacion>
+			<descBasica>30717951294 - ELEONORA FRACCHIA Y EMILIANA FRACCHIA S. CAP I SECC IV  ACCHIA S. CAP I SECC IV</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 27563918506 - ROJAS BENECH, MIA SOFIA - Hijastro/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>120400</montoTotal>
+			<periodos>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="120400.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="27563918506"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="ROJAS BENECH, MIA SOFIA"/>
+				<detalle nombre="parentescoFamiliar" valor="30"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

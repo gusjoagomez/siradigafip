@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>2</nroPresentacion>
+	<fechaPresentacion>2025-05-15</fechaPresentacion>
+	<empleado>
+		<cuit>20335021690</cuit>
+		<tipoDoc>86</tipoDoc>
+		<apellido>SEILLAN</apellido>
+		<nombre>GASTON DARIO</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>CRUCESITA</localidad>
+			<calle>RICARDO GUTIERREZ</calle>
+			<nro>2065</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20580310851</nroDoc>
+			<apellido>SEILLAN BERNIGER</apellido>
+			<nombre>LORENZO</nombre>
+			<fechaNac>2019-11-25</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<deducciones>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30715711644</nroDoc>
+			<denominacion>DUCERE S.A.</denominacion>
+			<descBasica>30715711644 - DUCERE S.A.</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20580310851 - SEILLAN BERNIGER, LORENZO - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>437400</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="437400.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20580310851"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="SEILLAN BERNIGER, LORENZO"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30715711644</nroDoc>
+			<denominacion>DUCERE S.A.</denominacion>
+			<descBasica>30715711644 - DUCERE S.A.</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20580310851 - SEILLAN BERNIGER, LORENZO - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>480600</montoTotal>
+			<periodos>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="480600.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20580310851"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="SEILLAN BERNIGER, LORENZO"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30715711644</nroDoc>
+			<denominacion>DUCERE S.A.</denominacion>
+			<descBasica>30715711644 - DUCERE S.A.</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20580310851 - SEILLAN BERNIGER, LORENZO - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>515475</montoTotal>
+			<periodos>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="515475.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20580310851"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="SEILLAN BERNIGER, LORENZO"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

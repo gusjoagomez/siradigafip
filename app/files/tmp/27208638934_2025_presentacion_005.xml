@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>5</nroPresentacion>
+	<fechaPresentacion>2025-05-12</fechaPresentacion>
+	<empleado>
+		<cuit>27208638934</cuit>
+		<tipoDoc>86</tipoDoc>
+		<apellido>FIORENTINO</apellido>
+		<nombre>MARIA EUGENIA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1872</cp>
+			<localidad>SARANDI</localidad>
+			<calle>SUIPACHA</calle>
+			<nro>754</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20450737411</nroDoc>
+			<apellido>MARTIN</apellido>
+			<nombre>JUAN CRUZ</nombre>
+			<fechaNac>2003-09-27</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>31</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<deducciones>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27325302882</nroDoc>
+			<denominacion>SANTORUM MARIA VICTORIA</denominacion>
+			<descBasica>27325302882 - SANTORUM MARIA VICTORIA</descBasica>
+			<montoTotal>126400</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="28800.00"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="28800.00"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="28800.00"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="40000.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30536216584</nroDoc>
+			<denominacion>FUNDACION UNIVERSIDAD CATOLICA ARGENTINA</denominacion>
+			<descBasica>30536216584 - FUNDACION UNIVERSIDAD CATOLICA ARGENTINA</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20450737411 - MARTIN, JUAN CRUZ - Hijo/a incapacitado para el trabajo (100%)</descAdicional>
+			<montoTotal>289715</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="289715.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20450737411"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="MARTIN, JUAN CRUZ"/>
+				<detalle nombre="parentescoFamiliar" valor="31"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30536216584</nroDoc>
+			<denominacion>FUNDACION UNIVERSIDAD CATOLICA ARGENTINA</denominacion>
+			<descBasica>30536216584 - FUNDACION UNIVERSIDAD CATOLICA ARGENTINA</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20450737411 - MARTIN, JUAN CRUZ - Hijo/a incapacitado para el trabajo (100%)</descAdicional>
+			<montoTotal>289715</montoTotal>
+			<periodos>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="289715.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20450737411"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="MARTIN, JUAN CRUZ"/>
+				<detalle nombre="parentescoFamiliar" valor="31"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30536216584</nroDoc>
+			<denominacion>FUNDACION UNIVERSIDAD CATOLICA ARGENTINA</denominacion>
+			<descBasica>30536216584 - FUNDACION UNIVERSIDAD CATOLICA ARGENTINA</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20450737411 - MARTIN, JUAN CRUZ - Hijo/a incapacitado para el trabajo (100%)</descAdicional>
+			<montoTotal>318687</montoTotal>
+			<periodos>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="318687.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20450737411"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="MARTIN, JUAN CRUZ"/>
+				<detalle nombre="parentescoFamiliar" valor="31"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

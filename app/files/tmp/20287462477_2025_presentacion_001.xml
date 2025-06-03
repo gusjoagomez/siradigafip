@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-04-03</fechaPresentacion>
+	<empleado>
+		<cuit>20287462477</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>LERICI</apellido>
+		<nombre>ARIEL</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>BLANDENGUES</calle>
+			<nro>2572</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27287477096</nroDoc>
+			<apellido>FRANCES</apellido>
+			<nombre>YUDITH YANINA</nombre>
+			<fechaNac>1980-10-06</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>1</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20511349150</nroDoc>
+			<apellido>LERICI</apellido>
+			<nombre>SANTINO</nombre>
+			<fechaNac>2011-06-28</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<deducciones>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30526904792</nroDoc>
+			<denominacion>RACING CLUB ASOCIACION CIVIL</denominacion>
+			<descBasica>30526904792 - RACING CLUB ASOCIACION CIVIL</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20511349150 - LERICI, SANTINO - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>164169</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="164169.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20511349150"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="LERICI, SANTINO"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

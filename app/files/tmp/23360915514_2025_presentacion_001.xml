@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-04-24</fechaPresentacion>
+	<empleado>
+		<cuit>23360915514</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>GOMEZ</apellido>
+		<nombre>FLAVIA LORENA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1872</cp>
+			<localidad>SARANDI</localidad>
+			<calle>DEHEZA</calle>
+			<nro>1768</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20704642254</nroDoc>
+			<apellido>PALACIOS</apellido>
+			<nombre>EVA LUCIA</nombre>
+			<fechaNac>2024-10-05</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20508063521</nroDoc>
+			<apellido>GUTIERREZ</apellido>
+			<nombre>SANTINO GAEL</nombre>
+			<fechaNac>2010-12-14</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>31</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+		<cargaFamilia>
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>20416730041</nroDoc>
+			<apellido>PALACIOS</apellido>
+			<nombre>MIGUEL ANGEL</nombre>
+			<fechaNac>1998-02-10</fechaNac>
+			<mesDesde>4</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>51</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30546771314</nroDoc>
+			<denominacion>MEDICUS SOCIEDAD ANONIMA DE ASISTENCIA MEDICA Y CIENTIFICA</denominacion>
+			<descBasica>30546771314 - MEDICUS SOCIEDAD ANONIMA DE ASISTENCIA MEDICA Y CIENTIFICA</descBasica>
+			<montoTotal>334029.23</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="110758.56"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="114461.24"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="108809.43"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30573464148</nroDoc>
+			<denominacion>PEQUEÑA OBRA DE LA DIVINA PROVIDENCIA</denominacion>
+			<descBasica>30573464148 - PEQUEÑA OBRA DE LA DIVINA PROVIDENCIA</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20508063521 - GUTIERREZ, SANTINO GAEL - Hijo/a incapacitado para el trabajo (100%)</descAdicional>
+			<montoTotal>108943.4</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="108943.40"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20508063521"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="GUTIERREZ, SANTINO GAEL"/>
+				<detalle nombre="parentescoFamiliar" valor="31"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

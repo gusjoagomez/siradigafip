@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-01-21</fechaPresentacion>
+	<empleado>
+		<cuit>27179025219</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>SIERRA</apellido>
+		<nombre>ADA MARIA MAGDALENA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>REPUBLICA DEL LIBANO</calle>
+			<nro>248</nro>
+		</direccion>
+	</empleado>
+</presentacion>

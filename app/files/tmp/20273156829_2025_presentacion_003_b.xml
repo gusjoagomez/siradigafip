@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2025</periodo>
+	<nroPresentacion>3</nroPresentacion>
+	<fechaPresentacion>2025-04-16</fechaPresentacion>
+	<empleado>
+		<cuit>20273156829</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>GUIBAUDO</apellido>
+		<nombre>JULIAN ANGEL</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>BRANDSEN</calle>
+			<nro>1370</nro>
+			<piso>8</piso>
+			<dpto>B</dpto>
+		</direccion>
+	</empleado>
+	<agenteRetencion>
+		<cuit>30501116242</cuit>
+		<denominacion>DANONE ARGENTINA SOCIEDAD ANONIMA</denominacion>
+	</agenteRetencion>
+</presentacion>

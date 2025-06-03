@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-04-04</fechaPresentacion>
+	<empleado>
+		<cuit>27306631182</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>CHIAFARI LOPEZ</apellido>
+		<nombre>VERONICA DE LOS ANGELES</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1824</cp>
+			<localidad>LANUS</localidad>
+			<calle>C. URUGUAYO</calle>
+			<nro>2540</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>23537235969</nroDoc>
+			<apellido>SACCHERI CIRO</apellido>
+			<nombre></nombre>
+			<fechaNac>2014-02-14</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<deducciones>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>23202382339</nroDoc>
+			<denominacion>FOLONIER JAVIER OMAR</denominacion>
+			<descBasica>23202382339 - FOLONIER JAVIER OMAR</descBasica>
+			<montoTotal>14000</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="14000.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30707301356</nroDoc>
+			<denominacion>VACUNAR S.A.</denominacion>
+			<descBasica>30707301356 - VACUNAR S.A.</descBasica>
+			<montoTotal>67672.27</montoTotal>
+			<periodos>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="67672.27"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30708558768</nroDoc>
+			<denominacion>INSTITUTO ROENTHAL S.A</denominacion>
+			<descBasica>30708558768 - INSTITUTO ROENTHAL S.A</descBasica>
+			<montoTotal>11600</montoTotal>
+			<periodos>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="11600.00"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

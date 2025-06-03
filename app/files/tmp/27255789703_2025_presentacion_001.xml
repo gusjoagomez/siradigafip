@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-01-20</fechaPresentacion>
+	<empleado>
+		<cuit>27255789703</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>COLASO</apellido>
+		<nombre>CLAUDIA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1875</cp>
+			<localidad>WILDE</localidad>
+			<calle>LUCENA</calle>
+			<nro>6327</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20222696098</nroDoc>
+			<apellido>NOVAL</apellido>
+			<nombre>PABLO DIEGO</nombre>
+			<fechaNac>1971-06-27</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>1</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20490544934</nroDoc>
+			<apellido>NOVAL</apellido>
+			<nombre>MANUEL</nombre>
+			<fechaNac>2008-12-22</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+</presentacion>

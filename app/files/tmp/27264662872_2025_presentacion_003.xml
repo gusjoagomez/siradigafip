@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>3</nroPresentacion>
+	<fechaPresentacion>2025-04-09</fechaPresentacion>
+	<empleado>
+		<cuit>27264662872</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>DOMINGUEZ RUIZ</apellido>
+		<nombre>LAURA MARCELA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>CABILDO</calle>
+			<nro>1987</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="2">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30500008454</nroDoc>
+			<denominacion>BANCO SANTANDER ARGENTINA SOCIEDAD ANONIMA</denominacion>
+			<descBasica>30500008454 - BANCO SANTANDER ARGENTINA SOCIEDAD ANONIMA</descBasica>
+			<montoTotal>94294.57</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="2" montoMensual="30614.93"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="33064.71"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="21">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30639453738</nroDoc>
+			<denominacion>TELECOM ARGENTINA SOCIEDAD ANONIMA</denominacion>
+			<descBasica>30639453738 - TELECOM ARGENTINA SOCIEDAD ANONIMA</descBasica>
+			<montoTotal>228384.23</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="113529.50"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="114854.73"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="21">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30714478172</nroDoc>
+			<denominacion>COLEGIO DE ABOGADOS DEL DEPARTAMENTO JUDICIAL DE AVELLANEDA LANUS</denominacion>
+			<descBasica>30714478172 - COLEGIO DE ABOGADOS DEL DEPARTAMENTO JUDICIAL DE AVELLANEDA LANUS</descBasica>
+			<montoTotal>294431</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="294431.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30532708059</nroDoc>
+			<denominacion>CAJA DE PREVISION SOCIAL PARA ABOGADOS DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Febrero - 30532708059 - CAJA DE PREVISION SOCIAL PARA ABOGADOS DE LA PROVINCIA DE BUENOS AIRES</descAdicional>
+			<montoTotal>190809.95</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="2"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30532708059</nroDoc>
+			<denominacion>CAJA DE PREVISION SOCIAL PARA ABOGADOS DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Febrero - 30532708059 - CAJA DE PREVISION SOCIAL PARA ABOGADOS DE LA PROVINCIA DE BUENOS AIRES</descAdicional>
+			<montoTotal>190809.95</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="2"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30532708059</nroDoc>
+			<denominacion>CAJA DE PREVISION SOCIAL PARA ABOGADOS DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Marzo - 30532708059 - CAJA DE PREVISION SOCIAL PARA ABOGADOS DE LA PROVINCIA DE BUENOS AIRES</descAdicional>
+			<montoTotal>70424</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="3"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="99">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30532708059</nroDoc>
+			<denominacion>CAJA DE PREVISION SOCIAL PARA ABOGADOS DE LA PROVINCIA DE BUENOS AIRES</denominacion>
+			<descBasica>Cajas Provinciales o Municipales o de Previsión para Profesionales</descBasica>
+			<descAdicional>Marzo - 30532708059 - CAJA DE PREVISION SOCIAL PARA ABOGADOS DE LA PROVINCIA DE BUENOS AIRES</descAdicional>
+			<montoTotal>9507</montoTotal>
+			<detalles>
+				<detalle nombre="motivo" valor="2"/>
+				<detalle nombre="mes" valor="3"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

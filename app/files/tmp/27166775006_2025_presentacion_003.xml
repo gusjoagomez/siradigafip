@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>3</nroPresentacion>
+	<fechaPresentacion>2025-05-11</fechaPresentacion>
+	<empleado>
+		<cuit>27166775006</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>MENISALE</apellido>
+		<nombre>MONICA GRACIELA</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1408</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>PALMAR</calle>
+			<nro>6611</nro>
+		</direccion>
+	</empleado>
+	<ganLiqOtrosEmpEnt>
+		<empEnt>
+			<cuit>30609922350</cuit>
+			<denominacion>INSTITUTO NUESTRA SEÑORA DEL BUEN Y PERPETUO SOCORRO A 338</denominacion>
+			<convenioColectivo></convenioColectivo>
+			<transporteLargaDist></transporteLargaDist>
+			<transporteTerrLargaDist></transporteTerrLargaDist>
+			<ingresosAportes>
+				<ingAp mes="1">
+					<obraSoc>2446.23</obraSoc>
+					<segSocANSES>8969.49</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>81540.85</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+				<ingAp mes="2">
+					<obraSoc>2446.23</obraSoc>
+					<segSocANSES>8969.49</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>81540.85</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+				<ingAp mes="3">
+					<obraSoc>2641.92</obraSoc>
+					<segSocANSES>2641.82</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>88064.12</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+			</ingresosAportes>
+		</empEnt>
+	</ganLiqOtrosEmpEnt>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30683032227</nroDoc>
+			<denominacion>OBRA SOCIAL UNION PERSONAL DE LA UNION DEL PERSONAL CIVIL DE LA NACION</denominacion>
+			<descBasica>30683032227 - OBRA SOCIAL UNION PERSONAL DE LA UNION DEL PERSONAL CIVIL DE LA NACION</descBasica>
+			<montoTotal>178085.88</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="46691.3"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="45559"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="19262.83"/>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="66572.75"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

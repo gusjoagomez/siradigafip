@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-03-17</fechaPresentacion>
+	<empleado>
+		<cuit>20184900689</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>VALENTE</apellido>
+		<nombre>OSVALDO OSCAR</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1268</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>ISABEL LA CATOLICA</calle>
+			<nro>1107</nro>
+			<piso>16</piso>
+			<dpto>B</dpto>
+		</direccion>
+	</empleado>
+	<agenteRetencion>
+		<cuit>30527929772</cuit>
+		<denominacion>CLUB ATLETICO SAN LORENZO DE ALMAGRO</denominacion>
+	</agenteRetencion>
+</presentacion>

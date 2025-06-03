@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>2</nroPresentacion>
+	<fechaPresentacion>2025-02-28</fechaPresentacion>
+	<empleado>
+		<cuit>27262846208</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>D' ACUNTO</apellido>
+		<nombre>YANINA MARISA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1874</cp>
+			<localidad>BARRIO OBRERO</localidad>
+			<calle>MERLO</calle>
+			<nro>4441</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27509074521</nroDoc>
+			<apellido>ALVAREZ D ACUNTO</apellido>
+			<nombre>ANGELINA</nombre>
+			<fechaNac>2011-02-01</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30683032227</nroDoc>
+			<denominacion>OBRA SOCIAL UNION PERSONAL DE LA UNION DEL PERSONAL CIVIL DE LA NACION</denominacion>
+			<descBasica>30683032227 - OBRA SOCIAL UNION PERSONAL DE LA UNION DEL PERSONAL CIVIL DE LA NACION</descBasica>
+			<montoTotal>287667.42</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="141747.55"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="145919.87"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30692138747</nroDoc>
+			<denominacion>FARMCITY SA</denominacion>
+			<descBasica>30692138747 - FARMCITY SA</descBasica>
+			<montoTotal>67111.38</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="37398.38"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="29713"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="21">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30640897267</nroDoc>
+			<denominacion>TELECENTRO S A</denominacion>
+			<descBasica>30640897267 - TELECENTRO S A</descBasica>
+			<montoTotal>63091.52</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="30994.02"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="32097.50"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="21">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30663288497</nroDoc>
+			<denominacion>AMX ARGENTINA SOCIEDAD ANONIMA</denominacion>
+			<descBasica>30663288497 - AMX ARGENTINA SOCIEDAD ANONIMA</descBasica>
+			<montoTotal>32042.48</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="32042.48"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30525558246</nroDoc>
+			<denominacion>ANTONIO LUQUIN S A C I F E I</denominacion>
+			<descBasica>30525558246 - ANTONIO LUQUIN S A C I F E I</descBasica>
+			<descAdicional>Herramientas educativas - Familiar: CUIL 27509074521 - ALVAREZ D ACUNTO, ANGELINA - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>379997.97</montoTotal>
+			<periodos>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="379997.97"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="2"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="27509074521"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="ALVAREZ D ACUNTO, ANGELINA"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30708648414</nroDoc>
+			<denominacion>VISION 101 S.A.</denominacion>
+			<descBasica>30708648414 - VISION 101 S.A.</descBasica>
+			<descAdicional>Herramientas educativas - Familiar: CUIL 27509074521 - ALVAREZ D ACUNTO, ANGELINA - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>9800</montoTotal>
+			<periodos>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="9800.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="2"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="27509074521"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="ALVAREZ D ACUNTO, ANGELINA"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

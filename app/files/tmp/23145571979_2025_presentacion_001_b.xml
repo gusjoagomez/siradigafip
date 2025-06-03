@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-01-08</fechaPresentacion>
+	<empleado>
+		<cuit>23145571979</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>MACHADO</apellido>
+		<nombre>PEDRO ORLANDO</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>MAIPU</calle>
+			<nro>290</nro>
+			<piso>0</piso>
+			<dpto>0</dpto>
+		</direccion>
+	</empleado>
+	<agenteRetencion>
+		<cuit>30532342615</cuit>
+		<denominacion>SINDICATO DE EMPLEADOS DE COMERCIO DE LANUS Y AVELLANEDA</denominacion>
+	</agenteRetencion>
+</presentacion>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2025</periodo>
+	<nroPresentacion>2</nroPresentacion>
+	<fechaPresentacion>2025-05-10</fechaPresentacion>
+	<empleado>
+		<cuit>27209877452</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>VILLANUSTRE</apellido>
+		<nombre>MARINA SOLANGE</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>CNEL GARCIA</calle>
+			<nro>236</nro>
+		</direccion>
+	</empleado>
+	<agenteRetencion>
+		<cuit>30682737650</cuit>
+		<denominacion>MEDIFE ASOCIACION CIVIL</denominacion>
+	</agenteRetencion>
+</presentacion>

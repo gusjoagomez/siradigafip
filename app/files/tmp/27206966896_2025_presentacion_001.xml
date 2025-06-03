@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-02-04</fechaPresentacion>
+	<empleado>
+		<cuit>27206966896</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>CASTRO</apellido>
+		<nombre>MARIA FERNANDA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>PAEZ</calle>
+			<nro>46</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>23207332909</nroDoc>
+			<apellido>MORINI</apellido>
+			<nombre>EMILIO ALBERTO</nombre>
+			<fechaNac>1969-05-22</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>1</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+</presentacion>

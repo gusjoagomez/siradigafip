@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-03-09</fechaPresentacion>
+	<empleado>
+		<cuit>20183019571</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>CEJAS</apellido>
+		<nombre>RAUL HUGO</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1426</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>REPUBLICA ESLOVENIA</calle>
+			<nro>1856</nro>
+			<piso>1</piso>
+			<dpto>A</dpto>
+		</direccion>
+	</empleado>
+	<agenteRetencion>
+		<cuit>30714155667</cuit>
+		<denominacion>REDBEE STUDIOS S.A.</denominacion>
+	</agenteRetencion>
+</presentacion>

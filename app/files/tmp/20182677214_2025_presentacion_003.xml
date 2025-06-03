@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>3</nroPresentacion>
+	<fechaPresentacion>2025-04-11</fechaPresentacion>
+	<empleado>
+		<cuit>20182677214</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>MARIANI</apellido>
+		<nombre>ROBERTO MANUEL HIGIN</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>LAFAYETTE</calle>
+			<nro>677</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27478014959</nroDoc>
+			<apellido>MARIANI LASKAI</apellido>
+			<nombre>PALOMA</nombre>
+			<fechaNac>2007-03-08</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>3</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>N</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30545867679</nroDoc>
+			<denominacion>SOCIEDAD ITALIANA DE BENEFICENCIA EN BUENOS AIRES</denominacion>
+			<descBasica>30545867679 - SOCIEDAD ITALIANA DE BENEFICENCIA EN BUENOS AIRES</descBasica>
+			<montoTotal>495702.26</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="448758.25"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="46944.01"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27255134820</nroDoc>
+			<denominacion>ZOCCARATO CAROLINA</denominacion>
+			<descBasica>27255134820 - ZOCCARATO CAROLINA</descBasica>
+			<montoTotal>80000</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="20000.00"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="20000.00"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="40000.00"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2025</periodo>
+	<nroPresentacion>5</nroPresentacion>
+	<fechaPresentacion>2025-05-09</fechaPresentacion>
+	<empleado>
+		<cuit>27333261133</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>MORELLI</apellido>
+		<nombre>NATALIA</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1406</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>ASAMBLEA AV.</calle>
+			<nro>1072</nro>
+			<piso>8</piso>
+			<dpto>31</dpto>
+		</direccion>
+	</empleado>
+	<agenteRetencion>
+		<cuit>30999004144</cuit>
+		<denominacion>MUNICIPALIDAD DE QUILMES</denominacion>
+	</agenteRetencion>
+</presentacion>

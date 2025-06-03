@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2025</periodo>
+	<nroPresentacion>4</nroPresentacion>
+	<fechaPresentacion>2025-05-12</fechaPresentacion>
+	<empleado>
+		<cuit>27265810891</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>DASSO</apellido>
+		<nombre>ADRIANA SILVIA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1872</cp>
+			<localidad>SARANDI</localidad>
+			<calle>DORREGO</calle>
+			<nro>2781</nro>
+		</direccion>
+	</empleado>
+	<agenteRetencion>
+		<cuit>30626983398</cuit>
+		<denominacion>MINISTERIO DE SALUD PCIA DE BS AS O. P.</denominacion>
+	</agenteRetencion>
+</presentacion>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-01-23</fechaPresentacion>
+	<empleado>
+		<cuit>20134649772</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>PARRILLA</apellido>
+		<nombre>LUIS</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1871</cp>
+			<localidad>DOCK SUD</localidad>
+			<calle>IRALA</calle>
+			<nro>1820</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30546741253</nroDoc>
+			<denominacion>OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</denominacion>
+			<descBasica>30546741253 - OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</descBasica>
+			<montoTotal>278791</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="278791"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

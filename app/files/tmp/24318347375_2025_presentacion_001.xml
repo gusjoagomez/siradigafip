@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-04-03</fechaPresentacion>
+	<empleado>
+		<cuit>24318347375</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>ALDERETE</apellido>
+		<nombre>RICARDO IVAN</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>ANTOFAGASTA</calle>
+			<nro>446</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>23554349919</nroDoc>
+			<apellido>ALDERETE SPINELLI</apellido>
+			<nombre>FRANCISCO LEON</nombre>
+			<fechaNac>2016-08-15</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>50</porcentajeDeduccion>
+		</cargaFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27530637412</nroDoc>
+			<apellido>ALDERETE SPINELLI GIULIANA</apellido>
+			<nombre></nombre>
+			<fechaNac>2013-03-21</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>50</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+</presentacion>

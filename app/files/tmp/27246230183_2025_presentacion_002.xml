@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>2</nroPresentacion>
+	<fechaPresentacion>2025-04-10</fechaPresentacion>
+	<empleado>
+		<cuit>27246230183</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>FRAZZETTA</apellido>
+		<nombre>SILVANA GABRIELA</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1440</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>ALBARIÑO</calle>
+			<nro>1252</nro>
+			<piso>2</piso>
+			<dpto>5</dpto>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20526483481</nroDoc>
+			<apellido>COSTANTINO FRAZZETTA AGUSTIN</apellido>
+			<nombre></nombre>
+			<fechaNac>2012-08-29</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<deducciones>
+		<deduccion tipo="21">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>23180283854</nroDoc>
+			<denominacion>SGROMO FABIANA BEATRIZ</denominacion>
+			<descBasica>23180283854 - SGROMO FABIANA BEATRIZ</descBasica>
+			<montoTotal>105000</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="105000.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30707381384</nroDoc>
+			<denominacion>LINSA S.R.L.</denominacion>
+			<descBasica>30707381384 - LINSA S.R.L.</descBasica>
+			<descAdicional>Herramientas educativas - Familiar: CUIL 20526483481 - COSTANTINO FRAZZETTA AGUSTIN - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>64276</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="64276.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="2"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20526483481"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="COSTANTINO FRAZZETTA AGUSTIN"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33577296869</nroDoc>
+			<denominacion>INSTITUTO CALASANCIO HIJAS DE LA DIVINA PASTORA</denominacion>
+			<descBasica>33577296869 - INSTITUTO CALASANCIO HIJAS DE LA DIVINA PASTORA</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20526483481 - COSTANTINO FRAZZETTA AGUSTIN - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>253500</montoTotal>
+			<periodos>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="253500.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20526483481"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="COSTANTINO FRAZZETTA AGUSTIN"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-01-16</fechaPresentacion>
+	<empleado>
+		<cuit>27392758386</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>ORSI</apellido>
+		<nombre>ERIKA ANTONELLA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1875</cp>
+			<localidad>WILDE</localidad>
+			<calle>MARTÍN FIERRO</calle>
+			<nro>2025</nro>
+		</direccion>
+	</empleado>
+</presentacion>

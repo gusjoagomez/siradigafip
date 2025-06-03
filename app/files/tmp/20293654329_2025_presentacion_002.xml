@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>2</nroPresentacion>
+	<fechaPresentacion>2025-05-08</fechaPresentacion>
+	<empleado>
+		<cuit>20293654329</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>RODRIGUEZ</apellido>
+		<nombre>FACUNDO NAHUEL</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1234</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>MUÑIZ</calle>
+			<nro>888</nro>
+			<piso>1</piso>
+			<dpto>B</dpto>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20556051071</nroDoc>
+			<apellido>RODRIGUEZ MIRANDA</apellido>
+			<nombre>LEON</nombre>
+			<fechaNac>2016-05-27</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30682737650</nroDoc>
+			<denominacion>MEDIFE ASOCIACION CIVIL</denominacion>
+			<descBasica>30682737650 - MEDIFE ASOCIACION CIVIL</descBasica>
+			<montoTotal>8000.14</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="4373.82"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="3441.39"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="184.93"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33679160279</nroDoc>
+			<denominacion>INSTITUTO SAN VICENTE DE PAUL A 209     EST EDUCATIVO</denominacion>
+			<descBasica>33679160279 - INSTITUTO SAN VICENTE DE PAUL A 209     EST EDUCATIVO</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20556051071 - RODRIGUEZ MIRANDA, LEON - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>29700</montoTotal>
+			<periodos>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="29700.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20556051071"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="RODRIGUEZ MIRANDA, LEON"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33679160279</nroDoc>
+			<denominacion>INSTITUTO SAN VICENTE DE PAUL A 209     EST EDUCATIVO</denominacion>
+			<descBasica>33679160279 - INSTITUTO SAN VICENTE DE PAUL A 209     EST EDUCATIVO</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20556051071 - RODRIGUEZ MIRANDA, LEON - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>234137.52</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="234137.52"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20556051071"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="RODRIGUEZ MIRANDA, LEON"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33679160279</nroDoc>
+			<denominacion>INSTITUTO SAN VICENTE DE PAUL A 209     EST EDUCATIVO</denominacion>
+			<descBasica>33679160279 - INSTITUTO SAN VICENTE DE PAUL A 209     EST EDUCATIVO</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20556051071 - RODRIGUEZ MIRANDA, LEON - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>88653.07</montoTotal>
+			<periodos>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="88653.07"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20556051071"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="RODRIGUEZ MIRANDA, LEON"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33679160279</nroDoc>
+			<denominacion>INSTITUTO SAN VICENTE DE PAUL A 209     EST EDUCATIVO</denominacion>
+			<descBasica>33679160279 - INSTITUTO SAN VICENTE DE PAUL A 209     EST EDUCATIVO</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20556051071 - RODRIGUEZ MIRANDA, LEON - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>91751.84</montoTotal>
+			<periodos>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="91751.84"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20556051071"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="RODRIGUEZ MIRANDA, LEON"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

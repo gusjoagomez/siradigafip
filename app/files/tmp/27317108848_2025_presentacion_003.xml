@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>3</nroPresentacion>
+	<fechaPresentacion>2025-05-07</fechaPresentacion>
+	<empleado>
+		<cuit>27317108848</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>VAZQUEZ</apellido>
+		<nombre>TELMA ELEANA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1876</cp>
+			<localidad>BERNAL</localidad>
+			<calle>CHACO</calle>
+			<nro>1563</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20558199564</nroDoc>
+			<apellido>CARBIA VAZQUEZ</apellido>
+			<nombre>MATEO GAEL</nombre>
+			<fechaNac>2016-09-14</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<ganLiqOtrosEmpEnt>
+		<empEnt>
+			<cuit>30718325281</cuit>
+			<denominacion>UNIVERSIDAD NACIONAL MADRES DE PLAZA DE MAYO O. P.</denominacion>
+			<convenioColectivo></convenioColectivo>
+			<transporteLargaDist></transporteLargaDist>
+			<transporteTerrLargaDist></transporteTerrLargaDist>
+			<ingresosAportes>
+				<ingAp mes="1">
+					<obraSoc>37446.61</obraSoc>
+					<segSocANSES>241567.32</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>1468494.39</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+				<ingAp mes="2">
+					<obraSoc>20760.03</obraSoc>
+					<segSocANSES>110720.15</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>692000.89</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+				<ingAp mes="4">
+					<obraSoc>9701.24</obraSoc>
+					<segSocANSES>51739.94</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>323374.59</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+			</ingresosAportes>
+		</empEnt>
+		<empEnt>
+			<cuit>33637617449</cuit>
+			<denominacion>ADMINISTRACION NACIONAL DE LA SEGURIDAD SOCIAL ANSES</denominacion>
+			<convenioColectivo></convenioColectivo>
+			<transporteLargaDist></transporteLargaDist>
+			<transporteTerrLargaDist></transporteTerrLargaDist>
+			<ingresosAportes>
+				<ingAp mes="1">
+					<obraSoc>17253.8</obraSoc>
+					<segSocANSES>0</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>382532.02</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+				<ingAp mes="2">
+					<obraSoc>17719.65</obraSoc>
+					<segSocANSES>0</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>392860.38</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+				<ingAp mes="3">
+					<obraSoc>18111.26</obraSoc>
+					<segSocANSES>0</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>401542.59</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+				<ingAp mes="4">
+					<obraSoc>18545.93</obraSoc>
+					<segSocANSES>0</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>411179.61</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+			</ingresosAportes>
+		</empEnt>
+	</ganLiqOtrosEmpEnt>
+	<deducciones>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27160246990</nroDoc>
+			<denominacion>BILELLO MONICA GRACIELA</denominacion>
+			<descBasica>27160246990 - BILELLO MONICA GRACIELA</descBasica>
+			<montoTotal>104400</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="28800.00"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="16000.00"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="32000.00"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="27600.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27169504194</nroDoc>
+			<denominacion>FERNANDEZ EDITH</denominacion>
+			<descBasica>27169504194 - FERNANDEZ EDITH</descBasica>
+			<montoTotal>213600</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="57600.00"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="96000.00"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="60000.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="8">
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27379965267</nroDoc>
+			<denominacion>BONILLA CASTRO PRISCILA MAGALI</denominacion>
+			<descBasica>27379965267 - BONILLA CASTRO PRISCILA MAGALI</descBasica>
+			<montoTotal>2404595.75</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="600459.75"/>
+				<periodo mesDesde="2" mesHasta="3" montoMensual="601335.0"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="601466.0"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="21">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30677291083</nroDoc>
+			<denominacion>CHEEK SOCIEDAD ANONIMA</denominacion>
+			<descBasica>30677291083 - CHEEK SOCIEDAD ANONIMA</descBasica>
+			<montoTotal>71850</montoTotal>
+			<periodos>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="71850.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="21">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30703001633</nroDoc>
+			<denominacion>LAKERS CORP S A</denominacion>
+			<descBasica>30703001633 - LAKERS CORP S A</descBasica>
+			<montoTotal>69900</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="69900.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="21">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30708225548</nroDoc>
+			<denominacion>TRAZ SOCIEDAD ANONIMA</denominacion>
+			<descBasica>30708225548 - TRAZ SOCIEDAD ANONIMA</descBasica>
+			<montoTotal>223728</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="60788.00"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="51980.00"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="110960.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="21">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30708358637</nroDoc>
+			<denominacion>FERIA DEL LIBRO EL ALEPH S. R. L.</denominacion>
+			<descBasica>30708358637 - FERIA DEL LIBRO EL ALEPH S. R. L.</descBasica>
+			<montoTotal>8300</montoTotal>
+			<periodos>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="8300.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30662184140</nroDoc>
+			<denominacion>CENEDUC SAN PATRICIO S. A.</denominacion>
+			<descBasica>30662184140 - CENEDUC SAN PATRICIO S. A.</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20558199564 - CARBIA VAZQUEZ, MATEO GAEL - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>59173.33</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="59173.33"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20558199564"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="CARBIA VAZQUEZ, MATEO GAEL"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30662184140</nroDoc>
+			<denominacion>CENEDUC SAN PATRICIO S. A.</denominacion>
+			<descBasica>30662184140 - CENEDUC SAN PATRICIO S. A.</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20558199564 - CARBIA VAZQUEZ, MATEO GAEL - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>208500</montoTotal>
+			<periodos>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="208500.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20558199564"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="CARBIA VAZQUEZ, MATEO GAEL"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30662184140</nroDoc>
+			<denominacion>CENEDUC SAN PATRICIO S. A.</denominacion>
+			<descBasica>30662184140 - CENEDUC SAN PATRICIO S. A.</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20558199564 - CARBIA VAZQUEZ, MATEO GAEL - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>221500</montoTotal>
+			<periodos>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="221500.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20558199564"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="CARBIA VAZQUEZ, MATEO GAEL"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

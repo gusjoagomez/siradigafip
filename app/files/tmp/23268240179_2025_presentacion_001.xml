@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-02-05</fechaPresentacion>
+	<empleado>
+		<cuit>23268240179</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>BATTISTI</apellido>
+		<nombre>MARTIN GABRIEL</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>VELEZ SARFIELD</calle>
+			<nro>1039</nro>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="4">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30999001315</nroDoc>
+			<denominacion>MUNICIPALIDAD DE AVELLANEDA</denominacion>
+			<descBasica>30999001315 - MUNICIPALIDAD DE AVELLANEDA</descBasica>
+			<montoTotal>331536</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="2" montoMensual="165768"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

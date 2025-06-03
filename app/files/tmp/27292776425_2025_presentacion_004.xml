@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>4</nroPresentacion>
+	<fechaPresentacion>2025-05-12</fechaPresentacion>
+	<empleado>
+		<cuit>27292776425</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>ORTIZ</apellido>
+		<nombre>ANALIA GABRIELA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>LIMAY</calle>
+			<nro>1470</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20593476813</nroDoc>
+			<apellido>BARRUECO</apellido>
+			<nombre>JUAN IGNACIO</nombre>
+			<fechaNac>2022-05-05</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<deducciones>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>20077666746</nroDoc>
+			<denominacion>PRADA JORGE</denominacion>
+			<descBasica>20077666746 - PRADA JORGE</descBasica>
+			<montoTotal>12000</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="12000.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27242223875</nroDoc>
+			<denominacion>PAOLINO ANDREA VERONICA</denominacion>
+			<descBasica>27242223875 - PAOLINO ANDREA VERONICA</descBasica>
+			<montoTotal>19200</montoTotal>
+			<periodos>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="19200.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27323311477</nroDoc>
+			<denominacion>FRALLEONI SILVINA ANGELA MARIA</denominacion>
+			<descBasica>27323311477 - FRALLEONI SILVINA ANGELA MARIA</descBasica>
+			<montoTotal>32800</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="16000.00"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="16800.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27323950712</nroDoc>
+			<denominacion>SALZANO ROXANA LAURA</denominacion>
+			<descBasica>27323950712 - SALZANO ROXANA LAURA</descBasica>
+			<montoTotal>12000</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="12000.00"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="8">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>27262279605</nroDoc>
+			<denominacion>APESTEGUIA ELIZABETH EULALIA</denominacion>
+			<descBasica>27262279605 - APESTEGUIA ELIZABETH EULALIA</descBasica>
+			<montoTotal>97666.05</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="97666.05"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30544153958</nroDoc>
+			<denominacion>ASOCIACION CIVIL COLEGIO PARROQUIAL PIO XII</denominacion>
+			<descBasica>30544153958 - ASOCIACION CIVIL COLEGIO PARROQUIAL PIO XII</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20593476813 - BARRUECO, JUAN IGNACIO - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>211089</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="211089.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20593476813"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="BARRUECO, JUAN IGNACIO"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30544153958</nroDoc>
+			<denominacion>ASOCIACION CIVIL COLEGIO PARROQUIAL PIO XII</denominacion>
+			<descBasica>30544153958 - ASOCIACION CIVIL COLEGIO PARROQUIAL PIO XII</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20593476813 - BARRUECO, JUAN IGNACIO - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>43558</montoTotal>
+			<periodos>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="43558.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20593476813"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="BARRUECO, JUAN IGNACIO"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30544153958</nroDoc>
+			<denominacion>ASOCIACION CIVIL COLEGIO PARROQUIAL PIO XII</denominacion>
+			<descBasica>30544153958 - ASOCIACION CIVIL COLEGIO PARROQUIAL PIO XII</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20593476813 - BARRUECO, JUAN IGNACIO - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>217388</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="217388.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20593476813"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="BARRUECO, JUAN IGNACIO"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30544153958</nroDoc>
+			<denominacion>ASOCIACION CIVIL COLEGIO PARROQUIAL PIO XII</denominacion>
+			<descBasica>30544153958 - ASOCIACION CIVIL COLEGIO PARROQUIAL PIO XII</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20593476813 - BARRUECO, JUAN IGNACIO - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>173830</montoTotal>
+			<periodos>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="173830.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20593476813"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="BARRUECO, JUAN IGNACIO"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30711350841</nroDoc>
+			<denominacion>GP PRODUCTOS TEXTILES  SOCIEDAD DE HECHO</denominacion>
+			<descBasica>30711350841 - GP PRODUCTOS TEXTILES  SOCIEDAD DE HECHO</descBasica>
+			<descAdicional>Herramientas educativas - Familiar: CUIL 20593476813 - BARRUECO, JUAN IGNACIO - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>81500</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="81500.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="2"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20593476813"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="BARRUECO, JUAN IGNACIO"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30717951294</nroDoc>
+			<denominacion>ELEONORA FRACCHIA Y EMILIANA FRACCHIA S. CAP I SECC IV  ACCHIA S. CAP I SECC IV</denominacion>
+			<descBasica>30717951294 - ELEONORA FRACCHIA Y EMILIANA FRACCHIA S. CAP I SECC IV  ACCHIA S. CAP I SECC IV</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20593476813 - BARRUECO, JUAN IGNACIO - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>95200</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="95200.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20593476813"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="BARRUECO, JUAN IGNACIO"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30717951294</nroDoc>
+			<denominacion>ELEONORA FRACCHIA Y EMILIANA FRACCHIA S. CAP I SECC IV  ACCHIA S. CAP I SECC IV</denominacion>
+			<descBasica>30717951294 - ELEONORA FRACCHIA Y EMILIANA FRACCHIA S. CAP I SECC IV  ACCHIA S. CAP I SECC IV</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20593476813 - BARRUECO, JUAN IGNACIO - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>110200</montoTotal>
+			<periodos>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="110200.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20593476813"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="BARRUECO, JUAN IGNACIO"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

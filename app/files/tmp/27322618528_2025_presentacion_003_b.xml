@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2025</periodo>
+	<nroPresentacion>3</nroPresentacion>
+	<fechaPresentacion>2025-05-08</fechaPresentacion>
+	<empleado>
+		<cuit>27322618528</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>FIRPO</apellido>
+		<nombre>MARINA EUGENIA</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1874</cp>
+			<localidad>VILLA DOMINICO</localidad>
+			<calle>OTERO</calle>
+			<nro>61</nro>
+		</direccion>
+	</empleado>
+	<agenteRetencion>
+		<cuit>30595535936</cuit>
+		<denominacion>SANATORIO DE LA TRINIDAD QUILMES SA</denominacion>
+	</agenteRetencion>
+</presentacion>

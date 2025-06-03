@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion>
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-03-30</fechaPresentacion>
+	<empleado>
+		<cuit>27307303928</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>GARCIA BELKYS</apellido>
+		<nombre>IRIS</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1426</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>DEL PINO VIRREY</calle>
+			<nro>2846</nro>
+			<piso>4</piso>
+			<dpto>B</dpto>
+		</direccion>
+	</empleado>
+	<agenteRetencion>
+		<cuit>30626983398</cuit>
+		<denominacion>MINISTERIO DE SALUD PCIA DE BS AS O. P.</denominacion>
+	</agenteRetencion>
+</presentacion>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-04-04</fechaPresentacion>
+	<empleado>
+		<cuit>27277784675</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>ARLANDI GRANADOS</apellido>
+		<nombre>NATALIA ANDREA</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1128</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>LOPEZ VICENTE</calle>
+			<nro>2261</nro>
+			<piso>4</piso>
+			<dpto>A</dpto>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27557603617</nroDoc>
+			<apellido>RODRIGUEZ URROZ</apellido>
+			<nombre>EMILIA</nombre>
+			<fechaNac>2016-08-21</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>27580273012</nroDoc>
+			<apellido>RODRIGUEZ URROZ</apellido>
+			<nombre>LUCIA</nombre>
+			<fechaNac>2019-10-24</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<ganLiqOtrosEmpEnt>
+		<empEnt>
+			<cuit>30557634629</cuit>
+			<denominacion>FUNDACION UNIVERSIDAD DE LA MARINA MERCANTE</denominacion>
+			<convenioColectivo></convenioColectivo>
+			<transporteLargaDist></transporteLargaDist>
+			<transporteTerrLargaDist></transporteTerrLargaDist>
+			<ingresosAportes>
+				<ingAp mes="1">
+					<obraSoc>5896.8</obraSoc>
+					<segSocANSES>21621.6</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>196560</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+				<ingAp mes="2">
+					<obraSoc>0</obraSoc>
+					<segSocANSES>0</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>0</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+				<ingAp mes="3">
+					<obraSoc>8491.5</obraSoc>
+					<segSocANSES>48118.5</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>333000</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+			</ingresosAportes>
+		</empEnt>
+	</ganLiqOtrosEmpEnt>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30546771314</nroDoc>
+			<denominacion>MEDICUS SOCIEDAD ANONIMA DE ASISTENCIA MEDICA Y CIENTIFICA</denominacion>
+			<descBasica>30546771314 - MEDICUS SOCIEDAD ANONIMA DE ASISTENCIA MEDICA Y CIENTIFICA</descBasica>
+			<montoTotal>226608.64</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="121259.45"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="105349.19"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30707301356</nroDoc>
+			<denominacion>VACUNAR S.A.</denominacion>
+			<descBasica>30707301356 - VACUNAR S.A.</descBasica>
+			<montoTotal>82369.59</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="82369.59"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="7">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30545933566</nroDoc>
+			<denominacion>HOSPITAL BRITANICO DE BUENOS AIRES ASOCIACION CIVIL</denominacion>
+			<descBasica>30545933566 - HOSPITAL BRITANICO DE BUENOS AIRES ASOCIACION CIVIL</descBasica>
+			<montoTotal>12038.56</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="12038.56"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30628554087</nroDoc>
+			<denominacion>CONGREGACION DE HERMANAS ADORATRICES DEL SANTISIMO SACRAMENTO BAJO EL PATROCINIO</denominacion>
+			<descBasica>30628554087 - CONGREGACION DE HERMANAS ADORATRICES DEL SANTISIMO SACRAMENTO BAJO EL PATROCINIO</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 27557603617 - RODRIGUEZ URROZ, EMILIA - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>324360</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="324360.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="27557603617"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="RODRIGUEZ URROZ, EMILIA"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30628554087</nroDoc>
+			<denominacion>CONGREGACION DE HERMANAS ADORATRICES DEL SANTISIMO SACRAMENTO BAJO EL PATROCINIO</denominacion>
+			<descBasica>30628554087 - CONGREGACION DE HERMANAS ADORATRICES DEL SANTISIMO SACRAMENTO BAJO EL PATROCINIO</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 27580273012 - RODRIGUEZ URROZ, LUCIA - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>322480</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="322480.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="27580273012"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="RODRIGUEZ URROZ, LUCIA"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30628554087</nroDoc>
+			<denominacion>CONGREGACION DE HERMANAS ADORATRICES DEL SANTISIMO SACRAMENTO BAJO EL PATROCINIO</denominacion>
+			<descBasica>30628554087 - CONGREGACION DE HERMANAS ADORATRICES DEL SANTISIMO SACRAMENTO BAJO EL PATROCINIO</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 27557603617 - RODRIGUEZ URROZ, EMILIA - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>332360</montoTotal>
+			<periodos>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="332360.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="27557603617"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="RODRIGUEZ URROZ, EMILIA"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30628554087</nroDoc>
+			<denominacion>CONGREGACION DE HERMANAS ADORATRICES DEL SANTISIMO SACRAMENTO BAJO EL PATROCINIO</denominacion>
+			<descBasica>30628554087 - CONGREGACION DE HERMANAS ADORATRICES DEL SANTISIMO SACRAMENTO BAJO EL PATROCINIO</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 27580273012 - RODRIGUEZ URROZ, LUCIA - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>330480</montoTotal>
+			<periodos>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="330480.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="27580273012"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="RODRIGUEZ URROZ, LUCIA"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30689153689</nroDoc>
+			<denominacion>STRATFORD BOOK SERVICES SOCIEDAD ANONIMA</denominacion>
+			<descBasica>30689153689 - STRATFORD BOOK SERVICES SOCIEDAD ANONIMA</descBasica>
+			<descAdicional>Herramientas educativas - Familiar: CUIL 27580273012 - RODRIGUEZ URROZ, LUCIA - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>57500</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="57500.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="2"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="27580273012"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="RODRIGUEZ URROZ, LUCIA"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

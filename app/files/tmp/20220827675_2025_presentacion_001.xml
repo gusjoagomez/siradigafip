@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>1</nroPresentacion>
+	<fechaPresentacion>2025-05-11</fechaPresentacion>
+	<empleado>
+		<cuit>20220827675</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>PALAVECINO</apellido>
+		<nombre>MARTIN MANUEL</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1856</cp>
+			<localidad>GLEW</localidad>
+			<calle>SAAVEDRA LAMAS</calle>
+			<nro>2971</nro>
+		</direccion>
+	</empleado>
+	<ganLiqOtrosEmpEnt>
+		<empEnt>
+			<cuit>30627393713</cuit>
+			<denominacion>DIRECCION GENERAL DE CULTURA Y EDUCACIONDE LA PROVINCIA DE BS AS</denominacion>
+			<convenioColectivo></convenioColectivo>
+			<transporteLargaDist></transporteLargaDist>
+			<transporteTerrLargaDist></transporteTerrLargaDist>
+			<ingresosAportes>
+				<ingAp mes="1">
+					<obraSoc>9030</obraSoc>
+					<segSocANSES>0</segSocANSES>
+					<segSocCajas>30101</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>179136</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+				<ingAp mes="2">
+					<obraSoc>9662</obraSoc>
+					<segSocANSES>0</segSocANSES>
+					<segSocCajas>32208</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>201303</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+				<ingAp mes="3">
+					<obraSoc>9846</obraSoc>
+					<segSocANSES>0</segSocANSES>
+					<segSocCajas>32820</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>205128</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+				<ingAp mes="4">
+					<obraSoc>9846</obraSoc>
+					<segSocANSES>0</segSocANSES>
+					<segSocCajas>32820</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>205128</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+			</ingresosAportes>
+		</empEnt>
+	</ganLiqOtrosEmpEnt>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30522428163</nroDoc>
+			<denominacion>GALENO ARGENTINA SOCIEDAD ANONIMA</denominacion>
+			<descBasica>30522428163 - GALENO ARGENTINA SOCIEDAD ANONIMA</descBasica>
+			<montoTotal>93350.21</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="21678"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="45172.32"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="26499.89"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>

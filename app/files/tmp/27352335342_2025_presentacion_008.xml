@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>8</nroPresentacion>
+	<fechaPresentacion>2025-05-12</fechaPresentacion>
+	<empleado>
+		<cuit>27352335342</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>MACHADO</apellido>
+		<nombre>MARIANELA SOLEDAD</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1870</cp>
+			<localidad>AVELLANEDA</localidad>
+			<calle>PASAJE ANGACO</calle>
+			<nro>1184</nro>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>20591265297</nroDoc>
+			<apellido>FURNUS</apellido>
+			<nombre>ALVARO</nombre>
+			<fechaNac>2021-12-19</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<ganLiqOtrosEmpEnt>
+		<empEnt>
+			<cuit>30711424861</cuit>
+			<denominacion>UNIVERSIDAD NACIONAL DE AVELLANEDA</denominacion>
+			<convenioColectivo></convenioColectivo>
+			<transporteLargaDist></transporteLargaDist>
+			<transporteTerrLargaDist></transporteTerrLargaDist>
+			<ingresosAportes>
+				<ingAp mes="1">
+					<obraSoc>7777.78</obraSoc>
+					<segSocANSES>28518.52</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>5185.19</sind>
+					<ganBrut>259259.26</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>105000.01</sac>
+				</ingAp>
+				<ingAp mes="3">
+					<obraSoc>7777.78</obraSoc>
+					<segSocANSES>28518.52</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>5185.19</sind>
+					<ganBrut>259259.26</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0</sac>
+				</ingAp>
+				<ingAp mes="4">
+					<obraSoc>7777.78</obraSoc>
+					<segSocANSES>28518.52</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>5185.19</sind>
+					<ganBrut>259259.26</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>105000.01</sac>
+				</ingAp>
+			</ingresosAportes>
+		</empEnt>
+	</ganLiqOtrosEmpEnt>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30546741253</nroDoc>
+			<denominacion>OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</denominacion>
+			<descBasica>30546741253 - OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</descBasica>
+			<montoTotal>4856440</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="2" montoMensual="936225"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="986452"/>
+				<periodo mesDesde="4" mesHasta="5" montoMensual="998769"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30682737650</nroDoc>
+			<denominacion>MEDIFE ASOCIACION CIVIL</denominacion>
+			<descBasica>30682737650 - MEDIFE ASOCIACION CIVIL</descBasica>
+			<montoTotal>2595835</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="369780"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="434567"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="526354"/>
+				<periodo mesDesde="4" mesHasta="5" montoMensual="632567"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="3">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30662117273</nroDoc>
+			<denominacion>FONDO DE LAS NACIONES UNIDAS PARA LA INFANCIA UNICEF</denominacion>
+			<descBasica>30662117273 - FONDO DE LAS NACIONES UNIDAS PARA LA INFANCIA UNICEF</descBasica>
+			<montoTotal>6348067</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="965333"/>
+				<periodo mesDesde="2" mesHasta="4" montoMensual="1345678"/>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="1345700"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="21">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30657864117</nroDoc>
+			<denominacion>NATURGY BAN S.A</denominacion>
+			<descBasica>30657864117 - NATURGY BAN S.A</descBasica>
+			<montoTotal>3885.3</montoTotal>
+			<periodos>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="3885.30"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="21">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30693834348</nroDoc>
+			<denominacion>EMPRESA DISTRIBUIDORA DE ENERGIA NORTE SA</denominacion>
+			<descBasica>30693834348 - EMPRESA DISTRIBUIDORA DE ENERGIA NORTE SA</descBasica>
+			<montoTotal>1389454.94</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="456943.85"/>
+				<periodo mesDesde="2" mesHasta="2" montoMensual="269758.95"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="221804.06"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="220474.04"/>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="220474.04"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="22">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30710808895</nroDoc>
+			<denominacion>ARJANTO S. A.</denominacion>
+			<descBasica>30710808895 - ARJANTO S. A.</descBasica>
+			<montoTotal>9924000</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="600000"/>
+				<periodo mesDesde="2" mesHasta="3" montoMensual="692000"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="700000"/>
+				<periodo mesDesde="5" mesHasta="5" montoMensual="7240000"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30708828226</nroDoc>
+			<denominacion>STELLA TERESITA JOSEFINA, TEJO JOSEFINA LUZ Y TEJO EDUARDO ALBERTO SOCIEDAD DE HECHO</denominacion>
+			<descBasica>30708828226 - STELLA TERESITA JOSEFINA, TEJO JOSEFINA LUZ Y TEJO EDUARDO ALBERTO SOCIEDAD DE HECHO</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20591265297 - FURNUS, ALVARO - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>706804</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="706804.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20591265297"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="FURNUS, ALVARO"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30716543850</nroDoc>
+			<denominacion>INSTITUTO DE EDUCACION INTEGRAL SANTA MARIA MERCEDES B S.R.L.</denominacion>
+			<descBasica>30716543850 - INSTITUTO DE EDUCACION INTEGRAL SANTA MARIA MERCEDES B S.R.L.</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20591265297 - FURNUS, ALVARO - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>112106</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="112106.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20591265297"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="FURNUS, ALVARO"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30716543850</nroDoc>
+			<denominacion>INSTITUTO DE EDUCACION INTEGRAL SANTA MARIA MERCEDES B S.R.L.</denominacion>
+			<descBasica>30716543850 - INSTITUTO DE EDUCACION INTEGRAL SANTA MARIA MERCEDES B S.R.L.</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 20591265297 - FURNUS, ALVARO - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>116236</montoTotal>
+			<periodos>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="116236.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="20591265297"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="FURNUS, ALVARO"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

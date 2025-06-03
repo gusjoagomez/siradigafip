@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>2</nroPresentacion>
+	<fechaPresentacion>2025-04-11</fechaPresentacion>
+	<empleado>
+		<cuit>20281965973</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>BEVEGNI</apellido>
+		<nombre>ANGEL PABLO</nombre>
+		<direccion>
+			<provincia>1</provincia>
+			<cp>1875</cp>
+			<localidad>WILDE</localidad>
+			<calle>HILARIO ASCASUBI</calle>
+			<nro>560</nro>
+			<piso>10</piso>
+			<dpto>A</dpto>
+		</direccion>
+	</empleado>
+	<cargasFamilia>
+		<cargaFamilia>
+			<tipoDoc>86</tipoDoc>
+			<nroDoc>23490676759</nroDoc>
+			<apellido>BEVEGNI</apellido>
+			<nombre>LUCIANO JOAQUIN</nombre>
+			<fechaNac>2008-11-07</fechaNac>
+			<mesDesde>1</mesDesde>
+			<mesHasta>12</mesHasta>
+			<parentesco>3</parentesco>
+			<vigenteProximosPeriodos>S</vigenteProximosPeriodos>
+			<porcentajeDeduccion>100</porcentajeDeduccion>
+		</cargaFamilia>
+	</cargasFamilia>
+	<ganLiqOtrosEmpEnt>
+		<empEnt>
+			<cuit>30711424861</cuit>
+			<denominacion>UNIVERSIDAD NACIONAL DE AVELLANEDA</denominacion>
+			<convenioColectivo></convenioColectivo>
+			<transporteLargaDist></transporteLargaDist>
+			<transporteTerrLargaDist></transporteTerrLargaDist>
+			<ingresosAportes>
+				<ingAp mes="3">
+					<obraSoc>0.01</obraSoc>
+					<segSocANSES>0.01</segSocANSES>
+					<segSocCajas>0</segSocCajas>
+					<sind>0</sind>
+					<ganBrut>0.01</ganBrut>
+					<retGan>0</retGan>
+					<retribNoHab>0</retribNoHab>
+					<ajusteRemGravadas>0</ajusteRemGravadas>
+					<ajusteRemExeNoAlcanzadas>0</ajusteRemExeNoAlcanzadas>
+					<asignFam>0</asignFam>
+					<intPrestEmp>0</intPrestEmp>
+					<indemLey4003>0</indemLey4003>
+					<remunLey19640>0</remunLey19640>
+					<remunCctPetro>0</remunCctPetro>
+					<cursosSemin>0</cursosSemin>
+					<indumEquipEmp>0</indumEquipEmp>
+					<sac>0.01</sac>
+				</ingAp>
+			</ingresosAportes>
+		</empEnt>
+	</ganLiqOtrosEmpEnt>
+	<deducciones>
+		<deduccion tipo="1">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>30546741253</nroDoc>
+			<denominacion>OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</denominacion>
+			<descBasica>30546741253 - OSDE ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS</descBasica>
+			<montoTotal>46340.28</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="1" montoMensual="46340.28"/>
+			</periodos>
+		</deduccion>
+		<deduccion tipo="32">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>33662200609</nroDoc>
+			<denominacion>INSTITUTO NUESTRA SE#ORA DE LORETO</denominacion>
+			<descBasica>33662200609 - INSTITUTO NUESTRA SE#ORA DE LORETO</descBasica>
+			<descAdicional>Servicios con fines educativos - Familiar: CUIL 23490676759 - BEVEGNI, LUCIANO JOAQUIN - Hijo/a menor de 18 años (100%)</descAdicional>
+			<montoTotal>111320</montoTotal>
+			<periodos>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="111320.00"/>
+			</periodos>
+			<detalles>
+				<detalle nombre="tipoGasto" valor="1"/>
+				<detalle nombre="tipoDocFamiliar" valor="86"/>
+				<detalle nombre="numeroDocFamiliar" valor="23490676759"/>
+				<detalle nombre="apellidoNombreFamiliar" valor="BEVEGNI, LUCIANO JOAQUIN"/>
+				<detalle nombre="parentescoFamiliar" valor="3"/>
+				<detalle nombre="porcentajeDedFamiliar" valor="100"/>
+			</detalles>
+		</deduccion>
+	</deducciones>
+</presentacion>

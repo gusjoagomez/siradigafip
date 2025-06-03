@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion version="1.22">
+	<periodo>2025</periodo>
+	<nroPresentacion>4</nroPresentacion>
+	<fechaPresentacion>2025-04-21</fechaPresentacion>
+	<empleado>
+		<cuit>27215526491</cuit>
+		<tipoDoc>80</tipoDoc>
+		<apellido>SANCHEZ</apellido>
+		<nombre>GREGORIA ANTONIA</nombre>
+		<direccion>
+			<provincia>0</provincia>
+			<cp>1424</cp>
+			<localidad>Ciudad de Buenos Aires</localidad>
+			<calle>BEAUCHEF</calle>
+			<nro>822</nro>
+			<piso>4</piso>
+			<dpto>C</dpto>
+		</direccion>
+	</empleado>
+	<deducciones>
+		<deduccion tipo="22">
+			<tipoDoc>80</tipoDoc>
+			<nroDoc>20220213111</nroDoc>
+			<denominacion>RODRIGUEZ JULIO CESAR</denominacion>
+			<descBasica>20220213111 - RODRIGUEZ JULIO CESAR</descBasica>
+			<montoTotal>540000</montoTotal>
+			<periodos>
+				<periodo mesDesde="1" mesHasta="2" montoMensual="120000"/>
+				<periodo mesDesde="3" mesHasta="3" montoMensual="140000"/>
+				<periodo mesDesde="4" mesHasta="4" montoMensual="160000"/>
+			</periodos>
+		</deduccion>
+	</deducciones>
+</presentacion>
