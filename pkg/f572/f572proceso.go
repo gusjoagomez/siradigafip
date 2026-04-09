@@ -515,13 +515,13 @@ func insertarPresentacion(CUIT int64, periodo, envio int, db *gorm.DB, px *Prese
 
 			unMesDesde, _ := strconv.ParseUint(periodo.MesDesde, 10, 64)
 			unMesHasta, _ := strconv.ParseUint(periodo.MesDesde, 10, 64)
-			unMtoMensual, _ := strconv.ParseUint(periodo.MesDesde, 10, 64)
+			unMtoMensual, _ := strconv.ParseFloat(periodo.MontoMensual, 64)
 
 			rpx := models.F572Retperpagosperiodo{
 				Retperpago_id: uint(rppID),
 				Mesdesde:      uint(unMesDesde),
 				Meshasta:      uint(unMesHasta),
-				Montomensual:  decimal.NewFromFloat(float64(unMtoMensual)),
+				Montomensual:  decimal.NewFromFloat(unMtoMensual),
 			}
 
 			result := tx.Create(&rpx)
