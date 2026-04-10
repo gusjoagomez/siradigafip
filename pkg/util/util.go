@@ -185,6 +185,23 @@ func DeleteFile(filename string) bool {
 	return ret
 }
 
+func BorrarXMLenDirectorio(dir string) error {
+	files, err := filepath.Glob(filepath.Join(dir, "*.xml"))
+	if err != nil {
+		return err
+	}
+
+	for _, file := range files {
+		err := os.Remove(file)
+		if err != nil {
+			fmt.Printf("Error borrando %s: %v\n", file, err)
+			continue
+		}
+		fmt.Printf("Borrado: %s\n", file)
+	}
+	return nil
+}
+
 func IsExtension(filename, ext string) bool {
 	filename = strings.ToLower(filename)
 	//fmt.Println("file, ext: "+filepath.Ext(filename), ext)

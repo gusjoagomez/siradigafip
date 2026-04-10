@@ -138,6 +138,8 @@ func ImportarABaseDatos(db *gorm.DB, pathZips string) string {
 			return mensaje
 		}
 	}
+	util.BorrarXMLenDirectorio(pathZips)
+
 	return mensaje
 }
 
